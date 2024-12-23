@@ -1,6 +1,8 @@
 // config.js
+import 'dotenv/config'
+
 export const config = {
-    ODDS_API_KEY: "c39f2b0f18baecb9deba729dce3ff2f4",
+    ODDS_API_KEY: process.env.ODDS_API_KEY || "default_key",
     ODDS_API_URL: "https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds",
     BBALLNET_BASE_URL: "https://bballnet.com/teams/",
     PREFERRED_BOOKMAKERS: [
