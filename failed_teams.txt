@@ -1,0 +1,5 @@
+Team: tennessee-volunteers
+Slug Used: tennessee-volunteers
+Attempted URL: https://bballnet.com/teams/tennessee-volunteers
+Error: Request failed with status code 500
+-------------------

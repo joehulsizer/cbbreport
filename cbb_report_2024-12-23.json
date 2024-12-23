@@ -1,0 +1,2937 @@
+{
+  "generated_at": "2024-12-23T04:52:58.218Z",
+  "games": [
+    {
+      "matchup": {
+        "home": "Hawai'i Rainbow Warriors",
+        "away": "Charlotte 49ers",
+        "commence_time": "2024-12-23T04:35:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -770,
+            "away": 470,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -113,
+            "awaySpreadOdds": -115
+          },
+          "draftkings": {
+            "home": -1050,
+            "away": 600,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -110
+          },
+          "betmgm": {
+            "home": -1000,
+            "away": 600,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -115
+          }
+        }
+      },
+      "teams": {
+        "Hawai'i Rainbow Warriors": {
+          "net": 191,
+          "previousNet": 197,
+          "record": "6-3",
+          "confRecord": "0-1",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "69-87",
+                  "location": "Home",
+                  "opponent": "10 \n\t\t\t\t\t\t\t\t\t\tNorth Carolina",
+                  "oppNet": 33
+                },
+                {
+                  "result": "L",
+                  "score": "72-78",
+                  "location": "Away",
+                  "opponent": "Grand Canyon",
+                  "oppNet": 123
+                }
+              ]
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "4-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "80-69",
+                  "location": "Home",
+                  "opponent": "San Jose St.",
+                  "oppNet": 193
+                },
+                {
+                  "result": "W",
+                  "score": "76-66",
+                  "location": "Home",
+                  "opponent": "Pacific",
+                  "oppNet": 300
+                },
+                {
+                  "result": "W",
+                  "score": "73-68*",
+                  "location": "Home",
+                  "opponent": "Weber St.",
+                  "oppNet": 232
+                },
+                {
+                  "result": "L",
+                  "score": "68-76",
+                  "location": "Away",
+                  "opponent": "Long Beach St.",
+                  "oppNet": 299
+                },
+                {
+                  "result": "W",
+                  "score": "71-62",
+                  "location": "Home",
+                  "opponent": "A&M-Corpus Christi",
+                  "oppNet": 187
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/22/2024",
+              "oppNet": 252,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/03/2025",
+              "oppNet": 122,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/05/2025",
+              "oppNet": 188,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/09/2025",
+              "oppNet": 154,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 287,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/17/2025",
+              "oppNet": 109,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/19/2025",
+              "oppNet": 208,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/23/2025",
+              "oppNet": 205,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/25/2025",
+              "oppNet": 60,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "01/31/2025",
+              "oppNet": 59,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/02/2025",
+              "oppNet": 287,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/06/2025",
+              "oppNet": 188,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/08/2025",
+              "oppNet": 122,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/14/2025",
+              "oppNet": 299,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/16/2025",
+              "oppNet": 60,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/22/2025",
+              "oppNet": 59,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/28/2025",
+              "oppNet": 154,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "03/02/2025",
+              "oppNet": 205,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "03/06/2025",
+              "oppNet": 208,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "03/08/2025",
+              "oppNet": 109,
+              "date": ""
+            }
+          ]
+        },
+        "Charlotte 49ers": {
+          "net": 252,
+          "previousNet": 249,
+          "record": "6-4",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "0-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "74-103",
+                  "location": "Away",
+                  "opponent": "Utah St.",
+                  "oppNet": 37
+                }
+              ]
+            },
+            "2": {
+              "record": "0-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "71-75",
+                  "location": "Away",
+                  "opponent": "Davidson",
+                  "oppNet": 113
+                }
+              ]
+            },
+            "3": {
+              "record": "0-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "55-75",
+                  "location": "Home",
+                  "opponent": "ETSU",
+                  "oppNet": 140
+                }
+              ]
+            },
+            "4": {
+              "record": "5-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "88-79",
+                  "location": "Home",
+                  "opponent": "Presbyterian",
+                  "oppNet": 242
+                },
+                {
+                  "result": "W",
+                  "score": "65-48",
+                  "location": "Home",
+                  "opponent": "Richmond",
+                  "oppNet": 265
+                },
+                {
+                  "result": "W",
+                  "score": "60-54",
+                  "location": "Home",
+                  "opponent": "Gardner-Webb",
+                  "oppNet": 198
+                },
+                {
+                  "result": "L",
+                  "score": "76-79",
+                  "location": "Home",
+                  "opponent": "LIU",
+                  "oppNet": 318
+                },
+                {
+                  "result": "W",
+                  "score": "77-63",
+                  "location": "Away",
+                  "opponent": "Georgia St.",
+                  "oppNet": 301
+                },
+                {
+                  "result": "W",
+                  "score": "75-70",
+                  "location": "Home",
+                  "opponent": "West Ga.",
+                  "oppNet": 340
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "12/22/2024",
+              "oppNet": 191,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/31/2024",
+              "oppNet": 225,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/04/2025",
+              "oppNet": 152,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/08/2025",
+              "oppNet": 87,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 307,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/14/2025",
+              "oppNet": 108,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "01/19/2025",
+              "oppNet": 46,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/22/2025",
+              "oppNet": 212,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/29/2025",
+              "oppNet": 128,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/01/2025",
+              "oppNet": 213,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/04/2025",
+              "oppNet": 108,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/08/2025",
+              "oppNet": 152,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/10/2025",
+              "oppNet": 87,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/15/2025",
+              "oppNet": 217,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/19/2025",
+              "oppNet": 128,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/26/2025",
+              "oppNet": 225,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "03/02/2025",
+              "oppNet": 217,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "03/06/2025",
+              "oppNet": 71,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "03/09/2025",
+              "oppNet": 222,
+              "date": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Loyola (Chi) Ramblers",
+        "away": "Charleston Cougars",
+        "commence_time": "2024-12-23T22:30:46Z",
+        "odds": {
+          "fanduel": {
+            "home": -188,
+            "away": 155,
+            "homeSpread": -4.5,
+            "awaySpread": 4.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Loyola (Chi) Ramblers": {
+          "net": 100,
+          "previousNet": 106,
+          "record": "9-1",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "1-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "73-68",
+                  "location": "Away",
+                  "opponent": "Princeton",
+                  "oppNet": 117
+                },
+                {
+                  "result": "L",
+                  "score": "66-76",
+                  "location": "Neutral",
+                  "opponent": "San Francisco",
+                  "oppNet": 58
+                }
+              ]
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "7-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "79-72",
+                  "location": "Home",
+                  "opponent": "Chicago St.",
+                  "oppNet": 356
+                },
+                {
+                  "result": "W",
+                  "score": "87-65",
+                  "location": "Home",
+                  "opponent": "Detroit Mercy",
+                  "oppNet": 292
+                },
+                {
+                  "result": "W",
+                  "score": "76-72",
+                  "location": "Home",
+                  "opponent": "Southern Utah",
+                  "oppNet": 238
+                },
+                {
+                  "result": "W",
+                  "score": "89-53",
+                  "location": "Home",
+                  "opponent": "Tulsa",
+                  "oppNet": 307
+                },
+                {
+                  "result": "W",
+                  "score": "76-54",
+                  "location": "Home",
+                  "opponent": "Eastern Mich.",
+                  "oppNet": 278
+                },
+                {
+                  "result": "W",
+                  "score": "74-72",
+                  "location": "Home",
+                  "opponent": "South Fla.",
+                  "oppNet": 212
+                },
+                {
+                  "result": "W",
+                  "score": "72-60",
+                  "location": "Home",
+                  "opponent": "Canisius",
+                  "oppNet": 357
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q4",
+              "location": "Neutral",
+              "opponent": "12/22/2024",
+              "oppNet": 260,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "01/04/2025",
+              "oppNet": 68,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/08/2025",
+              "oppNet": 148,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 93,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "01/15/2025",
+              "oppNet": 70,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/18/2025",
+              "oppNet": 42,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/22/2025",
+              "oppNet": 183,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/29/2025",
+              "oppNet": 91,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/01/2025",
+              "oppNet": 93,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/04/2025",
+              "oppNet": 55,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/08/2025",
+              "oppNet": 204,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/11/2025",
+              "oppNet": 265,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/14/2025",
+              "oppNet": 189,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/18/2025",
+              "oppNet": 113,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/21/2025",
+              "oppNet": 42,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/26/2025",
+              "oppNet": 137,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "03/01/2025",
+              "oppNet": 189,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "03/05/2025",
+              "oppNet": 113,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "03/08/2025",
+              "oppNet": 244,
+              "date": ""
+            }
+          ]
+        },
+        "Charleston Cougars": {
+          "net": 133,
+          "previousNet": 136,
+          "record": "8-2",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "0-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "53-91",
+                  "location": "Away",
+                  "opponent": "Rhode Island",
+                  "oppNet": 70
+                }
+              ]
+            },
+            "2": {
+              "record": "1-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "47-68",
+                  "location": "Home",
+                  "opponent": "Liberty",
+                  "oppNet": 61
+                },
+                {
+                  "result": "W",
+                  "score": "78-75",
+                  "location": "Away",
+                  "opponent": "Saint Joseph's",
+                  "oppNet": 93
+                }
+              ]
+            },
+            "3": {
+              "record": "2-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "119-116*",
+                  "location": "Home",
+                  "opponent": "Fla. Atlantic",
+                  "oppNet": 87
+                },
+                {
+                  "result": "W",
+                  "score": "77-67",
+                  "location": "Home",
+                  "opponent": "Wofford",
+                  "oppNet": 153
+                }
+              ]
+            },
+            "4": {
+              "record": "4-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "90-80",
+                  "location": "Neutral",
+                  "opponent": "Southern Ill.",
+                  "oppNet": 221
+                },
+                {
+                  "result": "W",
+                  "score": "86-71",
+                  "location": "Home",
+                  "opponent": "South Fla.",
+                  "oppNet": 212
+                },
+                {
+                  "result": "W",
+                  "score": "76-61",
+                  "location": "Away",
+                  "opponent": "The Citadel",
+                  "oppNet": 362
+                },
+                {
+                  "result": "W",
+                  "score": "79-64",
+                  "location": "Home",
+                  "opponent": "Northern Ky.",
+                  "oppNet": 230
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q1",
+              "location": "Neutral",
+              "opponent": "12/22/2024",
+              "oppNet": 43,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/02/2025",
+              "oppNet": 200,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/04/2025",
+              "oppNet": 271,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/09/2025",
+              "oppNet": 164,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 295,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/16/2025",
+              "oppNet": 316,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/18/2025",
+              "oppNet": 149,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/23/2025",
+              "oppNet": 144,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/25/2025",
+              "oppNet": 118,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/30/2025",
+              "oppNet": 321,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/01/2025",
+              "oppNet": 241,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/06/2025",
+              "oppNet": 330,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/08/2025",
+              "oppNet": 118,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/13/2025",
+              "oppNet": 144,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/15/2025",
+              "oppNet": 330,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/20/2025",
+              "oppNet": 149,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/22/2025",
+              "oppNet": 151,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/27/2025",
+              "oppNet": 243,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "03/01/2025",
+              "oppNet": 316,
+              "date": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Tennessee Volunteers",
+        "away": "Middle Tennessee Blue Raiders",
+        "commence_time": "2024-12-24T00:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -20000,
+            "away": 3500,
+            "homeSpread": -26.5,
+            "awaySpread": 26.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": -10000,
+            "away": 3000,
+            "homeSpread": -26.5,
+            "awaySpread": 26.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "home": -10000,
+            "away": 3000,
+            "homeSpread": -26.5,
+            "awaySpread": 26.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Tennessee Volunteers": {
+          "net": 2,
+          "previousNet": 2,
+          "record": "11-0",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "3-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "77-55",
+                  "location": "Away",
+                  "opponent": "Louisville",
+                  "oppNet": 53
+                },
+                {
+                  "result": "W",
+                  "score": "77-62",
+                  "location": "Neutral",
+                  "opponent": "13 \n\t\t\t\t\t\t\t\t\t\tBaylor",
+                  "oppNet": 20
+                },
+                {
+                  "result": "W",
+                  "score": "66-64",
+                  "location": "Away",
+                  "opponent": "Illinois",
+                  "oppNet": 15
+                }
+              ]
+            },
+            "2": {
+              "record": "1-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "64-42",
+                  "location": "Neutral",
+                  "opponent": "Virginia",
+                  "oppNet": 96
+                }
+              ]
+            },
+            "3": {
+              "record": "2-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "96-70",
+                  "location": "Home",
+                  "opponent": "Syracuse",
+                  "oppNet": 135
+                },
+                {
+                  "result": "W",
+                  "score": "75-62",
+                  "location": "Neutral",
+                  "opponent": "Miami (FL)",
+                  "oppNet": 162
+                }
+              ]
+            },
+            "4": {
+              "record": "5-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "80-64",
+                  "location": "Home",
+                  "opponent": "Gardner-Webb",
+                  "oppNet": 198
+                },
+                {
+                  "result": "W",
+                  "score": "92-57",
+                  "location": "Home",
+                  "opponent": "Montana",
+                  "oppNet": 169
+                },
+                {
+                  "result": "W",
+                  "score": "103-68",
+                  "location": "Home",
+                  "opponent": "Austin Peay",
+                  "oppNet": 286
+                },
+                {
+                  "result": "W",
+                  "score": "78-35",
+                  "location": "Home",
+                  "opponent": "UT Martin",
+                  "oppNet": 267
+                },
+                {
+                  "result": "W",
+                  "score": "84-36",
+                  "location": "Home",
+                  "opponent": "Western Caro.",
+                  "oppNet": 347
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "12/23/2024",
+              "oppNet": 129,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "12/31/2024",
+              "oppNet": 157,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "01/04/2025",
+              "oppNet": 47,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/07/2025",
+              "oppNet": 4,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 35,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/15/2025",
+              "oppNet": 21,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/18/2025",
+              "oppNet": 40,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/21/2025",
+              "oppNet": 11,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/25/2025",
+              "oppNet": 1,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/28/2025",
+              "oppNet": 17,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "02/01/2025",
+              "oppNet": 4,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/05/2025",
+              "oppNet": 41,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/08/2025",
+              "oppNet": 38,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/11/2025",
+              "oppNet": 17,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/15/2025",
+              "oppNet": 40,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/22/2025",
+              "oppNet": 26,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/25/2025",
+              "oppNet": 57,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "03/01/2025",
+              "oppNet": 12,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "03/05/2025",
+              "oppNet": 30,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "03/08/2025",
+              "oppNet": 92,
+              "date": ""
+            }
+          ]
+        },
+        "Middle Tennessee Blue Raiders": {
+          "net": 129,
+          "previousNet": 129,
+          "record": "9-3",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "69-80",
+                  "location": "Neutral",
+                  "opponent": "Bradley",
+                  "oppNet": 64
+                },
+                {
+                  "result": "L",
+                  "score": "79-82",
+                  "location": "Away",
+                  "opponent": "Belmont",
+                  "oppNet": 119
+                }
+              ]
+            },
+            "3": {
+              "record": "4-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "79-56",
+                  "location": "Away",
+                  "opponent": "Abilene Christian",
+                  "oppNet": 223
+                },
+                {
+                  "result": "L",
+                  "score": "67-88",
+                  "location": "Home",
+                  "opponent": "Murray St.",
+                  "oppNet": 130
+                },
+                {
+                  "result": "W",
+                  "score": "83-81*",
+                  "location": "Neutral",
+                  "opponent": "Ohio",
+                  "oppNet": 180
+                },
+                {
+                  "result": "W",
+                  "score": "76-69",
+                  "location": "Away",
+                  "opponent": "UAB",
+                  "oppNet": 213
+                },
+                {
+                  "result": "W",
+                  "score": "67-65",
+                  "location": "Home",
+                  "opponent": "Lipscomb",
+                  "oppNet": 90
+                }
+              ]
+            },
+            "4": {
+              "record": "3-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "80-63",
+                  "location": "Home",
+                  "opponent": "Evansville",
+                  "oppNet": 346
+                },
+                {
+                  "result": "W",
+                  "score": "95-88",
+                  "location": "Neutral",
+                  "opponent": "South Fla.",
+                  "oppNet": 212
+                },
+                {
+                  "result": "W",
+                  "score": "75-64",
+                  "location": "Home",
+                  "opponent": "California Baptist",
+                  "oppNet": 167
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "12/23/2024",
+              "oppNet": 2,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/02/2025",
+              "oppNet": 261,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/04/2025",
+              "oppNet": 61,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/09/2025",
+              "oppNet": 192,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/11/2025",
+              "oppNet": 147,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/18/2025",
+              "oppNet": 120,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/23/2025",
+              "oppNet": 155,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/25/2025",
+              "oppNet": 89,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/30/2025",
+              "oppNet": 235,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/01/2025",
+              "oppNet": 145,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/06/2025",
+              "oppNet": 147,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/08/2025",
+              "oppNet": 192,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/15/2025",
+              "oppNet": 120,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/20/2025",
+              "oppNet": 89,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/22/2025",
+              "oppNet": 155,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/27/2025",
+              "oppNet": 235,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "03/01/2025",
+              "oppNet": 145,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "03/06/2025",
+              "oppNet": 61,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "03/08/2025",
+              "oppNet": 261,
+              "date": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "North Dakota St Bison",
+        "away": "CSU Bakersfield Roadrunners",
+        "commence_time": "2024-12-24T01:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -490,
+            "away": 365,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": -500,
+            "away": 380,
+            "homeSpread": -9,
+            "awaySpread": 9,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -450,
+            "away": 350,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": 100
+          }
+        }
+      },
+      "teams": {
+        "North Dakota St Bison": {
+          "net": 94,
+          "previousNet": 93,
+          "record": "10-4",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "2-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "88-80*",
+                  "location": "Away",
+                  "opponent": "Santa Clara",
+                  "oppNet": 75
+                },
+                {
+                  "result": "W",
+                  "score": "71-68",
+                  "location": "Away",
+                  "opponent": "Butler",
+                  "oppNet": 72
+                }
+              ]
+            },
+            "2": {
+              "record": "0-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "98-103*",
+                  "location": "Away",
+                  "opponent": "Samford",
+                  "oppNet": 95
+                }
+              ]
+            },
+            "3": {
+              "record": "3-3",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "68-77",
+                  "location": "Home",
+                  "opponent": "Illinois St.",
+                  "oppNet": 136
+                },
+                {
+                  "result": "L",
+                  "score": "81-86",
+                  "location": "Away",
+                  "opponent": "CSU Bakersfield",
+                  "oppNet": 208
+                },
+                {
+                  "result": "L",
+                  "score": "44-69",
+                  "location": "Away",
+                  "opponent": "Southern Ill.",
+                  "oppNet": 221
+                },
+                {
+                  "result": "W",
+                  "score": "83-63",
+                  "location": "Neutral",
+                  "opponent": "Utah Valley",
+                  "oppNet": 146
+                },
+                {
+                  "result": "W",
+                  "score": "77-73",
+                  "location": "Away",
+                  "opponent": "Weber St.",
+                  "oppNet": 232
+                },
+                {
+                  "result": "W",
+                  "score": "82-70",
+                  "location": "Home",
+                  "opponent": "Northern Colo.",
+                  "oppNet": 132
+                }
+              ]
+            },
+            "4": {
+              "record": "2-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "73-61",
+                  "location": "Neutral",
+                  "opponent": "West Ga.",
+                  "oppNet": 340
+                },
+                {
+                  "result": "W",
+                  "score": "98-62",
+                  "location": "Home",
+                  "opponent": "Western Mich.",
+                  "oppNet": 285
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/23/2024",
+              "oppNet": 208,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/02/2025",
+              "oppNet": 102,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/04/2025",
+              "oppNet": 290,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/09/2025",
+              "oppNet": 333,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 305,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/16/2025",
+              "oppNet": 234,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/18/2025",
+              "oppNet": 209,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/25/2025",
+              "oppNet": 288,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/30/2025",
+              "oppNet": 107,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/01/2025",
+              "oppNet": 102,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/06/2025",
+              "oppNet": 234,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/08/2025",
+              "oppNet": 290,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/13/2025",
+              "oppNet": 333,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/15/2025",
+              "oppNet": 305,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/19/2025",
+              "oppNet": 107,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/22/2025",
+              "oppNet": 288,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/26/2025",
+              "oppNet": 209,
+              "date": ""
+            }
+          ]
+        },
+        "CSU Bakersfield Roadrunners": {
+          "net": 208,
+          "previousNet": 180,
+          "record": "6-7",
+          "confRecord": "0-2",
+          "quadGames": {
+            "1": {
+              "record": "0-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "66-82",
+                  "location": "Away",
+                  "opponent": "UC Irvine",
+                  "oppNet": 60
+                },
+                {
+                  "result": "L",
+                  "score": "60-81",
+                  "location": "Away",
+                  "opponent": "UC San Diego",
+                  "oppNet": 59
+                }
+              ]
+            },
+            "2": {
+              "record": "0-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "73-86",
+                  "location": "Away",
+                  "opponent": "California",
+                  "oppNet": 126
+                }
+              ]
+            },
+            "3": {
+              "record": "2-2",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "86-81",
+                  "location": "Home",
+                  "opponent": "North Dakota St.",
+                  "oppNet": 94
+                },
+                {
+                  "result": "L",
+                  "score": "54-74",
+                  "location": "Away",
+                  "opponent": "FGCU",
+                  "oppNet": 160
+                },
+                {
+                  "result": "W",
+                  "score": "68-60",
+                  "location": "Neutral",
+                  "opponent": "Northeastern",
+                  "oppNet": 149
+                },
+                {
+                  "result": "L",
+                  "score": "64-74",
+                  "location": "Away",
+                  "opponent": "Southern Utah",
+                  "oppNet": 238
+                }
+              ]
+            },
+            "4": {
+              "record": "2-2",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "74-56",
+                  "location": "Home",
+                  "opponent": "Fresno St.",
+                  "oppNet": 281
+                },
+                {
+                  "result": "L",
+                  "score": "73-76*",
+                  "location": "Neutral",
+                  "opponent": "FIU",
+                  "oppNet": 261
+                },
+                {
+                  "result": "W",
+                  "score": "81-64",
+                  "location": "Away",
+                  "opponent": "Portland",
+                  "oppNet": 332
+                },
+                {
+                  "result": "L",
+                  "score": "58-59",
+                  "location": "Home",
+                  "opponent": "Portland St.",
+                  "oppNet": 229
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "12/23/2024",
+              "oppNet": 94,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/02/2025",
+              "oppNet": 205,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/04/2025",
+              "oppNet": 299,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/09/2025",
+              "oppNet": 122,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/11/2025",
+              "oppNet": 109,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/19/2025",
+              "oppNet": 191,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/23/2025",
+              "oppNet": 287,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/25/2025",
+              "oppNet": 154,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/30/2025",
+              "oppNet": 188,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/01/2025",
+              "oppNet": 109,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/06/2025",
+              "oppNet": 122,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/08/2025",
+              "oppNet": 154,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/13/2025",
+              "oppNet": 59,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/15/2025",
+              "oppNet": 287,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/20/2025",
+              "oppNet": 205,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/22/2025",
+              "oppNet": 60,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/27/2025",
+              "oppNet": 299,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "03/01/2025",
+              "oppNet": 188,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "03/06/2025",
+              "oppNet": 191,
+              "date": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Oakland Golden Grizzlies",
+        "away": "Oregon St Beavers",
+        "commence_time": "2024-12-24T01:00:06Z",
+        "odds": {
+          "fanduel": {
+            "home": 640,
+            "away": -1000,
+            "homeSpread": 12.5,
+            "awaySpread": -12.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Oakland Golden Grizzlies": {
+          "net": 260,
+          "previousNet": 257,
+          "record": "3-7",
+          "confRecord": "1-2",
+          "quadGames": {
+            "1": {
+              "record": "0-4",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "43-87",
+                  "location": "Away",
+                  "opponent": "Boise St.",
+                  "oppNet": 52
+                },
+                {
+                  "result": "L",
+                  "score": "54-66",
+                  "location": "Away",
+                  "opponent": "Illinois",
+                  "oppNet": 15
+                },
+                {
+                  "result": "L",
+                  "score": "57-78",
+                  "location": "Away",
+                  "opponent": "1 \n\t\t\t\t\t\t\t\t\t\tKansas",
+                  "oppNet": 18
+                },
+                {
+                  "result": "L",
+                  "score": "58-77",
+                  "location": "Neutral",
+                  "opponent": "20 \n\t\t\t\t\t\t\t\t\t\tMichigan St.",
+                  "oppNet": 24
+                }
+              ]
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "1-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "85-52",
+                  "location": "Away",
+                  "opponent": "Toledo",
+                  "oppNet": 227
+                },
+                {
+                  "result": "L",
+                  "score": "50-66",
+                  "location": "Away",
+                  "opponent": "Youngstown St.",
+                  "oppNet": 197
+                }
+              ]
+            },
+            "4": {
+              "record": "1-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "64-68",
+                  "location": "Home",
+                  "opponent": "Eastern Mich.",
+                  "oppNet": 278
+                },
+                {
+                  "result": "W",
+                  "score": "66-64",
+                  "location": "Home",
+                  "opponent": "Wright St.",
+                  "oppNet": 165
+                },
+                {
+                  "result": "L",
+                  "score": "75-92",
+                  "location": "Away",
+                  "opponent": "Cleveland St.",
+                  "oppNet": 263
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q2",
+              "location": "Neutral",
+              "opponent": "12/22/2024",
+              "oppNet": 100,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "12/30/2024",
+              "oppNet": 47,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/02/2025",
+              "oppNet": 116,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/04/2025",
+              "oppNet": 237,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/09/2025",
+              "oppNet": 165,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 230,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/15/2025",
+              "oppNet": 328,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/18/2025",
+              "oppNet": 292,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/22/2025",
+              "oppNet": 121,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/25/2025",
+              "oppNet": 237,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/30/2025",
+              "oppNet": 320,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/01/2025",
+              "oppNet": 230,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/06/2025",
+              "oppNet": 197,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/12/2025",
+              "oppNet": 328,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/16/2025",
+              "oppNet": 292,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/21/2025",
+              "oppNet": 121,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/23/2025",
+              "oppNet": 263,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/27/2025",
+              "oppNet": 116,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "03/01/2025",
+              "oppNet": 320,
+              "date": ""
+            }
+          ]
+        },
+        "Oregon St Beavers": {
+          "net": 43,
+          "previousNet": 33,
+          "record": "8-2",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "0-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "75-78",
+                  "location": "Home",
+                  "opponent": "Oregon",
+                  "oppNet": 13
+                },
+                {
+                  "result": "L",
+                  "score": "55-58",
+                  "location": "Away",
+                  "opponent": "North Texas",
+                  "oppNet": 71
+                }
+              ]
+            },
+            "2": {
+              "record": "1-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "67-55",
+                  "location": "Home",
+                  "opponent": "UC Irvine",
+                  "oppNet": 60
+                }
+              ]
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "6-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "80-57",
+                  "location": "Home",
+                  "opponent": "Utah Tech",
+                  "oppNet": 283
+                },
+                {
+                  "result": "W",
+                  "score": "76-48",
+                  "location": "Home",
+                  "opponent": "Weber St.",
+                  "oppNet": 232
+                },
+                {
+                  "result": "W",
+                  "score": "70-51",
+                  "location": "Home",
+                  "opponent": "Cal St. Fullerton",
+                  "oppNet": 287
+                },
+                {
+                  "result": "W",
+                  "score": "90-57",
+                  "location": "Home",
+                  "opponent": "UC Davis",
+                  "oppNet": 205
+                },
+                {
+                  "result": "W",
+                  "score": "78-62",
+                  "location": "Home",
+                  "opponent": "Idaho",
+                  "oppNet": 251
+                },
+                {
+                  "result": "W",
+                  "score": "82-45",
+                  "location": "Home",
+                  "opponent": "Sacramento St.",
+                  "oppNet": 341
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q3",
+              "location": "Neutral",
+              "opponent": "12/22/2024",
+              "oppNet": 133,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/30/2024",
+              "oppNet": 332,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/02/2025",
+              "oppNet": 176,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/04/2025",
+              "oppNet": 329,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/09/2025",
+              "oppNet": 75,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/11/2025",
+              "oppNet": 300,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/16/2025",
+              "oppNet": 5,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/18/2025",
+              "oppNet": 58,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/23/2025",
+              "oppNet": 202,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "01/25/2025",
+              "oppNet": 75,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/28/2025",
+              "oppNet": 5,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/06/2025",
+              "oppNet": 66,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/08/2025",
+              "oppNet": 51,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/13/2025",
+              "oppNet": 332,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/15/2025",
+              "oppNet": 300,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/20/2025",
+              "oppNet": 202,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/22/2025",
+              "oppNet": 329,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/27/2025",
+              "oppNet": 58,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "03/01/2025",
+              "oppNet": 51,
+              "date": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Washington Huskies",
+        "away": "Seattle Redhawks",
+        "commence_time": "2024-12-24T03:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -630,
+            "away": 450,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": -600,
+            "away": 440,
+            "homeSpread": -11,
+            "awaySpread": 11,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -650,
+            "away": 450,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          }
+        }
+      },
+      "teams": {
+        "Washington Huskies": {
+          "net": 98,
+          "previousNet": 94,
+          "record": "8-3",
+          "confRecord": "0-2",
+          "quadGames": {
+            "1": {
+              "record": "0-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "53-63",
+                  "location": "Away",
+                  "opponent": "Nevada",
+                  "oppNet": 56
+                },
+                {
+                  "result": "L",
+                  "score": "58-69",
+                  "location": "Away",
+                  "opponent": "UCLA",
+                  "oppNet": 19
+                }
+              ]
+            },
+            "2": {
+              "record": "2-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "76-69",
+                  "location": "Neutral",
+                  "opponent": "Santa Clara",
+                  "oppNet": 75
+                },
+                {
+                  "result": "W",
+                  "score": "89-73",
+                  "location": "Home",
+                  "opponent": "Washington St.",
+                  "oppNet": 66
+                }
+              ]
+            },
+            "3": {
+              "record": "1-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "73-67",
+                  "location": "Neutral",
+                  "opponent": "Colorado St.",
+                  "oppNet": 114
+                },
+                {
+                  "result": "L",
+                  "score": "61-85",
+                  "location": "Home",
+                  "opponent": "Southern California",
+                  "oppNet": 101
+                }
+              ]
+            },
+            "4": {
+              "record": "4-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "79-73",
+                  "location": "Home",
+                  "opponent": "UC Davis",
+                  "oppNet": 205
+                },
+                {
+                  "result": "W",
+                  "score": "74-69",
+                  "location": "Home",
+                  "opponent": "UMass Lowell",
+                  "oppNet": 161
+                },
+                {
+                  "result": "W",
+                  "score": "77-60",
+                  "location": "Home",
+                  "opponent": "Alcorn",
+                  "oppNet": 350
+                },
+                {
+                  "result": "W",
+                  "score": "87-69",
+                  "location": "Home",
+                  "opponent": "Eastern Wash.",
+                  "oppNet": 247
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/23/2024",
+              "oppNet": 170,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/29/2024",
+              "oppNet": 352,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/02/2025",
+              "oppNet": 8,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/05/2025",
+              "oppNet": 15,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/09/2025",
+              "oppNet": 24,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/12/2025",
+              "oppNet": 31,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "01/15/2025",
+              "oppNet": 36,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/21/2025",
+              "oppNet": 13,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/24/2025",
+              "oppNet": 19,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/01/2025",
+              "oppNet": 159,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/05/2025",
+              "oppNet": 63,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/08/2025",
+              "oppNet": 54,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/12/2025",
+              "oppNet": 22,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/15/2025",
+              "oppNet": 32,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/19/2025",
+              "oppNet": 88,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/22/2025",
+              "oppNet": 50,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/25/2025",
+              "oppNet": 34,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "03/01/2025",
+              "oppNet": 69,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "03/05/2025",
+              "oppNet": 101,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "03/09/2025",
+              "oppNet": 13,
+              "date": ""
+            }
+          ]
+        },
+        "Seattle Redhawks": {
+          "net": 170,
+          "previousNet": 182,
+          "record": "4-8",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "1-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "84-71",
+                  "location": "Away",
+                  "opponent": "UC San Diego",
+                  "oppNet": 59
+                },
+                {
+                  "result": "L",
+                  "score": "48-70",
+                  "location": "Away",
+                  "opponent": "11 \n\t\t\t\t\t\t\t\t\t\tDuke",
+                  "oppNet": 3
+                }
+              ]
+            },
+            "2": {
+              "record": "0-3",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "64-66",
+                  "location": "Home",
+                  "opponent": "Liberty",
+                  "oppNet": 61
+                },
+                {
+                  "result": "L",
+                  "score": "56-61",
+                  "location": "Neutral",
+                  "opponent": "Furman",
+                  "oppNet": 82
+                },
+                {
+                  "result": "L",
+                  "score": "73-86",
+                  "location": "Away",
+                  "opponent": "Western Ky.",
+                  "oppNet": 120
+                }
+              ]
+            },
+            "3": {
+              "record": "0-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "71-75",
+                  "location": "Away",
+                  "opponent": "Cal Poly",
+                  "oppNet": 188
+                },
+                {
+                  "result": "L",
+                  "score": "72-88",
+                  "location": "Away",
+                  "opponent": "UTEP",
+                  "oppNet": 145
+                }
+              ]
+            },
+            "4": {
+              "record": "1-2",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "86-93",
+                  "location": "Away",
+                  "opponent": "Eastern Wash.",
+                  "oppNet": 247
+                },
+                {
+                  "result": "W",
+                  "score": "91-74",
+                  "location": "Home",
+                  "opponent": "Portland St.",
+                  "oppNet": 229
+                },
+                {
+                  "result": "L",
+                  "score": "68-79",
+                  "location": "Home",
+                  "opponent": "UIC",
+                  "oppNet": 178
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "12/23/2024",
+              "oppNet": 98,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/30/2024",
+              "oppNet": 270,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/04/2025",
+              "oppNet": 167,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/11/2025",
+              "oppNet": 223,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/16/2025",
+              "oppNet": 283,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/18/2025",
+              "oppNet": 238,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/23/2025",
+              "oppNet": 186,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/25/2025",
+              "oppNet": 146,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/30/2025",
+              "oppNet": 123,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/06/2025",
+              "oppNet": 334,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/08/2025",
+              "oppNet": 186,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/13/2025",
+              "oppNet": 223,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/15/2025",
+              "oppNet": 334,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/22/2025",
+              "oppNet": 146,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/27/2025",
+              "oppNet": 167,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "03/01/2025",
+              "oppNet": 123,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "03/06/2025",
+              "oppNet": 238,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "03/08/2025",
+              "oppNet": 283,
+              "date": ""
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
