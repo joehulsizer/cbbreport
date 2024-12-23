@@ -8,6 +8,10 @@ export default defineConfig({
     port: 3000,
     strictPort: true
   },
+  build: {
+    outDir: 'dist',
+    sourcemap: true
+  },
   assetsInclude: ['**/*.csv'],
   publicDir: 'public',
 })
