@@ -1,0 +1,7 @@
+generateReport.js
+config.js
+failed_teams.txt
+cbb_report_*.json
+cbb_report_*.txt
+!public/cbb_report_latest.json
+
