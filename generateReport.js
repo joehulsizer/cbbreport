@@ -1,16 +1,40 @@
 // generateReport.js
 import { OddsFetcher } from './src/utils/oddsFetcher.js';
 import { CBBScraper } from './src/utils/cbbScraper.js';
+import { KenPomScraper } from './src/utils/kenpomScraper.js';
 import fs from 'fs';
+import path from 'path';
+
+// Helper function to add KenPom rankings to quad games
+function addKenPomToQuadGames(quadGames, kenpomScraper) {
+    const enrichedQuadGames = {};
+    
+    for (const [quad, quadData] of Object.entries(quadGames)) {
+        enrichedQuadGames[quad] = {
+            ...quadData,
+            games: quadData.games.map(game => ({
+                ...game,
+                oppKenpom: kenpomScraper.getRanking(game.opponent)
+            }))
+        };
+    }
+    
+    return enrichedQuadGames;
+}
 
 async function generateDailyReport() {
     const oddsFetcher = new OddsFetcher();
     const cbbScraper = new CBBScraper();
+    const kenpomScraper = new KenPomScraper();
     
     try {
         // Get today's games and odds
         console.log('Fetching today\'s games and odds...');
         const games = await oddsFetcher.getTodaysGames();
+        
+        // Fetch KenPom rankings
+        console.log('Fetching KenPom rankings...');
+        const kenpomRankings = await kenpomScraper.getAllRankings();
         
         if (games.length === 0) {
             console.log('No games found for today. Exiting...');
@@ -35,6 +59,23 @@ async function generateDailyReport() {
                     cbbScraper.getTeamData(awaySlug)
                 ]);
                 
+                // Add KenPom rankings to the data
+                const homeKenpom = kenpomScraper.getRanking(game.home);
+                const awayKenpom = kenpomScraper.getRanking(game.away);
+                
+                // Add KenPom rankings for all opponents in quad games
+                const enrichHomeData = {
+                    ...homeData,
+                    kenpom: homeKenpom,
+                    quadGames: addKenPomToQuadGames(homeData.quadGames, kenpomScraper)
+                };
+                
+                const enrichAwayData = {
+                    ...awayData,
+                    kenpom: awayKenpom,
+                    quadGames: addKenPomToQuadGames(awayData.quadGames, kenpomScraper)
+                };
+                
                 reportData.push({
                     matchup: {
                         home: game.home,
@@ -43,8 +84,8 @@ async function generateDailyReport() {
                         odds: game.odds
                     },
                     teams: {
-                        [game.home]: homeData,
-                        [game.away]: awayData
+                        [game.home]: enrichHomeData,
+                        [game.away]: enrichAwayData
                     }
                 });
             } catch (error) {
@@ -61,17 +102,21 @@ async function generateDailyReport() {
             games: reportData
         };
         
-        // Save as JSON for programmatic use
+        // 1) Save as JSON with today's date for historical reference
         fs.writeFileSync(`cbb_report_${timestamp}.json`, JSON.stringify(report, null, 2));
         
-        // Generate human-readable report
-        let readableReport = `College Basketball Daily Report - ${timestamp}\n\n`;
+        // 2) Also overwrite a "latest" file in the public folder
+        //    Adjust this path if your "public" folder is elsewhere.
+        const publicPath = path.join(process.cwd(), 'public', 'cbb_report_latest.json');
+        fs.writeFileSync(publicPath, JSON.stringify(report, null, 2));
+        console.log(`Wrote latest data to: ${publicPath}`);
         
+        // (Optional) Generate a human-readable txt report too
+        let readableReport = `College Basketball Daily Report - ${timestamp}\n\n`;
         for (const game of reportData) {
             readableReport += `=== ${game.matchup.away} @ ${game.matchup.home} ===\n`;
             readableReport += `Game Time: ${new Date(game.matchup.commence_time).toLocaleString()}\n\n`;
-            
-            // Add odds information
+            // Add odds info
             readableReport += 'Odds:\n';
             Object.entries(game.matchup.odds).forEach(([book, odds]) => {
                 readableReport += `${book}:\n`;
@@ -93,20 +138,20 @@ async function generateDailyReport() {
                 readableReport += `NET Rank: ${teamData.net} (Previous: ${teamData.previousNet})\n`;
                 readableReport += `Record: ${teamData.record} (Conf: ${teamData.confRecord})\n\n`;
                 
-                // Add quad information
+                // Quad info
                 Object.entries(teamData.quadGames).forEach(([quad, quadData]) => {
                     readableReport += `Quad ${quad} (${quadData.record}):\n`;
-                    quadData.games.forEach(game => {
-                        readableReport += `  ${game.result} ${game.score} ${game.location} vs ${game.opponent} (${game.oppNet})\n`;
+                    quadData.games.forEach(gm => {
+                        readableReport += `  ${gm.result} ${gm.score} ${gm.location} vs ${gm.opponent} (${gm.oppNet})\n`;
                     });
                     readableReport += '\n';
                 });
                 
-                // Add upcoming games
+                // Upcoming
                 if (teamData.upcoming.length > 0) {
                     readableReport += 'Upcoming Games:\n';
-                    teamData.upcoming.forEach(game => {
-                        readableReport += `  ${game.quad} ${game.location} vs ${game.opponent} (${game.oppNet}) - ${game.date}\n`;
+                    teamData.upcoming.forEach(up => {
+                        readableReport += `  ${up.quad} ${up.location} vs ${up.opponent} (${up.oppNet}) - ${up.date}\n`;
                     });
                     readableReport += '\n';
                 }
@@ -115,7 +160,6 @@ async function generateDailyReport() {
             readableReport += '\n=============================\n\n';
         }
         
-        // Save readable report
         fs.writeFileSync(`cbb_report_${timestamp}.txt`, readableReport);
         
         if (cbbScraper.failedTeams.length > 0) {

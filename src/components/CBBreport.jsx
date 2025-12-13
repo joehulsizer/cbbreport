@@ -1,22 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { Calendar, Filter, TrendingUp, SlidersHorizontal } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Calendar, Filter, TrendingUp, SlidersHorizontal, RefreshCw } from 'lucide-react';
 import EnhancedGameCard from './EnhancedGameCard';
 import AdvancedFilters from './AdvancedFilters';
 
 const TimeSlotHeader = ({ time }) => (
-  <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-sm border-b mb-6">
-    <div className="max-w-7xl mx-auto py-3 px-4">
-      <div className="flex items-center space-x-2">
-        <Calendar className="w-5 h-5 text-blue-600" />
-        <h2 className="text-lg font-semibold text-gray-800">
-          {new Date(time).toLocaleTimeString([], {
-            hour: '2-digit',
-            minute: '2-digit'
-          })}
-        </h2>
-      </div>
-    </div>
+  <div className="flex items-center space-x-2">
+    <Calendar className="w-5 h-5 text-blue-600" />
+    <h2 className="text-lg font-semibold text-gray-800">
+      {new Date(time).toLocaleTimeString([], {
+        hour: '2-digit',
+        minute: '2-digit'
+      })}
+    </h2>
   </div>
 );
 
@@ -51,9 +47,15 @@ const FilterButton = ({ active, label, onClick }) => (
   </button>
 );
 
-const CBBReport = ({ data }) => {
+const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem }) => {
   const [selectedFilter, setSelectedFilter] = useState('all');
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
+  
+  // Helper function to get the appropriate ranking
+  const getRanking = (teamData) => {
+    return useKenPom ? (teamData.kenpom || teamData.net) : teamData.net;
+  };
+  
   const [advancedFilters, setAdvancedFilters] = useState(() => {
     const saved = localStorage.getItem('advancedFilters');
     if (saved) {
@@ -78,7 +80,9 @@ const CBBReport = ({ data }) => {
       minKenPom: 1,
       maxKenPom: 358,
       minNET: 1,
-      maxNET: 358
+      maxNET: 358,
+      betterTeamUnderdog: false,
+      winPercentageDiff: false,
     };
   });
 
@@ -94,6 +98,8 @@ const CBBReport = ({ data }) => {
   const filterGames = (games) => {
     return games.filter(game => {
       const odds = game.matchup.odds;
+      const homeTeamData = game.teams[game.matchup.home];
+      const awayTeamData = game.teams[game.matchup.away];
 
       // Spread filtering
       const spreads = Object.values(odds).map(bookmaker => ({
@@ -124,21 +130,21 @@ const CBBReport = ({ data }) => {
         return false;
       }
 
-      // Check NET rankings
-      const homeTeamData = game.teams[game.matchup.home];
-      const awayTeamData = game.teams[game.matchup.away];
-
-      if (homeTeamData.net < advancedFilters.minNET || 
-          homeTeamData.net > advancedFilters.maxNET ||
-          awayTeamData.net < advancedFilters.minNET || 
-          awayTeamData.net > advancedFilters.maxNET) {
+      // Check rankings (NET or KenPom based on toggle)
+      const homeRank = getRanking(homeTeamData);
+      const awayRank = getRanking(awayTeamData);
+      
+      if (homeRank < advancedFilters.minNET || 
+          homeRank > advancedFilters.maxNET ||
+          awayRank < advancedFilters.minNET || 
+          awayRank > advancedFilters.maxNET) {
         return false;
       }
 
       // Check for overvalued home favorites
       if (advancedFilters.overvaluedHome) {
         const homeOdds = Object.values(odds)[0]?.home || 0;
-        if (!(homeOdds < 0 && homeTeamData.net > awayTeamData.net)) {
+        if (!(homeOdds < 0 && homeRank > awayRank)) {
           return false;
         }
       }
@@ -146,7 +152,44 @@ const CBBReport = ({ data }) => {
       // Check for valuable away teams
       if (advancedFilters.valueAwayTeams) {
         const awayOdds = Object.values(odds)[0]?.away || 0;
-        if (!(awayTeamData.net <= 50 && awayOdds > 0)) {
+        if (!(awayRank <= 50 && awayOdds > 0)) {
+          return false;
+        }
+      }
+
+      // Check for better team (by ranking) as underdog
+      if (advancedFilters.betterTeamUnderdog) {
+        const bestHomeOdds = Math.min(...Object.values(odds)
+          .map(o => o.home || Infinity)
+          .filter(odd => odd !== Infinity));
+        const bestAwayOdds = Math.min(...Object.values(odds)
+          .map(o => o.away || Infinity)
+          .filter(odd => odd !== Infinity));
+
+        const homeIsBetter = homeRank < awayRank;
+        const awayIsBetter = awayRank < homeRank;
+
+        // Check if better team is underdog (has positive odds)
+        if (homeIsBetter && bestHomeOdds <= 0) return false;
+        if (awayIsBetter && bestAwayOdds <= 0) return false;
+        if (!homeIsBetter && !awayIsBetter) return false;
+      }
+
+      // Add win percentage difference filter
+      if (advancedFilters.winPercentageDiff) {
+        const homeRecord = game.teams[game.matchup.home].record;
+        const awayRecord = game.teams[game.matchup.away].record;
+        
+        // Calculate win percentages
+        const [homeWins, homeLosses] = homeRecord.split('-').map(Number);
+        const [awayWins, awayLosses] = awayRecord.split('-').map(Number);
+        
+        const homeWinPct = homeWins / (homeWins + homeLosses) * 100;
+        const awayWinPct = awayWins / (awayWins + awayLosses) * 100;
+        
+        // Check if difference is less than 30%
+        const winPctDiff = Math.abs(homeWinPct - awayWinPct);
+        if (winPctDiff < 30) {
           return false;
         }
       }
@@ -174,30 +217,20 @@ const CBBReport = ({ data }) => {
   
   const totalTop50 = data.games.filter(game => 
     Math.min(
-      game.teams[game.matchup.home].net,
-      game.teams[game.matchup.away].net
+      getRanking(game.teams[game.matchup.home]),
+      getRanking(game.teams[game.matchup.away])
     ) <= 50
   ).length;
   
   const filteredTop50 = filteredGames.filter(game => 
     Math.min(
-      game.teams[game.matchup.home].net,
-      game.teams[game.matchup.away].net
+      getRanking(game.teams[game.matchup.home]),
+      getRanking(game.teams[game.matchup.away])
     ) <= 50
   ).length;
 
-  // Get unique time slots for both total and filtered games
-  const totalTimeSlots = new Set(data.games.map(game => {
-    const timeSlot = new Date(game.matchup.commence_time);
-    timeSlot.setMinutes(0);
-    return timeSlot.toISOString();
-  })).size;
-
-  const filteredTimeSlots = new Set(filteredGames.map(game => {
-    const timeSlot = new Date(game.matchup.commence_time);
-    timeSlot.setMinutes(0);
-    return timeSlot.toISOString();
-  })).size;
+  // Track expanded state for each time slot
+  const [expandedSlots, setExpandedSlots] = useState({});
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -205,10 +238,34 @@ const CBBReport = ({ data }) => {
       <div className="bg-white border-b sticky top-0 z-20">
         <div className="max-w-7xl mx-auto">
           <div className="py-6 px-4">
+            {/* If onBackToLanding is passed, show a “Back” button */}
+            {onBackToLanding && (
+              <button
+                onClick={onBackToLanding}
+                className="text-sm text-blue-600 underline mb-2"
+              >
+                &larr; Back to Landing
+              </button>
+            )}
+  
             <div className="flex items-center justify-between mb-6">
-              <h1 className="text-3xl font-bold text-gray-900">
-                College Basketball Daily Report
-              </h1>
+              <div className="flex items-center gap-4">
+                <h1 className="text-3xl font-bold text-gray-900">
+                  College Basketball Daily Report
+                </h1>
+                {/* Ranking System Toggle */}
+                <button
+                  onClick={onToggleRankingSystem}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm transition-all ${
+                    useKenPom 
+                      ? 'bg-purple-600 text-white hover:bg-purple-700' 
+                      : 'bg-blue-600 text-white hover:bg-blue-700'
+                  }`}
+                >
+                  <RefreshCw className="w-4 h-4" />
+                  {useKenPom ? 'KenPom Rankings' : 'NET Rankings'}
+                </button>
+              </div>
               <div className="text-sm text-gray-500">
                 {new Date().toLocaleDateString(undefined, {
                   weekday: 'long',
@@ -234,8 +291,8 @@ const CBBReport = ({ data }) => {
                 icon={TrendingUp}
               />
               <QuickStats 
-                stat={filteredTimeSlots}
-                total={totalTimeSlots}
+                stat={Object.keys(gamesByTime).length}
+                total={Object.keys(gamesByTime).length}
                 label="Time Slots"
                 icon={Filter}
               />
@@ -277,41 +334,62 @@ const CBBReport = ({ data }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          {/* 1) NO MATCHES FOUND MESSAGE */}
           {filteredGames.length === 0 ? (
             <div className="p-6 text-center text-gray-500">
               No games match your filters. Try adjusting them above.
             </div>
           ) : (
-            // 2) NORMAL RENDER IF GAMES EXIST
             Object.entries(gamesByTime).map(([timeSlot, games]) => (
-              <div key={timeSlot}>
-                <TimeSlotHeader time={timeSlot} />
-                <div className="space-y-6">
-                  {games.map((game, idx) => (
-                    <motion.div
-                      key={idx}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: idx * 0.1 }}
-                    >
-                      <EnhancedGameCard matchup={game} />
-                    </motion.div>
-                  ))}
+              <div key={timeSlot} className="mb-4">
+                <div
+                  onClick={() => setExpandedSlots(prev => ({
+                    ...prev,
+                    [timeSlot]: !prev[timeSlot]
+                  }))}
+                  className="sticky top-0 bg-white/90 backdrop-blur-sm border-b mb-2 px-4 py-2 cursor-pointer flex justify-between items-center"
+                >
+                  <TimeSlotHeader time={timeSlot} />
+                  <span className="text-sm text-gray-500">
+                    {games.length} game(s)
+                  </span>
                 </div>
+
+                <AnimatePresence>
+                  {expandedSlots[timeSlot] && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: 'auto', opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <div className="space-y-6">
+                        {games.map((game, idx) => (
+                          <motion.div
+                            key={idx}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: idx * 0.05 }}
+                          >
+                            <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
+                          </motion.div>
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             ))
           )}
         </motion.div>
       </main>
 
-
-      {/* Add the AdvancedFilters component */}
+      {/* Advanced Filters Modal */}
       <AdvancedFilters
         isOpen={showAdvancedFilters}
         onClose={() => setShowAdvancedFilters(false)}
         filters={advancedFilters}
         onFiltersChange={setAdvancedFilters}
+        useKenPom={useKenPom}
       />
     </div>
   );

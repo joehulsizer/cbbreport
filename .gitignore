@@ -3,5 +3,10 @@ dist/
 .env
 *.log
 .DS_Store
-.env
 .vercel
+.qodo
+
+# Date-stamped report files (keep only in public folder)
+cbb_report_*.json
+cbb_report_*.txt
+!public/cbb_report_latest.json

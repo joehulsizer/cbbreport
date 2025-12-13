@@ -50,7 +50,9 @@ const ToggleButton = ({ label, active, onChange }) => (
   </button>
 );
 
-const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
+const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange, useKenPom }) => {
+  const rankingLabel = useKenPom ? 'KenPom' : 'NET';
+  
   return (
     <AnimatePresence>
       {isOpen && (
@@ -121,7 +123,7 @@ const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
               <FilterSection title="Rankings & Metrics" icon={Target}>
                 <div className="grid grid-cols-2 gap-4">
                   <RangeInput
-                    label="Min NET Rank"
+                    label={`Min ${rankingLabel} Rank`}
                     value={filters.minNET}
                     onChange={(value) => onFiltersChange({...filters, minNET: value})}
                     min={1}
@@ -129,20 +131,12 @@ const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
                     placeholder="1"
                   />
                   <RangeInput
-                    label="Max NET Rank"
+                    label={`Max ${rankingLabel} Rank`}
                     value={filters.maxNET}
                     onChange={(value) => onFiltersChange({...filters, maxNET: value})}
                     min={1}
                     max={358}
                     placeholder="358"
-                  />
-                  <RangeInput
-                    label="Min KenPom"
-                    value={filters.minKenPom}
-                    onChange={(value) => onFiltersChange({...filters, minKenPom: value})}
-                    min={1}
-                    max={358}
-                    placeholder="1"
                   />
                   <RangeInput
                     label="Min Offensive Efficiency"
@@ -193,7 +187,8 @@ const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
                   filters.overvaluedHome ||
                   filters.valueAwayTeams ||
                   filters.rivalryGames ||
-                  filters.conferenceOnly
+                  filters.conferenceOnly ||
+                  filters.betterTeamUnderdog
                 }>
                 <div className="space-y-2">
                   <ToggleButton
@@ -216,6 +211,11 @@ const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
                     active={filters.conferenceOnly}
                     onChange={(value) => onFiltersChange({...filters, conferenceOnly: value})}
                   />
+                  <ToggleButton
+                    label={`Better Team (${rankingLabel}) as Underdog`}
+                    active={filters.betterTeamUnderdog}
+                    onChange={(value) => onFiltersChange({...filters, betterTeamUnderdog: value})}
+                  />
                 </div>
               </FilterSection>
 
@@ -236,8 +236,12 @@ const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
               </FilterSection>
 
               {/* Statistical Thresholds */}
-              <FilterSection title="Statistical Thresholds" icon={BarChart2}>
-                <div className="grid grid-cols-2 gap-3">
+              <FilterSection 
+                title="Statistical Thresholds" 
+                icon={BarChart2}
+                active={filters.winPercentageDiff}
+              >
+                <div className="space-y-2">
                   <RangeInput
                     label="Min 3PT %"
                     value={filters.min3ptPercent}
@@ -254,6 +258,11 @@ const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
                     min={0}
                     max={50}
                     placeholder="20"
+                  />
+                  <ToggleButton
+                    label="30%+ Win Percentage Difference"
+                    active={filters.winPercentageDiff}
+                    onChange={(value) => onFiltersChange({...filters, winPercentageDiff: value})}
                   />
                 </div>
               </FilterSection>
@@ -286,7 +295,8 @@ const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange }) => {
                 rivalryGames: false,
                 conferenceOnly: false,
                 hasInjuries: false,
-                fullStrength: false
+                fullStrength: false,
+                winPercentageDiff: false
               })}
               className="w-full mt-2 py-2 text-sm text-gray-600 hover:text-gray-900"
             >

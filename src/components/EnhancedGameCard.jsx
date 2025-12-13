@@ -5,8 +5,9 @@ import OddsDisplay from './OddsDisplay';
 import TeamComparison from './teamComparison';
 import SimpleTeamStats from './SimpleTeamStats';
 import { initializeHomeAdvantageRanks, getHomeAdvantageRank } from '../utils/homeAdvantageRanks';
+import { determineQuadrant, reorganizeQuadGames, getOpponentRank } from '../utils/quadHelpers';
 
-const QuadSection = ({ quad, data, expanded, onToggle, currentOpponent, currentOpponentNet, gameLocation }) => {
+const QuadSection = ({ quad, data, expanded, onToggle, currentOpponent, currentOpponentNet, gameLocation, useKenPom }) => {
   const [wins, losses] = data.record.split('-').map(Number);
   
   // Determine if current opponent belongs in this quadrant
@@ -62,31 +63,34 @@ const QuadSection = ({ quad, data, expanded, onToggle, currentOpponent, currentO
           className="bg-white"
         >
           <div className="p-4 space-y-2">
-            {data.games.map((game, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, x: -10 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: idx * 0.05 }}
-                className={`flex items-center space-x-3 p-2 rounded
-                  ${game.result === 'W' ? 'bg-green-50' : 'bg-red-50'}
-                  ${game.opponent === currentOpponent ? 'ring-1 ring-blue-400' : ''}`}
-              >
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center
-                  ${game.result === 'W' ? 'bg-green-100 text-green-600' : 'bg-red-100 text-red-600'}`}>
-                  {game.result === 'W' ? 
-                    <TrendingUp className="w-4 h-4" /> : 
-                    <TrendingDown className="w-4 h-4" />
-                  }
-                </div>
-                <span className="w-20">{game.score}</span>
-                <span className="w-20 text-gray-600">({game.location})</span>
-                <span className={`flex-grow ${game.opponent === currentOpponent ? 'font-bold text-blue-600' : ''}`}>
-                  vs {game.opponent}
-                </span>
-                <span className="text-gray-500">({game.oppNet})</span>
-              </motion.div>
-            ))}
+            {data.games.map((game, idx) => {
+              const displayRank = getOpponentRank(game, useKenPom);
+              return (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: idx * 0.05 }}
+                  className={`flex items-center space-x-3 p-2 rounded
+                    ${game.result === 'W' ? 'bg-green-50' : 'bg-red-50'}
+                    ${game.opponent === currentOpponent ? 'ring-1 ring-blue-400' : ''}`}
+                >
+                  <div className={`w-8 h-8 rounded-full flex items-center justify-center
+                    ${game.result === 'W' ? 'bg-green-100 text-green-600' : 'bg-red-100 text-red-600'}`}>
+                    {game.result === 'W' ? 
+                      <TrendingUp className="w-4 h-4" /> : 
+                      <TrendingDown className="w-4 h-4" />
+                    }
+                  </div>
+                  <span className="w-20">{game.score}</span>
+                  <span className="w-20 text-gray-600">({game.location})</span>
+                  <span className={`flex-grow ${game.opponent === currentOpponent ? 'font-bold text-blue-600' : ''}`}>
+                    vs {game.opponent}
+                  </span>
+                  <span className="text-gray-500">({displayRank || game.oppNet})</span>
+                </motion.div>
+              );
+            })}
           </div>
         </motion.div>
       )}
@@ -94,13 +98,21 @@ const QuadSection = ({ quad, data, expanded, onToggle, currentOpponent, currentO
   );
 };
 
-const TeamSection = ({ team, data, opponent, opponentNet, gameLocation }) => {
+const TeamSection = ({ team, data, opponent, opponentNet, gameLocation, useKenPom }) => {
+  // Reorganize quads based on the active ranking system
+  const reorganizedQuads = reorganizeQuadGames(data.quadGames, useKenPom);
+  
   const [expandedQuad, setExpandedQuad] = useState(() => {
     if (opponent && opponentNet) {
       return determineQuadrant(opponentNet, gameLocation);
     }
     return '1';
   });
+  
+  // Helper function to get the appropriate ranking
+  const getRanking = (teamData) => {
+    return useKenPom ? (teamData.kenpom || teamData.net) : teamData.net;
+  };
 
   return (
     <motion.div
@@ -115,7 +127,7 @@ const TeamSection = ({ team, data, opponent, opponentNet, gameLocation }) => {
           </h3>
           <div className="flex items-center space-x-4 mt-2">
             <div className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
-              NET: {data.net || 'N/A'}
+              {useKenPom ? 'KenPom' : 'NET'}: {getRanking(data) || 'N/A'}
             </div>
             <div className="text-sm text-gray-600">
               {data.record} {data.confRecord && `(${data.confRecord})`}
@@ -125,7 +137,7 @@ const TeamSection = ({ team, data, opponent, opponentNet, gameLocation }) => {
       </div>
 
       <div className="space-y-4">
-        {Object.entries(data.quadGames).map(([quad, quadData]) => (
+        {Object.entries(reorganizedQuads).map(([quad, quadData]) => (
           <QuadSection
             key={quad}
             quad={quad}
@@ -135,6 +147,7 @@ const TeamSection = ({ team, data, opponent, opponentNet, gameLocation }) => {
             currentOpponent={opponent}
             currentOpponentNet={opponentNet}
             gameLocation={gameLocation}
+            useKenPom={useKenPom}
           />
         ))}
       </div>
@@ -142,35 +155,13 @@ const TeamSection = ({ team, data, opponent, opponentNet, gameLocation }) => {
   );
 };
 
-const determineQuadrant = (oppRank, location) => {
-  if (!oppRank) return null;
-
-  switch (location.toLowerCase()) {
-    case 'home':
-      if (oppRank <= 30) return '1';
-      if (oppRank <= 75) return '2';
-      if (oppRank <= 160) return '3';
-      return '4';
-    
-    case 'neutral':
-      if (oppRank <= 50) return '1';
-      if (oppRank <= 100) return '2';
-      if (oppRank <= 200) return '3';
-      return '4';
-    
-    case 'away':
-      if (oppRank <= 75) return '1';
-      if (oppRank <= 135) return '2';
-      if (oppRank <= 240) return '3';
-      return '4';
-    
-    default:
-      return null;
-  }
-};
-
-const EnhancedGameCard = ({ matchup }) => {
+const EnhancedGameCard = ({ matchup, useKenPom }) => {
   const [isLoading, setIsLoading] = useState(true);
+  
+  // Helper function to get the appropriate ranking
+  const getRanking = (teamData) => {
+    return useKenPom ? (teamData.kenpom || teamData.net) : teamData.net;
+  };
 
   useEffect(() => {
     const loadHomeAdvantageData = async () => {
@@ -217,8 +208,8 @@ const EnhancedGameCard = ({ matchup }) => {
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 -mx-6 -mt-6 px-6 py-4 rounded-t-xl">
         <div className="flex justify-between items-center text-white">
           <h2 className="text-xl font-bold">
-            {matchup.matchup.away} ({matchup.teams[matchup.matchup.away].net || 'N/A'}) @ 
-            {matchup.matchup.home} ({matchup.teams[matchup.matchup.home].net || 'N/A'}) 
+            {matchup.matchup.away} ({getRanking(matchup.teams[matchup.matchup.away]) || 'N/A'}) @ 
+            {matchup.matchup.home} ({getRanking(matchup.teams[matchup.matchup.home]) || 'N/A'}) 
             <span className="text-sm ml-2 opacity-80">
               Home Advantage Rank: {getHomeAdvantageRank(matchup.matchup.home)}
             </span>
@@ -247,6 +238,8 @@ const EnhancedGameCard = ({ matchup }) => {
           awayTeam={matchup.matchup.away}
           homeData={matchup.teams[matchup.matchup.home]}
           awayData={matchup.teams[matchup.matchup.away]}
+          odds={matchup.matchup.odds}
+          useKenPom={useKenPom}
         />
       </div>
 
@@ -256,15 +249,17 @@ const EnhancedGameCard = ({ matchup }) => {
           team={matchup.matchup.away}
           data={matchup.teams[matchup.matchup.away]}
           opponent={matchup.matchup.home}
-          opponentNet={matchup.teams[matchup.matchup.home].net}
+          opponentNet={getRanking(matchup.teams[matchup.matchup.home])}
           gameLocation="away"
+          useKenPom={useKenPom}
         />
         <TeamSection 
           team={matchup.matchup.home}
           data={matchup.teams[matchup.matchup.home]}
           opponent={matchup.matchup.away}
-          opponentNet={matchup.teams[matchup.matchup.away].net}
+          opponentNet={getRanking(matchup.teams[matchup.matchup.away])}
           gameLocation="home"
+          useKenPom={useKenPom}
         />
       </div>
     </motion.div>

@@ -290,7 +290,6 @@ export class CBBScraper {
             'SIU Edwardsville': 'southern-illinois-edwardsville',
             'Tennessee-Martin': 'tennessee-martin',
             'Tenn-Martin': 'tennessee-martin',
-            'UT Arlington': 'ut-arlington',
             'UL Monroe': 'louisiana-monroe',
             'Loyola (MD)': 'loyola-md',
             'Marquette': 'marquette',
@@ -313,7 +312,6 @@ export class CBBScraper {
             'Robert Morris': 'robert-morris',
             'Albany': 'albany',
             'Evansville': 'evansville',
-            'Bradley': 'bradley',
             'Miami (FL)': 'miami-fl',
             'Miami FL': 'miami-fl',
             'Austin Peay': 'austin-peay',
@@ -339,6 +337,7 @@ export class CBBScraper {
             'Maine': 'maine',
             'California': 'california',
             'Rutgers': 'rutgers',
+            'St. John\'s': 'st-johns-ny',
     
             // A&M Schools
             'Texas A&M': 'texas-am',
@@ -351,10 +350,10 @@ export class CBBScraper {
             'Long Island': 'long-island-university',
             'Bowling Green': 'bowling-green-state',
             'Mount St. Mary\'s': 'mount-st-marys',
-            'UT Arlington': 'texas-arlington',
+            'UT-Arlington': 'texas-arlington',
             'Southern Indiana': 'southern-indiana',
             'SE Missouri State': 'southeast-missouri-state',
-            'Bradley': 'bradley-university',
+            'Bradley': 'bradley',
             'Umass Lowell': 'massachusetts-lowell',
             'Albany': 'albany-ny',
             'Miss Valley State': 'mississippi-valley-state',
@@ -367,9 +366,24 @@ export class CBBScraper {
             'Southern Miss': 'southern-mississippi',
             'UNLV': 'nevada-las-vegas',
             'Southern Indiana': 'southern-indiana',
-            'SIU Edwardsville': 'southern-illinois-edwardsville',
+            'SIU-Edwardsville': 'southern-illinois-edwardsville',
             'N Colorado': 'northern-colorado',
-            'Cal Poly': 'cal-poly'
+            'Cal Poly': 'cal-poly',
+            'UIC': 'illinois-chicago',
+            'UTEP': 'texas-el-paso',
+            'BYU': 'brigham-young',
+            'UTSA': 'texas-san-antonio',
+            'UT Arlington': 'texas-arlington',
+            'UT Rio Grande Valley': 'texas-ranger',
+            'UTRGV': 'texas-ranger',
+            'UTEP': 'texas-el-paso',
+            'UT Arlington': 'texas-arlington',
+            'UTSA': 'texas-san-antonio',
+            'UTRGV': 'texas-ranger',
+            'GW': 'george-washington',
+            'Utah Tech': 'dixie-state',
+            'SE Louisiana': 'southeastern-louisiana',
+            'UMass Lowell': 'massachusetts-lowell',
 
 
         };
@@ -404,7 +418,7 @@ export class CBBScraper {
         }
     
         // Remove mascots
-        const removeSuffixRegex = /\s(Bulldogs|Volunteers|Golden Bears|Golden Grizzlies|Wolfpack|Billikens|Antelopes||Big Red|Redbirds|Crimson Tide|Golden Flashes|Sooners|Bearcats|Sooners|Gaels|Mastodons|Fighting Illini|Cyclones|Cavaliers|Titans|Badgers|Quakers|Patriots|Lakers|Gauchos|Horned Frogs|Tribe|Blazers|Braves|Jayhawks|Beavers|Mean Green|Privateers|Cowboys|Ragin\' Cajuns|Bearcats|Broncs|Ramblers|Fighting Irish|Hoyas|Gaels|Racers|Cornhuskers|Rainbow Warriors|49ers|Dolphins|Bulls|Thundering Herd|Seminoles|Falcons|Penguins|Colonials|Red Raiders|Norse|Terrapins|Nittany Lions|Hoosiers|Screaming|Tigers|Eagles|Panthers|Wildcats|Cardinals|Hawks|Bears|Cougars|Huskies|Pirates|Warriors|Spartans|Broncos|Owls|Lions|Flames|Bobcats|Blue Devils|Rams|Aggies|Miners|Knights|Seawolves|Blue Hose|Red Foxes|Golden Griffins|Retrievers|Jaspers|Kangaroos|Colonels|Commodores|Buffaloes|Crimson|Paladins|Bruins|Monarchs|Waves|Pilots|Thunderbirds|Lumberjacks|Boilermakers|Leathernecks|Toreros|Wolverines|Roadrunners|Vikings|Aztecs|Tritons|Keydets|Phoenix|Shockers|Ducks|Cardinal|Bison|Mustangs|Mavericks|Hawkeyes|Utes|Jaguars|Buckeyes|Coyotes|Royals|Rebels|Pioneers|Wolf Pack|Lancers|Redhawks|Skyhawks|Leopards|Vandals|Blue Demons|Bluejays|Chippewas|Minutemen|Sun Devils|Highlanders|Warhawks|Tar Heels|Golden Hurricane|Delta Devils|Governors|Chanticleers|Red Wolves|Dukes|Anteaters|Razorbacks|Seahawks|Mountaineers|Islanders|Salukis|Trojans|Golden Gophers|Raiders|Gamecocks|Buccaneers|Demon Deacons|Matadors|Golden Eagles|Purple Eagles|Red Flash|Great Danes|Purple Aces|River Hawks|Terriers|Tommies|Mountain Hawks|Scarlet Knights|Golden Panthers|Hurricanes|Orange|Hokies|Midshipmen|Stags|Greyhounds|Sharks|Black Bears|Bonnies|Bearkats|Yellow Jackets|Blue Raiders|Mocs|Big Green|Catamounts|Dragons|Ospreys|Gators|Musketeers|Grizzlies|Dons|Spiders)$/i;
+        const removeSuffixRegex = /\s(Bulldogs|Zips|Volunteers|Golden Lions|Saints|Explorers|Peacocks|Trailblazers|Jackrabbits|Rockets|Flyers|Revolutionaries|Red Storm|Hornets|Demons|Rattlers|Vaqueros|Green Wave|Texans|Longhorns|Fighting Hawks|Bengals|Hatters|Hilltoppers|Bisons|Pride|Wolves|Blue Hens|Fighting Camels|Crusaders|Golden Bears|Friars|Lobos|Screaming Eagles|Sycamores|Beacons|Golden Grizzlies|Wolfpack|Billikens|Antelopes||Big Red|Redbirds|Crimson Tide|Golden Flashes|Sooners|Bearcats|Sooners|Gaels|Mastodons|Fighting Illini|Cyclones|Cavaliers|Titans|Badgers|Quakers|Patriots|Lakers|Gauchos|Horned Frogs|Tribe|Blazers|Braves|Jayhawks|Beavers|Mean Green|Privateers|Cowboys|Ragin\' Cajuns|Bearcats|Broncs|Ramblers|Fighting Irish|Hoyas|Gaels|Racers|Cornhuskers|Rainbow Warriors|49ers|Dolphins|Bulls|Thundering Herd|Seminoles|Falcons|Penguins|Colonials|Red Raiders|Norse|Terrapins|Nittany Lions|Hoosiers|Screaming|Tigers|Eagles|Panthers|Wildcats|Cardinals|Hawks|Bears|Cougars|Huskies|Pirates|Warriors|Spartans|Broncos|Owls|Lions|Flames|Bobcats|Blue Devils|Rams|Aggies|Miners|Knights|Seawolves|Blue Hose|Red Foxes|Golden Griffins|Retrievers|Jaspers|Kangaroos|Colonels|Commodores|Buffaloes|Crimson|Paladins|Bruins|Monarchs|Waves|Pilots|Thunderbirds|Lumberjacks|Boilermakers|Leathernecks|Toreros|Wolverines|Roadrunners|Vikings|Aztecs|Tritons|Keydets|Phoenix|Shockers|Ducks|Cardinal|Bison|Mustangs|Mavericks|Hawkeyes|Utes|Jaguars|Buckeyes|Coyotes|Royals|Rebels|Pioneers|Wolf Pack|Lancers|Redhawks|Skyhawks|Leopards|Vandals|Blue Demons|Bluejays|Chippewas|Minutemen|Sun Devils|Highlanders|Warhawks|Tar Heels|Golden Hurricane|Delta Devils|Governors|Chanticleers|Red Wolves|Dukes|Anteaters|Razorbacks|Seahawks|Mountaineers|Islanders|Salukis|Trojans|Golden Gophers|Raiders|Gamecocks|Buccaneers|Demon Deacons|Matadors|Golden Eagles|Purple Eagles|Red Flash|Great Danes|Purple Aces|River Hawks|Terriers|Tommies|Mountain Hawks|Scarlet Knights|Golden Panthers|Hurricanes|Orange|Hokies|Midshipmen|Stags|Greyhounds|Sharks|Black Bears|Bonnies|Bearkats|Yellow Jackets|Blue Raiders|Mocs|Big Green|Catamounts|Dragons|Ospreys|Gators|Musketeers|Grizzlies|Dons|Spiders)$/i;
     
         const withoutMascot = withoutUniversity.replace(removeSuffixRegex, '');
         
