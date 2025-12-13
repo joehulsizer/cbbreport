@@ -1,7 +1,7 @@
 // generateReport.js
-import { OddsFetcher } from './src/utils/oddsFetcher.js';
-import { CBBScraper } from './src/utils/cbbScraper.js';
-import { KenPomScraper } from './src/utils/kenpomScraper.js';
+import { OddsFetcher } from './scripts/utils/oddsFetcher.js';
+import { CBBScraper } from './scripts/utils/cbbScraper.js';
+import { KenPomScraper } from './scripts/utils/kenpomScraper.js';
 import fs from 'fs';
 import path from 'path';
 
