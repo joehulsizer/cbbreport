@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, TrendingUp, TrendingDown, Shield } from 'lucide-react';
 import OddsDisplay from './OddsDisplay';
-import TeamComparison from './teamComparison';
+import TeamComparison from './TeamComparison';
 import SimpleTeamStats from './SimpleTeamStats';
 import { initializeHomeAdvantageRanks, getHomeAdvantageRank } from '../utils/homeAdvantageRanks';
 import { determineQuadrant, reorganizeQuadGames, getOpponentRank } from '../utils/quadHelpers';
