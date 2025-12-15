@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calendar, Filter, TrendingUp, SlidersHorizontal, RefreshCw } from 'lucide-react';
+import { Calendar, Filter, TrendingUp, SlidersHorizontal, RefreshCw, Zap, AlertTriangle } from 'lucide-react';
 import EnhancedGameCard from './EnhancedGameCard';
 import AdvancedFilters from './AdvancedFilters';
+import SearchAndFavorites from './SearchAndFavorites';
+import ExportData from './ExportData';
 
 const TimeSlotHeader = ({ time }) => (
   <div className="flex items-center space-x-2">
@@ -47,9 +49,12 @@ const FilterButton = ({ active, label, onClick }) => (
   </button>
 );
 
-const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem }) => {
+const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, darkMode }) => {
   const [selectedFilter, setSelectedFilter] = useState('all');
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
+  const [selectedGame, setSelectedGame] = useState(null);
+  const [showBestBets, setShowBestBets] = useState(false);
+  const [showUpsetAlerts, setShowUpsetAlerts] = useState(false);
   
   // Helper function to get the appropriate ranking
   const getRanking = (teamData) => {
@@ -316,8 +321,30 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem }) 
                 onClick={() => setSelectedFilter('upset-alert')}
               />
               <button
+                onClick={() => setShowBestBets(!showBestBets)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 ${
+                  showBestBets 
+                    ? 'bg-green-600 text-white' 
+                    : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600'
+                }`}
+              >
+                <Zap className="w-4 h-4" />
+                Best Bets ({bestBets.length})
+              </button>
+              <button
+                onClick={() => setShowUpsetAlerts(!showUpsetAlerts)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 ${
+                  showUpsetAlerts 
+                    ? 'bg-orange-600 text-white' 
+                    : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600'
+                }`}
+              >
+                <AlertTriangle className="w-4 h-4" />
+                Upset Watch ({upsetAlerts.length})
+              </button>
+              <button
                 onClick={() => setShowAdvancedFilters(true)}
-                className="px-4 py-2 rounded-full text-sm font-medium bg-gray-800 text-white hover:bg-gray-700 transition-all flex items-center gap-2"
+                className="px-4 py-2 rounded-full text-sm font-medium bg-gray-800 dark:bg-gray-700 text-white hover:bg-gray-700 dark:hover:bg-gray-600 transition-all flex items-center gap-2"
               >
                 <SlidersHorizontal className="w-4 h-4" />
                 Advanced Filters
@@ -329,13 +356,79 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem }) 
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-6">
+        {/* Best Bets Section */}
+        <AnimatePresence>
+          {showBestBets && bestBets.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              className="mb-8"
+            >
+              <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-xl p-6 shadow-xl text-white mb-6">
+                <h2 className="text-2xl font-bold flex items-center mb-4">
+                  <Zap className="w-7 h-7 mr-3" />
+                  Best Betting Value Today
+                </h2>
+                <p className="opacity-90">Games with the best potential value based on rankings and odds</p>
+              </div>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                {bestBets.map(({ game, value }, idx) => (
+                  <motion.div
+                    key={idx}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: idx * 0.1 }}
+                  >
+                    <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+        
+        {/* Upset Alerts Section */}
+        <AnimatePresence>
+          {showUpsetAlerts && upsetAlerts.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              className="mb-8"
+            >
+              <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-xl p-6 shadow-xl text-white mb-6">
+                <h2 className="text-2xl font-bold flex items-center mb-4">
+                  <AlertTriangle className="w-7 h-7 mr-3" />
+                  Upset Watch
+                </h2>
+                <p className="opacity-90">Games with significant ranking mismatches - potential upset opportunities</p>
+              </div>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                {upsetAlerts.map((game, idx) => (
+                  <motion.div
+                    key={idx}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: idx * 0.1 }}
+                  >
+                    <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
           {filteredGames.length === 0 ? (
-            <div className="p-6 text-center text-gray-500">
+            <div className="p-6 text-center text-gray-500 dark:text-gray-400">
               No games match your filters. Try adjusting them above.
             </div>
           ) : (
@@ -346,7 +439,7 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem }) 
                     ...prev,
                     [timeSlot]: !prev[timeSlot]
                   }))}
-                  className="sticky top-0 bg-white/90 backdrop-blur-sm border-b mb-2 px-4 py-2 cursor-pointer flex justify-between items-center"
+                  className="sticky top-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm border-b dark:border-gray-700 mb-2 px-4 py-2 cursor-pointer flex justify-between items-center hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                 >
                   <TimeSlotHeader time={timeSlot} />
                   <span className="text-sm text-gray-500">

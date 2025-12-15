@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { Calendar, TrendingUp, TrendingDown, Shield } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Calendar, TrendingUp, TrendingDown, Shield, ChevronDown, ChevronUp, BarChart3, Target, Activity, Star, BookOpen } from 'lucide-react';
 import OddsDisplay from './OddsDisplay';
 import TeamComparison from './TeamComparison';
 import SimpleTeamStats from './SimpleTeamStats';
+import WinProbability from './WinProbability';
+import EfficiencyCharts from './EfficiencyCharts';
 import { initializeHomeAdvantageRanks, getHomeAdvantageRank } from '../utils/homeAdvantageRanks';
 import { determineQuadrant, reorganizeQuadGames, getOpponentRank } from '../utils/quadHelpers';
 
@@ -157,6 +159,8 @@ const TeamSection = ({ team, data, opponent, opponentNet, gameLocation, useKenPo
 
 const EnhancedGameCard = ({ matchup, useKenPom }) => {
   const [isLoading, setIsLoading] = useState(true);
+  const [expandedSection, setExpandedSection] = useState('overview');
+  const [isFavorited, setIsFavorited] = useState(false);
   
   // Helper function to get the appropriate ranking
   const getRanking = (teamData) => {
@@ -192,75 +196,225 @@ const EnhancedGameCard = ({ matchup, useKenPom }) => {
 
     loadHomeAdvantageData();
   }, []); // Only load once on mount
+  
+  // Load favorites from localStorage
+  useEffect(() => {
+    const favorites = JSON.parse(localStorage.getItem('favoriteGames') || '[]');
+    const gameId = `${matchup.matchup.away}-${matchup.matchup.home}`;
+    setIsFavorited(favorites.includes(gameId));
+  }, [matchup]);
+  
+  const toggleFavorite = () => {
+    const favorites = JSON.parse(localStorage.getItem('favoriteGames') || '[]');
+    const gameId = `${matchup.matchup.away}-${matchup.matchup.home}`;
+    
+    if (favorites.includes(gameId)) {
+      const newFavorites = favorites.filter(id => id !== gameId);
+      localStorage.setItem('favoriteGames', JSON.stringify(newFavorites));
+      setIsFavorited(false);
+    } else {
+      favorites.push(gameId);
+      localStorage.setItem('favoriteGames', JSON.stringify(favorites));
+      setIsFavorited(true);
+    }
+  };
+
+  const SectionButton = ({ id, icon: Icon, label, active }) => (
+    <button
+      onClick={() => setExpandedSection(expandedSection === id ? null : id)}
+      className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-semibold transition-all ${
+        active ? 'bg-blue-600 text-white shadow-lg' : 'bg-white text-gray-700 hover:bg-gray-100'
+      }`}
+    >
+      <Icon className="w-4 h-4" />
+      <span>{label}</span>
+      {active ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+    </button>
+  );
 
   if (isLoading) {
-    return <div>Loading rankings...</div>;
+    return (
+      <div className="bg-white rounded-xl p-8 shadow-lg">
+        <div className="animate-pulse space-y-4">
+          <div className="h-8 bg-gray-200 rounded w-3/4"></div>
+          <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+          <div className="h-32 bg-gray-200 rounded"></div>
+        </div>
+      </div>
+    );
   }
 
   return (
     <motion.div
-      className="bg-gray-50 rounded-xl p-6 mb-8"
+      className="bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-2xl mb-8 overflow-hidden border border-gray-200"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.4 }}
     >
-      {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 -mx-6 -mt-6 px-6 py-4 rounded-t-xl">
-        <div className="flex justify-between items-center text-white">
-          <h2 className="text-xl font-bold">
-            {matchup.matchup.away} ({getRanking(matchup.teams[matchup.matchup.away]) || 'N/A'}) @ 
-            {matchup.matchup.home} ({getRanking(matchup.teams[matchup.matchup.home]) || 'N/A'}) 
-            <span className="text-sm ml-2 opacity-80">
-              Home Advantage Rank: {getHomeAdvantageRank(matchup.matchup.home)}
-            </span>
-          </h2>
-          <div className="flex items-center space-x-2">
-            <Calendar className="w-4 h-4" />
-            <span className="text-sm">
-              {new Date(matchup.matchup.commence_time).toLocaleString()}
-            </span>
+      {/* Enhanced Header */}
+      <div className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 px-6 py-6">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-20" />
+        
+        <div className="relative flex justify-between items-start text-white">
+          <div className="flex-1">
+            <div className="flex items-center space-x-3 mb-3">
+              <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-lg shadow-lg">
+                {getRanking(matchup.teams[matchup.matchup.away])}
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold">{matchup.matchup.away}</h2>
+                <p className="text-sm opacity-90">{matchup.teams[matchup.matchup.away].record}</p>
+              </div>
+            </div>
+            
+            <div className="text-center my-2">
+              <span className="text-lg font-bold">@</span>
+            </div>
+            
+            <div className="flex items-center space-x-3">
+              <div className="w-12 h-12 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-lg shadow-lg">
+                {getRanking(matchup.teams[matchup.matchup.home])}
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold">{matchup.matchup.home}</h2>
+                <p className="text-sm opacity-90">
+                  {matchup.teams[matchup.matchup.home].record} • Home Advantage: #{getHomeAdvantageRank(matchup.matchup.home)}
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="flex flex-col items-end space-y-3">
+            <div className="flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-lg px-3 py-2">
+              <Calendar className="w-4 h-4" />
+              <span className="text-sm font-semibold">
+                {new Date(matchup.matchup.commence_time).toLocaleString()}
+              </span>
+            </div>
+            
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={toggleFavorite}
+              className={`p-2 rounded-full ${isFavorited ? 'bg-yellow-400' : 'bg-white/20 backdrop-blur-sm'}`}
+            >
+              <Star className={`w-5 h-5 ${isFavorited ? 'text-yellow-700 fill-yellow-700' : 'text-white'}`} />
+            </motion.button>
           </div>
         </div>
       </div>
 
-      {/* Odds Display */}
-      <div className="my-6">
-        <OddsDisplay odds={matchup.matchup.odds} />
+      {/* Navigation Tabs */}
+      <div className="bg-white border-b border-gray-200 px-6 py-4">
+        <div className="flex flex-wrap gap-3">
+          <SectionButton id="overview" icon={Activity} label="Overview" active={expandedSection === 'overview'} />
+          <SectionButton id="odds" icon={Target} label="Odds & Lines" active={expandedSection === 'odds'} />
+          <SectionButton id="analytics" icon={BarChart3} label="Analytics" active={expandedSection === 'analytics'} />
+          <SectionButton id="efficiency" icon={TrendingUp} label="Efficiency" active={expandedSection === 'efficiency'} />
+          <SectionButton id="quads" icon={Shield} label="Quad Records" active={expandedSection === 'quads'} />
+        </div>
       </div>
 
-      {/* Team Comparison */}
-      
+      {/* Content Sections */}
+      <div className="p-6">
+        <AnimatePresence mode="wait">
+          {expandedSection === 'overview' && (
+            <motion.div
+              key="overview"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <SimpleTeamStats
+                homeTeam={matchup.matchup.home}
+                awayTeam={matchup.matchup.away}
+                homeData={matchup.teams[matchup.matchup.home]}
+                awayData={matchup.teams[matchup.matchup.away]}
+                odds={matchup.matchup.odds}
+                useKenPom={useKenPom}
+              />
+            </motion.div>
+          )}
 
-      {/* Team Stats */}
-      <div className="my-6">
-        <SimpleTeamStats
-          homeTeam={matchup.matchup.home}
-          awayTeam={matchup.matchup.away}
-          homeData={matchup.teams[matchup.matchup.home]}
-          awayData={matchup.teams[matchup.matchup.away]}
-          odds={matchup.matchup.odds}
-          useKenPom={useKenPom}
-        />
-      </div>
+          {expandedSection === 'odds' && (
+            <motion.div
+              key="odds"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+              className="space-y-6"
+            >
+              <OddsDisplay odds={matchup.matchup.odds} />
+            </motion.div>
+          )}
 
-      {/* Team Sections */}
-      <div className="space-y-6">
-        <TeamSection 
-          team={matchup.matchup.away}
-          data={matchup.teams[matchup.matchup.away]}
-          opponent={matchup.matchup.home}
-          opponentNet={getRanking(matchup.teams[matchup.matchup.home])}
-          gameLocation="away"
-          useKenPom={useKenPom}
-        />
-        <TeamSection 
-          team={matchup.matchup.home}
-          data={matchup.teams[matchup.matchup.home]}
-          opponent={matchup.matchup.away}
-          opponentNet={getRanking(matchup.teams[matchup.matchup.away])}
-          gameLocation="home"
-          useKenPom={useKenPom}
-        />
+          {expandedSection === 'analytics' && (
+            <motion.div
+              key="analytics"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <WinProbability
+                homeTeam={matchup.matchup.home}
+                awayTeam={matchup.matchup.away}
+                homeData={matchup.teams[matchup.matchup.home]}
+                awayData={matchup.teams[matchup.matchup.away]}
+                odds={matchup.matchup.odds}
+                useKenPom={useKenPom}
+              />
+            </motion.div>
+          )}
+
+          {expandedSection === 'efficiency' && (
+            <motion.div
+              key="efficiency"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <EfficiencyCharts
+                homeTeam={matchup.matchup.home}
+                awayTeam={matchup.matchup.away}
+                homeData={matchup.teams[matchup.matchup.home]}
+                awayData={matchup.teams[matchup.matchup.away]}
+                useKenPom={useKenPom}
+              />
+            </motion.div>
+          )}
+
+          {expandedSection === 'quads' && (
+            <motion.div
+              key="quads"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+              className="space-y-6"
+            >
+              <TeamSection 
+                team={matchup.matchup.away}
+                data={matchup.teams[matchup.matchup.away]}
+                opponent={matchup.matchup.home}
+                opponentNet={getRanking(matchup.teams[matchup.matchup.home])}
+                gameLocation="away"
+                useKenPom={useKenPom}
+              />
+              <TeamSection 
+                team={matchup.matchup.home}
+                data={matchup.teams[matchup.matchup.home]}
+                opponent={matchup.matchup.away}
+                opponentNet={getRanking(matchup.teams[matchup.matchup.away])}
+                gameLocation="home"
+                useKenPom={useKenPom}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </motion.div>
   );
