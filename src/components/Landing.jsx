@@ -18,7 +18,7 @@ const StatCard = ({ icon: Icon, label, value, subvalue, trend, color = "blue" })
   return (
     <motion.div
       whileHover={{ scale: 1.02, y: -5 }}
-      className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 relative overflow-hidden"
+      className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-100 dark:border-gray-700 relative overflow-hidden"
     >
       <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${colorVariants[color]} opacity-10 rounded-full -mr-16 -mt-16`} />
       
@@ -28,16 +28,16 @@ const StatCard = ({ icon: Icon, label, value, subvalue, trend, color = "blue" })
             <Icon className="w-6 h-6 text-white" />
           </div>
           {trend && (
-            <div className={`flex items-center text-sm font-semibold ${trend > 0 ? 'text-green-600' : 'text-red-600'}`}>
+            <div className={`flex items-center text-sm font-semibold ${trend > 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>
               {trend > 0 ? <TrendingUp className="w-4 h-4 mr-1" /> : <TrendingDown className="w-4 h-4 mr-1" />}
               {Math.abs(trend)}%
             </div>
           )}
         </div>
         
-        <p className="text-sm text-gray-500 mb-1">{label}</p>
-        <p className="text-3xl font-bold text-gray-900 mb-1">{value}</p>
-        {subvalue && <p className="text-sm text-gray-400">{subvalue}</p>}
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">{label}</p>
+        <p className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-1">{value}</p>
+        {subvalue && <p className="text-sm text-gray-400 dark:text-gray-500">{subvalue}</p>}
       </div>
     </motion.div>
   );
@@ -209,7 +209,7 @@ const Landing = ({ data, onViewReport, activeFilterCount }) => {
     .slice(0, 6);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-90" />
@@ -367,8 +367,8 @@ const Landing = ({ data, onViewReport, activeFilterCount }) => {
           className="grid grid-cols-1 lg:grid-cols-2 gap-8"
         >
           {/* Today's Insights */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-            <h3 className="text-2xl font-bold mb-6 flex items-center">
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-100 dark:border-gray-700">
+            <h3 className="text-2xl font-bold mb-6 flex items-center text-gray-900 dark:text-gray-100">
               <Zap className="w-6 h-6 mr-2 text-yellow-500" />
               Today's Insights
             </h3>
@@ -405,8 +405,8 @@ const Landing = ({ data, onViewReport, activeFilterCount }) => {
           </div>
 
           {/* Quick Actions */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-            <h3 className="text-2xl font-bold mb-6 flex items-center">
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-100 dark:border-gray-700">
+            <h3 className="text-2xl font-bold mb-6 flex items-center text-gray-900 dark:text-gray-100">
               <Target className="w-6 h-6 mr-2 text-blue-500" />
               Quick Actions
             </h3>
