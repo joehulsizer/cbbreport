@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-24T13:13:53.152Z",
+  "generated_at": "2025-12-25T13:14:00.894Z",
   "games": [
     {
       "matchup": {
@@ -8,33 +8,33 @@
         "commence_time": "2025-12-28T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -2100,
-            "away": 1000,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
+            "home": -2800,
+            "away": 1160,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
             "homeSpreadOdds": -114,
             "awaySpreadOdds": -106
           },
           "draftkings": {
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": -1400,
-            "away": 825,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1600,
+            "away": 850,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
       "teams": {
         "Stanford Cardinal": {
-          "net": 77,
-          "previousNet": 76,
+          "net": 76,
+          "previousNet": 77,
           "record": "10-2",
           "confRecord": "0-0",
           "quadGames": {
@@ -46,7 +46,7 @@
                   "score": "78-77",
                   "location": "Neutral",
                   "opponent": "Saint Louis",
-                  "oppNet": 26,
+                  "oppNet": 27,
                   "oppKenpom": 39
                 }
               ]
@@ -80,7 +80,7 @@
                   "score": "69-77",
                   "location": "Home",
                   "opponent": "Seattle U",
-                  "oppNet": 93,
+                  "oppNet": 94,
                   "oppKenpom": 111
                 },
                 {
@@ -88,7 +88,7 @@
                   "score": "72-68",
                   "location": "Neutral",
                   "opponent": "Minnesota",
-                  "oppNet": 106,
+                  "oppNet": 107,
                   "oppKenpom": 100
                 },
                 {
@@ -104,7 +104,7 @@
                   "score": "76-60",
                   "location": "Home",
                   "opponent": "UT Arlington",
-                  "oppNet": 137,
+                  "oppNet": 128,
                   "oppKenpom": 163
                 }
               ]
@@ -117,7 +117,7 @@
                   "score": "89-79",
                   "location": "Home",
                   "opponent": "Portland St.",
-                  "oppNet": 183,
+                  "oppNet": 181,
                   "oppKenpom": 182
                 },
                 {
@@ -141,7 +141,7 @@
                   "score": "94-72",
                   "location": "Home",
                   "opponent": "Portland",
-                  "oppNet": 227,
+                  "oppNet": 225,
                   "oppKenpom": 228
                 },
                 {
@@ -195,7 +195,7 @@
               "quad": "Q1",
               "location": "Home",
               "opponent": "01/14/2026",
-              "oppNet": 16,
+              "oppNet": 15,
               "date": ""
             },
             {
@@ -209,14 +209,14 @@
               "quad": "Q2",
               "location": "Home",
               "opponent": "01/24/2026",
-              "oppNet": 45,
+              "oppNet": 46,
               "date": ""
             },
             {
               "quad": "Q1",
               "location": "Away",
               "opponent": "01/28/2026",
-              "oppNet": 35,
+              "oppNet": 34,
               "date": ""
             },
             {
@@ -230,42 +230,42 @@
               "quad": "Q2",
               "location": "Home",
               "opponent": "02/04/2026",
-              "oppNet": 38,
+              "oppNet": 37,
               "date": ""
             },
             {
               "quad": "Q4",
               "location": "Home",
               "opponent": "02/07/2026",
-              "oppNet": 191,
+              "oppNet": 190,
               "date": ""
             },
             {
               "quad": "Q3",
               "location": "Away",
               "opponent": "02/11/2026",
-              "oppNet": 189,
+              "oppNet": 191,
               "date": ""
             },
             {
               "quad": "Q1",
               "location": "Away",
               "opponent": "02/14/2026",
-              "oppNet": 67,
+              "oppNet": 68,
               "date": ""
             },
             {
               "quad": "Q1",
               "location": "Away",
               "opponent": "02/21/2026",
-              "oppNet": 45,
+              "oppNet": 46,
               "date": ""
             },
             {
               "quad": "Q3",
               "location": "Home",
               "opponent": "02/25/2026",
-              "oppNet": 119,
+              "oppNet": 115,
               "date": ""
             },
             {
@@ -294,7 +294,7 @@
         },
         "CSU Northridge Matadors": {
           "net": 219,
-          "previousNet": 232,
+          "previousNet": 219,
           "record": "8-5",
           "confRecord": "1-1",
           "quadGames": {
@@ -306,7 +306,7 @@
                   "score": "57-86",
                   "location": "Away",
                   "opponent": "UNI",
-                  "oppNet": 73,
+                  "oppNet": 74,
                   "oppKenpom": 91
                 }
               ]
@@ -323,7 +323,7 @@
                   "score": "68-90",
                   "location": "Away",
                   "opponent": "North Dakota St.",
-                  "oppNet": 155,
+                  "oppNet": 154,
                   "oppKenpom": 150
                 },
                 {
@@ -339,7 +339,7 @@
                   "score": "64-78",
                   "location": "Neutral",
                   "opponent": "Idaho",
-                  "oppNet": 133,
+                  "oppNet": 156,
                   "oppKenpom": 189
                 },
                 {
@@ -347,7 +347,7 @@
                   "score": "50-82",
                   "location": "Neutral",
                   "opponent": "Idaho St.",
-                  "oppNet": 125,
+                  "oppNet": 127,
                   "oppKenpom": 172
                 },
                 {
@@ -355,7 +355,7 @@
                   "score": "71-85",
                   "location": "Away",
                   "opponent": "UC Irvine",
-                  "oppNet": 142,
+                  "oppNet": 141,
                   "oppKenpom": 130
                 }
               ]
@@ -376,7 +376,7 @@
                   "score": "87-66",
                   "location": "Home",
                   "opponent": "CSU Bakersfield",
-                  "oppNet": 322,
+                  "oppNet": 305,
                   "oppKenpom": 311
                 },
                 {
@@ -384,7 +384,7 @@
                   "score": "89-87",
                   "location": "Home",
                   "opponent": "Fresno St.",
-                  "oppNet": 179,
+                  "oppNet": 177,
                   "oppKenpom": 175
                 },
                 {
@@ -392,7 +392,7 @@
                   "score": "88-66",
                   "location": "Away",
                   "opponent": "Delaware",
-                  "oppNet": 278,
+                  "oppNet": 279,
                   "oppKenpom": 268
                 },
                 {
@@ -400,7 +400,7 @@
                   "score": "100-88",
                   "location": "Home",
                   "opponent": "Sacramento St.",
-                  "oppNet": 256,
+                  "oppNet": 258,
                   "oppKenpom": 276
                 }
               ]
@@ -411,7 +411,7 @@
               "quad": "Q2",
               "location": "Away",
               "opponent": "12/27/2025",
-              "oppNet": 77,
+              "oppNet": 76,
               "date": ""
             },
             {
@@ -425,21 +425,21 @@
               "quad": "Q3",
               "location": "Home",
               "opponent": "01/03/2026",
-              "oppNet": 157,
+              "oppNet": 159,
               "date": ""
             },
             {
               "quad": "Q4",
               "location": "Home",
               "opponent": "01/08/2026",
-              "oppNet": 225,
+              "oppNet": 228,
               "date": ""
             },
             {
               "quad": "Q3",
               "location": "Away",
               "opponent": "01/10/2026",
-              "oppNet": 186,
+              "oppNet": 185,
               "date": ""
             },
             {
@@ -453,7 +453,7 @@
               "quad": "Q4",
               "location": "Home",
               "opponent": "01/17/2026",
-              "oppNet": 259,
+              "oppNet": 262,
               "date": ""
             },
             {
@@ -481,14 +481,14 @@
               "quad": "Q3",
               "location": "Away",
               "opponent": "02/05/2026",
-              "oppNet": 225,
+              "oppNet": 228,
               "date": ""
             },
             {
               "quad": "Q4",
               "location": "Home",
               "opponent": "02/07/2026",
-              "oppNet": 224,
+              "oppNet": 231,
               "date": ""
             },
             {
@@ -502,42 +502,42 @@
               "quad": "Q3",
               "location": "Away",
               "opponent": "02/19/2026",
-              "oppNet": 157,
+              "oppNet": 159,
               "date": ""
             },
             {
               "quad": "Q4",
               "location": "Away",
               "opponent": "02/21/2026",
-              "oppNet": 259,
+              "oppNet": 262,
               "date": ""
             },
             {
               "quad": "Q3",
               "location": "Home",
               "opponent": "02/26/2026",
-              "oppNet": 142,
+              "oppNet": 141,
               "date": ""
             },
             {
               "quad": "Q3",
               "location": "Away",
               "opponent": "02/28/2026",
-              "oppNet": 224,
+              "oppNet": 231,
               "date": ""
             },
             {
               "quad": "Q4",
               "location": "Away",
               "opponent": "03/05/2026",
-              "oppNet": 322,
+              "oppNet": 305,
               "date": ""
             },
             {
               "quad": "Q4",
               "location": "Home",
               "opponent": "03/07/2026",
-              "oppNet": 186,
+              "oppNet": 185,
               "date": ""
             }
           ],
