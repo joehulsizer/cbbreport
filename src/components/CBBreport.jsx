@@ -314,8 +314,13 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                   }`}
                 >
                   <RefreshCw className="w-4 h-4" />
-                  {useKenPom ? 'KenPom Rankings' : 'NET Rankings'}
+                  {useKenPom ? 'Using KenPom' : 'Using NET'}
                 </button>
+                
+                {/* Debug indicator */}
+                <span className="text-xs text-gray-500 dark:text-gray-400 font-mono">
+                  Current: {useKenPom ? 'KenPom' : 'NET'}
+                </span>
                 
                 {/* Search and Favorites */}
                 <SearchAndFavorites
@@ -437,7 +442,11 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.1 }}
                   >
-                    <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
+                    <EnhancedGameCard 
+                      key={`best-${idx}-${useKenPom ? 'kp' : 'net'}`}
+                      matchup={game} 
+                      useKenPom={useKenPom} 
+                    />
                   </motion.div>
                 ))}
               </div>
@@ -470,7 +479,11 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.1 }}
                   >
-                    <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
+                    <EnhancedGameCard 
+                      key={`best-${idx}-${useKenPom ? 'kp' : 'net'}`}
+                      matchup={game} 
+                      useKenPom={useKenPom} 
+                    />
                   </motion.div>
                 ))}
               </div>
@@ -519,7 +532,11 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: idx * 0.05 }}
                           >
-                            <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
+                            <EnhancedGameCard 
+                              key={`${timeSlot}-${idx}-${useKenPom ? 'kp' : 'net'}`}
+                              matchup={game} 
+                              useKenPom={useKenPom} 
+                            />
                           </motion.div>
                         ))}
                       </div>
