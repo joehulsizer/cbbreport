@@ -129,7 +129,7 @@ const TeamSection = ({ team, data, opponent, opponentNet, gameLocation, useKenPo
           </h3>
           <div className="flex items-center space-x-4 mt-2">
             <div className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
-              {useKenPom ? 'T-Rank' : 'NET'}: {getRanking(data) || 'N/A'}
+              {useKenPom ? 'KenPom' : 'NET'}: {getRanking(data) || 'N/A'}
             </div>
             <div className="text-sm text-gray-600">
               {data.record} {data.confRecord && `(${data.confRecord})`}

@@ -94,7 +94,7 @@ const ConferenceStandings = ({ games, useKenPom }) => {
               <th className="text-center py-3 px-4 text-sm font-bold text-gray-700 dark:text-gray-300">Conference</th>
               <th className="text-center py-3 px-4 text-sm font-bold text-gray-700 dark:text-gray-300">Win %</th>
               <th className="text-center py-3 px-4 text-sm font-bold text-gray-700 dark:text-gray-300">
-                {useKenPom ? 'T-Rank' : 'NET'}
+                {useKenPom ? 'KenPom' : 'NET'}
               </th>
             </tr>
           </thead>

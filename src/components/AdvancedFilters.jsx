@@ -51,7 +51,7 @@ const ToggleButton = ({ label, active, onChange }) => (
 );
 
 const AdvancedFilters = ({ isOpen, onClose, filters, onFiltersChange, useKenPom }) => {
-  const rankingLabel = useKenPom ? 'T-Rank' : 'NET';
+  const rankingLabel = useKenPom ? 'KenPom' : 'NET';
   
   return (
     <AnimatePresence>

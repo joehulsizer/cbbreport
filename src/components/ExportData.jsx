@@ -62,7 +62,7 @@ const ExportData = ({ games, useKenPom }) => {
 
   const exportToMarkdown = () => {
     let markdown = `# College Basketball Games - ${new Date().toLocaleDateString()}\n\n`;
-    markdown += `*Using ${useKenPom ? 'T-Rank' : 'NET'} Rankings*\n\n`;
+    markdown += `*Using ${useKenPom ? 'KenPom' : 'NET'} Rankings*\n\n`;
 
     games.forEach(game => {
       const awayRank = getRanking(game.teams[game.matchup.away]);

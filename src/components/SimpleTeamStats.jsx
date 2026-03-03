@@ -84,7 +84,7 @@ const TeamStatsSection = ({ team, data, opponentRank, isUnderdog, useKenPom }) =
       <h3 className="text-lg font-semibold mb-3">{team}</h3>
       <div className="grid grid-cols-2 gap-3">
         <StatCard
-          label={useKenPom ? "T-Rank" : "NET Ranking"}
+          label={useKenPom ? "KenPom Ranking" : "NET Ranking"}
           value={`#${ranking || 'N/A'}`}
           icon={Target}
           change={data.previousNet ? data.previousNet - data.net : null}
