@@ -216,46 +216,6 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
     return acc;
   }, {});
 
-  // Sort time slots chronologically
-  const sortedTimeSlots = Object.entries(gamesByTime).sort((a, b) => {
-    return new Date(a[0]) - new Date(b[0]);
-  });
-
-  // Calculate best bets and upset alerts
-  const calculateBestBets = () => {
-    return filteredGames
-      .map(game => {
-        const homeRank = getRanking(game.teams[game.matchup.home]);
-        const awayRank = getRanking(game.teams[game.matchup.away]);
-        const firstOdds = Object.values(game.matchup.odds)[0] || {};
-        
-        // Simple value calculation
-        let value = 0;
-        if (awayRank < homeRank && firstOdds.away > 0) value += 3;
-        if (homeRank < awayRank && firstOdds.home > 0) value += 3;
-        if (Math.abs(parseFloat(firstOdds.homeSpread || 0)) <= 5) value += 2;
-        
-        return { game, value };
-      })
-      .filter(item => item.value > 0)
-      .sort((a, b) => b.value - a.value)
-      .slice(0, 10);
-  };
-  
-  const calculateUpsetAlerts = () => {
-    return filteredGames
-      .filter(game => {
-        const homeRank = getRanking(game.teams[game.matchup.home]);
-        const awayRank = getRanking(game.teams[game.matchup.away]);
-        const rankDiff = Math.abs(homeRank - awayRank);
-        return rankDiff >= 30;
-      })
-      .slice(0, 10);
-  };
-
-  const bestBets = calculateBestBets();
-  const upsetAlerts = calculateUpsetAlerts();
-
   // Calculate stats for both total and filtered games
   const totalGames = data.games.length;
   const filteredTotal = filteredGames.length;
@@ -274,14 +234,8 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
     ) <= 50
   ).length;
 
-  // Track expanded state for each time slot - initialize all as expanded
-  const [expandedSlots, setExpandedSlots] = useState(() => {
-    const initialState = {};
-    Object.keys(gamesByTime).forEach(timeKey => {
-      initialState[timeKey] = true;
-    });
-    return initialState;
-  });
+  // Track expanded state for each time slot
+  const [expandedSlots, setExpandedSlots] = useState({});
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -299,9 +253,9 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
               </button>
             )}
   
-            <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
-              <div className="flex items-center gap-4 flex-wrap">
-                <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center gap-4">
+                <h1 className="text-3xl font-bold text-gray-900">
                   College Basketball Daily Report
                 </h1>
                 {/* Ranking System Toggle */}
@@ -314,25 +268,10 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                   }`}
                 >
                   <RefreshCw className="w-4 h-4" />
-                  {useKenPom ? 'Using KenPom' : 'Using NET'}
+                  {useKenPom ? 'T-Rank' : 'NET Rankings'}
                 </button>
-                
-                {/* Debug indicator */}
-                <span className="text-xs text-gray-500 dark:text-gray-400 font-mono">
-                  Current: {useKenPom ? 'KenPom' : 'NET'}
-                </span>
-                
-                {/* Search and Favorites */}
-                <SearchAndFavorites
-                  games={data.games}
-                  onSelectGame={(game) => setSelectedGame(game)}
-                  useKenPom={useKenPom}
-                />
-                
-                {/* Export Data */}
-                <ExportData games={filteredGames} useKenPom={useKenPom} />
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
+              <div className="text-sm text-gray-500">
                 {new Date().toLocaleDateString(undefined, {
                   weekday: 'long',
                   year: 'numeric',
@@ -442,11 +381,7 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.1 }}
                   >
-                    <EnhancedGameCard 
-                      key={`best-${idx}-${useKenPom ? 'kp' : 'net'}`}
-                      matchup={game} 
-                      useKenPom={useKenPom} 
-                    />
+                    <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
                   </motion.div>
                 ))}
               </div>
@@ -479,11 +414,7 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.1 }}
                   >
-                    <EnhancedGameCard 
-                      key={`best-${idx}-${useKenPom ? 'kp' : 'net'}`}
-                      matchup={game} 
-                      useKenPom={useKenPom} 
-                    />
+                    <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
                   </motion.div>
                 ))}
               </div>
@@ -501,7 +432,7 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
               No games match your filters. Try adjusting them above.
             </div>
           ) : (
-            sortedTimeSlots.map(([timeSlot, games]) => (
+            Object.entries(gamesByTime).map(([timeSlot, games]) => (
               <div key={timeSlot} className="mb-4">
                 <div
                   onClick={() => setExpandedSlots(prev => ({
@@ -532,11 +463,7 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: idx * 0.05 }}
                           >
-                            <EnhancedGameCard 
-                              key={`${timeSlot}-${idx}-${useKenPom ? 'kp' : 'net'}`}
-                              matchup={game} 
-                              useKenPom={useKenPom} 
-                            />
+                            <EnhancedGameCard matchup={game} useKenPom={useKenPom} />
                           </motion.div>
                         ))}
                       </div>
