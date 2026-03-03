@@ -1,61 +1,54 @@
 // kenpomScraper.js
+// Note: kenpom.com added Cloudflare bot protection. We now fetch equivalent
+// efficiency rankings from barttorvik.com's open JSON API (T-Rank), which uses
+// the same adjusted-efficiency methodology and KenPom-compatible team names.
 import axios from 'axios';
-import * as cheerio from 'cheerio';
 
 export class KenPomScraper {
     constructor() {
-        this.baseUrl = 'https://kenpom.com/';
-        this.rankings = new Map();
+        this.apiUrl = 'https://barttorvik.com/2026_team_results.json';
+        this.rankings = {};
     }
 
     async getAllRankings() {
         try {
-            console.log('Fetching KenPom rankings...');
-            
-            const response = await axios.get(this.baseUrl, {
+            console.log('Fetching efficiency rankings from barttorvik.com...');
+
+            const response = await axios.get(this.apiUrl, {
                 headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
                 },
                 timeout: 15000
             });
 
-            const $ = cheerio.load(response.data);
+            // Response is an array of arrays: [rank, teamName, conf, record, ...]
+            const data = response.data;
             const rankings = {};
 
-            // KenPom's table structure: find the main rankings table
-            $('table#ratings-table tbody tr').each((index, row) => {
-                const cols = $(row).find('td');
-                
-                if (cols.length >= 2) {
-                    // First column is rank, second is team name
-                    const rank = parseInt($(cols[0]).text().trim());
-                    const teamName = $(cols[1]).find('a').text().trim();
-                    
-                    if (teamName && !isNaN(rank)) {
-                        // Store with original KenPom name
-                        rankings[teamName] = rank;
-                        
-                        // Also store with normalized variations
-                        const normalized = this.normalizeTeamName(teamName);
-                        rankings[normalized] = rank;
-                        
-                        // Store uppercase version for fuzzy matching
-                        rankings[teamName.toUpperCase()] = rank;
-                        rankings[normalized.toUpperCase()] = rank;
-                        
-                        // Debug first few entries
-                        if (index < 5) {
-                            console.log(`KenPom: "${teamName}" -> ${rank} (normalized: "${normalized}")`);
-                        }
+            data.forEach((entry, index) => {
+                const rank = entry[0];
+                const teamName = entry[1];
+
+                if (teamName && !isNaN(rank)) {
+                    rankings[teamName] = rank;
+
+                    const normalized = this.normalizeTeamName(teamName);
+                    rankings[normalized] = rank;
+
+                    rankings[teamName.toUpperCase()] = rank;
+                    rankings[normalized.toUpperCase()] = rank;
+
+                    if (index < 5) {
+                        console.log(`Efficiency rankings: "${teamName}" -> ${rank} (normalized: "${normalized}")`);
                     }
                 }
             });
 
-            console.log(`Loaded ${Object.keys(rankings).length / 4} unique KenPom rankings`);
+            console.log(`Loaded ${Object.keys(rankings).length / 4} unique efficiency rankings`);
             this.rankings = rankings;
             return rankings;
         } catch (error) {
-            console.error('Error fetching KenPom rankings:', error.message);
+            console.error('Error fetching efficiency rankings:', error.message);
             return {};
         }
     }
