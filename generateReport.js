@@ -2,6 +2,7 @@
 import { OddsFetcher } from './scripts/utils/oddsFetcher.js';
 import { CBBScraper } from './scripts/utils/cbbScraper.js';
 import { KenPomScraper } from './scripts/utils/kenpomScraper.js';
+import { getEasternYmd, filterGamesForEasternReportDate } from './scripts/utils/reportDate.js';
 import fs from 'fs';
 import path from 'path';
 
@@ -22,24 +23,44 @@ function addKenPomToQuadGames(quadGames, kenpomScraper) {
     return enrichedQuadGames;
 }
 
+function writeJsonReports(report, timestamp) {
+    fs.writeFileSync(`cbb_report_${timestamp}.json`, JSON.stringify(report, null, 2));
+    const publicPath = path.join(process.cwd(), 'public', 'cbb_report_latest.json');
+    fs.writeFileSync(publicPath, JSON.stringify(report, null, 2));
+    console.log(`Wrote latest data to: ${publicPath}`);
+}
+
 async function generateDailyReport() {
     const oddsFetcher = new OddsFetcher();
     const cbbScraper = new CBBScraper();
     const kenpomScraper = new KenPomScraper();
     
     try {
-        // Get today's games and odds
+        const reportYmd = getEasternYmd();
+        const timestamp = new Date().toISOString().split('T')[0];
+
+        // Get odds for a rolling window, then keep only games tipping on today's Eastern calendar date
         console.log('Fetching today\'s games and odds...');
-        const games = await oddsFetcher.getTodaysGames();
-        
-        // Fetch KenPom rankings
-        console.log('Fetching KenPom rankings...');
-        const kenpomRankings = await kenpomScraper.getAllRankings();
-        
+        const rawGames = await oddsFetcher.getTodaysGames();
+        const games = filterGamesForEasternReportDate(rawGames, reportYmd);
+
+        console.log(
+            `Odds API: ${rawGames.length} events in window; ${games.length} tip on ${reportYmd} (America/New_York).`
+        );
+
         if (games.length === 0) {
-            console.log('No games found for today. Exiting...');
+            console.log('No games for this Eastern report date — writing empty slate so the site does not show stale games.');
+            const emptyReport = {
+                generated_at: new Date().toISOString(),
+                report_date_eastern: reportYmd,
+                games: []
+            };
+            writeJsonReports(emptyReport, timestamp);
             return;
         }
+
+        console.log('Fetching KenPom / efficiency rankings...');
+        await kenpomScraper.getAllRankings();
 
         // Process each game
         console.log(`Processing ${games.length} games...`);
@@ -95,21 +116,13 @@ async function generateDailyReport() {
             }
         }
         
-        // Generate report files
-        const timestamp = new Date().toISOString().split('T')[0];
         const report = {
             generated_at: new Date().toISOString(),
+            report_date_eastern: reportYmd,
             games: reportData
         };
-        
-        // 1) Save as JSON with today's date for historical reference
-        fs.writeFileSync(`cbb_report_${timestamp}.json`, JSON.stringify(report, null, 2));
-        
-        // 2) Also overwrite a "latest" file in the public folder
-        //    Adjust this path if your "public" folder is elsewhere.
-        const publicPath = path.join(process.cwd(), 'public', 'cbb_report_latest.json');
-        fs.writeFileSync(publicPath, JSON.stringify(report, null, 2));
-        console.log(`Wrote latest data to: ${publicPath}`);
+
+        writeJsonReports(report, timestamp);
         
         // (Optional) Generate a human-readable txt report too
         let readableReport = `College Basketball Daily Report - ${timestamp}\n\n`;

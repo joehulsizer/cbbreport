@@ -1,7 +1,7 @@
 name: Generate Daily CBB Report
 
 on:
-  # Run every day at 8:00 AM EST (13:00 UTC)
+  # Run every day at 10:00 AM EST (15:00 UTC)
   schedule:
     - cron: '0 15 * * *'  # 10:00 AM EST (15:00 UTC) - after NET rankings update
   

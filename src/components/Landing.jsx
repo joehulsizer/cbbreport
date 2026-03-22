@@ -311,10 +311,16 @@ const Landing = ({ data, onViewReport, activeFilterCount }) => {
           <StatCard
             icon={Activity}
             label="Avg. Spread"
-            value={(data.games.reduce((sum, g) => {
-              const odds = Object.values(g.matchup.odds)[0] || {};
-              return sum + Math.abs(parseFloat(odds.homeSpread || 0));
-            }, 0) / totalGames).toFixed(1)}
+            value={
+              totalGames === 0
+                ? '—'
+                : (
+                    data.games.reduce((sum, g) => {
+                      const odds = Object.values(g.matchup.odds)[0] || {};
+                      return sum + Math.abs(parseFloat(odds.homeSpread || 0));
+                    }, 0) / totalGames
+                  ).toFixed(1)
+            }
             subvalue="Points"
             color="purple"
           />

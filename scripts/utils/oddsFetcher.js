@@ -11,12 +11,35 @@ export class OddsFetcher {
     async getTodaysGames() {
         try {
             console.log('Fetching odds from The Odds API...');
-            const response = await axios.get(this.apiUrl, {
-                params: {
-                    apiKey: this.apiKey,
-                    ...config.ODDS_PARAMS
+            // Bounded window so we don't get a stale mixed bag; we still filter to ET "today" in generateReport.
+            const now = Date.now();
+            const commenceTimeFrom = new Date(now - 18 * 60 * 60 * 1000).toISOString();
+            const commenceTimeTo = new Date(now + 48 * 60 * 60 * 1000).toISOString();
+
+            let response;
+            try {
+                response = await axios.get(this.apiUrl, {
+                    params: {
+                        apiKey: this.apiKey,
+                        commenceTimeFrom,
+                        commenceTimeTo,
+                        ...config.ODDS_PARAMS
+                    }
+                });
+            } catch (err) {
+                // Some API versions reject time filters; fall back to unbounded pull (we filter by ET date in generateReport).
+                if (err.response?.status === 400 || err.response?.status === 422) {
+                    console.warn('Odds API rejected time window; retrying without commenceTime bounds.');
+                    response = await axios.get(this.apiUrl, {
+                        params: {
+                            apiKey: this.apiKey,
+                            ...config.ODDS_PARAMS
+                        }
+                    });
+                } else {
+                    throw err;
                 }
-            });
+            }
 
             if (response.data.length === 0) {
                 console.log('No games found for today.');

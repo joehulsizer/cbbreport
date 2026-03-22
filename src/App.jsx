@@ -28,7 +28,7 @@ const App = () => {
       try {
         setLoading(true);
         // ★★ NEW: Always fetch the "latest" JSON in the public folder
-        const response = await fetch('/cbb_report_latest.json');
+        const response = await fetch('/cbb_report_latest.json', { cache: 'no-store' });
         const data = await response.json();
         setReportData(data);
       } catch (error) {
