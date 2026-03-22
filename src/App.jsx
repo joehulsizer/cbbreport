@@ -3,6 +3,32 @@ import React, { useCallback, useEffect, useState } from 'react';
 import CBBReport from './components/CBBreport';
 import Landing from './components/Landing';
 import { Moon, Sun } from 'lucide-react';
+import { getEasternYmd, validateReportForEasternDate } from './utils/reportDisplay';
+
+const REPORT_SOURCES = [
+  {
+    label: 'vercel-static',
+    buildUrl: (cacheBust) => `/cbb_report_latest.json?cb=${cacheBust}`,
+    init: {
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache', Pragma: 'no-cache' },
+    },
+  },
+  {
+    label: 'github-raw-fallback',
+    buildUrl: (cacheBust) =>
+      `https://raw.githubusercontent.com/joehulsizer/cbbreport/main/public/cbb_report_latest.json?cb=${cacheBust}`,
+    init: {
+      cache: 'no-store',
+    },
+  },
+];
+
+const buildEmptyReport = (reportDateEastern) => ({
+  generated_at: new Date().toISOString(),
+  report_date_eastern: reportDateEastern,
+  games: [],
+});
 
 const App = () => {
   const [reportData, setReportData] = useState(null);
@@ -24,19 +50,66 @@ const App = () => {
   });
 
   const loadReport = useCallback(async () => {
+    const expectedEasternDate = getEasternYmd();
+    const cacheBust = Date.now();
+    let repairedCandidate = null;
+    let repairedCandidateMatchCount = -1;
+    let repairedCandidateGeneratedAt = -Infinity;
+
     try {
       setLoading(true);
-      // Query string busts CDN/browser caches (Vercel can cache static JSON aggressively).
-      const url = `/cbb_report_latest.json?cb=${Date.now()}`;
-      const response = await fetch(url, {
-        cache: 'no-store',
-        headers: { 'Cache-Control': 'no-cache', Pragma: 'no-cache' },
-      });
-      if (!response.ok) {
-        throw new Error(`Report HTTP ${response.status}`);
+
+      for (const source of REPORT_SOURCES) {
+        try {
+          const response = await fetch(source.buildUrl(cacheBust), source.init);
+          if (!response.ok) {
+            throw new Error(`Report HTTP ${response.status}`);
+          }
+
+          const data = await response.json();
+          const validation = validateReportForEasternDate(data, expectedEasternDate);
+
+          if (validation.isExactMatch) {
+            console.info(`[report] Loaded ${expectedEasternDate} slate from ${source.label}.`);
+            setReportData(data);
+            return;
+          }
+
+          if (validation.canRepair && validation.repairedReport) {
+            const generatedAt = new Date(data.generated_at || 0).getTime();
+            const shouldPromoteCandidate =
+              validation.matchingGames > repairedCandidateMatchCount ||
+              (validation.matchingGames === repairedCandidateMatchCount &&
+                generatedAt > repairedCandidateGeneratedAt);
+
+            if (shouldPromoteCandidate) {
+              repairedCandidate = validation.repairedReport;
+              repairedCandidateMatchCount = validation.matchingGames;
+              repairedCandidateGeneratedAt = generatedAt;
+            }
+          }
+
+          console.warn(
+            `[report] Rejected stale slate from ${source.label}. Expected ${expectedEasternDate}, got ${data.report_date_eastern || 'unknown'} with ${validation.matchingGames}/${validation.totalGames} games on today's ET date.`
+          );
+        } catch (sourceError) {
+          console.error(`[report] Failed loading from ${source.label}:`, sourceError);
+        }
       }
-      const data = await response.json();
-      setReportData(data);
+
+      if (repairedCandidate) {
+        console.warn(
+          `[report] Repaired stale slate by keeping only ${repairedCandidateMatchCount} game(s) on ${expectedEasternDate}.`
+        );
+        setReportData(repairedCandidate);
+        return;
+      }
+
+      console.error(`[report] No valid slate found for ${expectedEasternDate}; falling back to an empty board.`);
+      setReportData((current) => {
+        const currentValidation = validateReportForEasternDate(current, expectedEasternDate);
+        return currentValidation.isValid ? current : buildEmptyReport(expectedEasternDate);
+      });
     } catch (error) {
       console.error('Error loading report:', error);
     } finally {

@@ -6,10 +6,53 @@ const ymdFmt = new Intl.DateTimeFormat('en-CA', {
   day: '2-digit',
 });
 
+export function getEasternYmd(date = new Date()) {
+  return ymdFmt.format(date);
+}
+
 /** Eastern calendar YYYY-MM-DD for an ISO commence time */
 export function commenceDateEastern(iso) {
   if (!iso) return null;
   return ymdFmt.format(new Date(iso));
+}
+
+export function filterGamesToEasternDate(games, easternYmd) {
+  if (!Array.isArray(games)) return [];
+  return games.filter((game) => commenceDateEastern(game.matchup?.commence_time) === easternYmd);
+}
+
+export function validateReportForEasternDate(data, easternYmd = getEasternYmd()) {
+  if (!data || !Array.isArray(data.games)) {
+    return {
+      isValid: false,
+      isExactMatch: false,
+      canRepair: false,
+      matchingGames: 0,
+      totalGames: 0,
+      repairedReport: null,
+    };
+  }
+
+  const matchingGames = filterGamesToEasternDate(data.games, easternYmd);
+  const hasExpectedReportDate = data.report_date_eastern === easternYmd;
+  const isExactMatch =
+    hasExpectedReportDate && (data.games.length === 0 || matchingGames.length === data.games.length);
+  const canRepair = matchingGames.length > 0 || (hasExpectedReportDate && data.games.length === 0);
+
+  return {
+    isValid: isExactMatch || canRepair,
+    isExactMatch,
+    canRepair,
+    matchingGames: matchingGames.length,
+    totalGames: data.games.length,
+    repairedReport: canRepair
+      ? {
+          ...data,
+          report_date_eastern: easternYmd,
+          games: matchingGames,
+        }
+      : null,
+  };
 }
 
 export function reportLooksMisdated(data) {
