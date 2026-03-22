@@ -5,6 +5,11 @@ import EnhancedGameCard from './EnhancedGameCard';
 import AdvancedFilters from './AdvancedFilters';
 import SearchAndFavorites from './SearchAndFavorites';
 import ExportData from './ExportData';
+import {
+  hoursSinceGenerated,
+  reportLooksMisdated,
+  slateIsEntirelyInThePast,
+} from '../utils/reportDisplay';
 
 const TimeSlotHeader = ({ time }) => (
   <div className="flex items-center space-x-2">
@@ -49,7 +54,7 @@ const FilterButton = ({ active, label, onClick }) => (
   </button>
 );
 
-const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, darkMode }) => {
+const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, darkMode, onRefreshData }) => {
   const [selectedFilter, setSelectedFilter] = useState('all');
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
   const [selectedGame, setSelectedGame] = useState(null);
@@ -283,11 +288,37 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
     return initialState;
   });
 
+  const dataAgeHours = hoursSinceGenerated(data);
+  const showStaleWarning =
+    dataAgeHours > 28 ||
+    slateIsEntirelyInThePast(data) ||
+    reportLooksMisdated(data);
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b sticky top-0 z-20">
         <div className="max-w-7xl mx-auto">
+          {showStaleWarning && (
+            <div className="px-4 pt-4">
+              <div className="flex items-start gap-3 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-950 dark:border-amber-700 dark:bg-amber-950/40 dark:text-amber-100">
+                <AlertTriangle className="h-5 w-5 shrink-0" />
+                <div>
+                  <p className="font-semibold">You may be seeing an old game slate (cached file)</p>
+                  <p className="mt-1">
+                    This file was built at{' '}
+                    <strong>
+                      {data.generated_at
+                        ? new Date(data.generated_at).toLocaleString()
+                        : 'unknown'}
+                    </strong>
+                    . If tip times don&apos;t match today, use{' '}
+                    <strong>Refresh from server</strong> below or hard-refresh (Cmd+Shift+R / Ctrl+Shift+R).
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
           <div className="py-6 px-4">
             {/* If onBackToLanding is passed, show a “Back” button */}
             {onBackToLanding && (
@@ -332,13 +363,39 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                 {/* Export Data */}
                 <ExportData games={filteredGames} useKenPom={useKenPom} />
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                {new Date().toLocaleDateString(undefined, {
-                  weekday: 'long',
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}
+              <div className="text-right text-sm text-gray-500 dark:text-gray-400 space-y-1 max-w-xs">
+                <div>
+                  <span className="block text-xs uppercase tracking-wide text-gray-400">Data refreshed</span>
+                  <span className="font-semibold text-gray-700 dark:text-gray-200">
+                    {data.generated_at
+                      ? new Date(data.generated_at).toLocaleString(undefined, {
+                          weekday: 'short',
+                          month: 'short',
+                          day: 'numeric',
+                          year: 'numeric',
+                          hour: '2-digit',
+                          minute: '2-digit',
+                        })
+                      : 'Unknown'}
+                  </span>
+                </div>
+                {data.report_date_eastern && (
+                  <div>
+                    <span className="block text-xs uppercase tracking-wide text-gray-400">Slate (ET date)</span>
+                    <span className="font-mono font-semibold text-gray-700 dark:text-gray-200">
+                      {data.report_date_eastern}
+                    </span>
+                  </div>
+                )}
+                {onRefreshData && (
+                  <button
+                    type="button"
+                    onClick={() => onRefreshData()}
+                    className="mt-2 w-full rounded-lg bg-blue-600 px-3 py-2 text-xs font-bold text-white hover:bg-blue-700"
+                  >
+                    Refresh from server
+                  </button>
+                )}
               </div>
             </div>
 

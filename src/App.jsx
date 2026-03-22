@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import CBBReport from './components/CBBreport';
 import Landing from './components/Landing';
 import { Moon, Sun } from 'lucide-react';
@@ -23,23 +23,30 @@ const App = () => {
     return saved === 'true';
   });
 
-  useEffect(() => {
-    const loadReport = async () => {
-      try {
-        setLoading(true);
-        // ★★ NEW: Always fetch the "latest" JSON in the public folder
-        const response = await fetch('/cbb_report_latest.json', { cache: 'no-store' });
-        const data = await response.json();
-        setReportData(data);
-      } catch (error) {
-        console.error('Error loading report:', error);
-      } finally {
-        setLoading(false);
+  const loadReport = useCallback(async () => {
+    try {
+      setLoading(true);
+      // Query string busts CDN/browser caches (Vercel can cache static JSON aggressively).
+      const url = `/cbb_report_latest.json?cb=${Date.now()}`;
+      const response = await fetch(url, {
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache', Pragma: 'no-cache' },
+      });
+      if (!response.ok) {
+        throw new Error(`Report HTTP ${response.status}`);
       }
-    };
-
-    loadReport();
+      const data = await response.json();
+      setReportData(data);
+    } catch (error) {
+      console.error('Error loading report:', error);
+    } finally {
+      setLoading(false);
+    }
   }, []);
+
+  useEffect(() => {
+    loadReport();
+  }, [loadReport]);
   
   // Save preferences to localStorage
   useEffect(() => {
@@ -110,7 +117,7 @@ const App = () => {
           data={reportData}
           onViewReport={() => setCurrentView('report')}
           activeFilterCount={0 /* or a real number if you track filters in App */}
-          darkMode={darkMode}
+          onRefreshData={loadReport}
         />
       </>
     );
@@ -125,6 +132,7 @@ const App = () => {
         useKenPom={useKenPom}
         onToggleRankingSystem={() => setUseKenPom(!useKenPom)}
         darkMode={darkMode}
+        onRefreshData={loadReport}
       />
     </>
   );

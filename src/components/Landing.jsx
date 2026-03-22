@@ -155,7 +155,7 @@ const TrendingInsight = ({ icon: Icon, title, description, color }) => (
   </motion.div>
 );
 
-const Landing = ({ data, onViewReport, activeFilterCount }) => {
+const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
   const [timeOfDay, setTimeOfDay] = useState('');
 
   useEffect(() => {
@@ -225,14 +225,32 @@ const Landing = ({ data, onViewReport, activeFilterCount }) => {
             <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">
               College Basketball Analytics Hub
             </h1>
-            <p className="text-xl mb-8 opacity-90">
-              {new Date().toLocaleDateString(undefined, {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}
+            <p className="text-xl mb-2 opacity-90">
+              {data.generated_at
+                ? `Report data: ${new Date(data.generated_at).toLocaleString(undefined, {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                  })}`
+                : 'Report data: unknown'}
             </p>
+            {data.report_date_eastern && (
+              <p className="text-lg mb-6 opacity-80">
+                Games scheduled for (ET calendar day): <strong>{data.report_date_eastern}</strong>
+              </p>
+            )}
+            {onRefreshData && (
+              <button
+                type="button"
+                onClick={() => onRefreshData()}
+                className="mb-6 px-4 py-2 rounded-lg bg-white/20 hover:bg-white/30 text-white text-sm font-semibold border border-white/40"
+              >
+                Refresh data from server
+              </button>
+            )}
             
             <motion.button
               whileHover={{ scale: 1.05 }}
