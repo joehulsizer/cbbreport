@@ -55,6 +55,21 @@ export function validateReportForEasternDate(data, easternYmd = getEasternYmd())
   };
 }
 
+export function sanitizeReportForDisplay(data, easternYmd = getEasternYmd()) {
+  if (!data) return null;
+
+  const validation = validateReportForEasternDate(data, easternYmd);
+  if (validation.repairedReport) {
+    return validation.repairedReport;
+  }
+
+  return {
+    ...data,
+    report_date_eastern: data.report_date_eastern || easternYmd,
+    games: [],
+  };
+}
+
 export function reportLooksMisdated(data) {
   if (!data?.games?.length || !data.report_date_eastern) return false;
   const mismatches = data.games.filter(

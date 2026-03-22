@@ -5,6 +5,7 @@ import {
   BarChart3, Zap, Star, ArrowRight, TrendingDown, DollarSign,
   Activity, Shield, Clock, Users
 } from 'lucide-react';
+import { sanitizeReportForDisplay } from '../utils/reportDisplay';
 
 const StatCard = ({ icon: Icon, label, value, subvalue, trend, color = "blue" }) => {
   const colorVariants = {
@@ -157,6 +158,9 @@ const TrendingInsight = ({ icon: Icon, title, description, color }) => (
 
 const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
   const [timeOfDay, setTimeOfDay] = useState('');
+  const safeData = sanitizeReportForDisplay(data);
+  const slateGames = safeData?.games || [];
+  const hiddenOffDateGames = Math.max(0, (data?.games?.length || 0) - slateGames.length);
 
   useEffect(() => {
     const hour = new Date().getHours();
@@ -174,33 +178,33 @@ const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
   }
 
   // Calculate statistics
-  const totalGames = data.games.length;
-  const top50Games = data.games.filter(game => {
+  const totalGames = slateGames.length;
+  const top50Games = slateGames.filter(game => {
     const homeNet = game.teams[game.matchup.home].net;
     const awayNet = game.teams[game.matchup.away].net;
     return Math.min(homeNet, awayNet) <= 50;
   }).length;
 
-  const top25Games = data.games.filter(game => {
+  const top25Games = slateGames.filter(game => {
     const homeNet = game.teams[game.matchup.home].net;
     const awayNet = game.teams[game.matchup.away].net;
     return homeNet <= 25 && awayNet <= 25;
   }).length;
 
-  const upsetAlerts = data.games.filter(game => {
+  const upsetAlerts = slateGames.filter(game => {
     const homeRank = game.teams[game.matchup.home].net;
     const awayRank = game.teams[game.matchup.away].net;
     return (homeRank > 50 && awayRank <= 25) || (awayRank > 50 && homeRank <= 25);
   }).length;
 
-  const closeGames = data.games.filter(game => {
+  const closeGames = slateGames.filter(game => {
     const odds = Object.values(game.matchup.odds)[0] || {};
     const spread = Math.abs(parseFloat(odds.homeSpread || 999));
     return spread <= 5;
   }).length;
 
   // Get featured games (top ranked matchups)
-  const featuredGames = data.games
+  const featuredGames = [...slateGames]
     .sort((a, b) => {
       const aMin = Math.min(a.teams[a.matchup.home].net, a.teams[a.matchup.away].net);
       const bMin = Math.min(b.teams[b.matchup.home].net, b.teams[b.matchup.away].net);
@@ -226,8 +230,8 @@ const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
               College Basketball Analytics Hub
             </h1>
             <p className="text-xl mb-2 opacity-90">
-              {data.generated_at
-                ? `Report data: ${new Date(data.generated_at).toLocaleString(undefined, {
+              {safeData.generated_at
+                ? `Report data: ${new Date(safeData.generated_at).toLocaleString(undefined, {
                     weekday: 'long',
                     year: 'numeric',
                     month: 'long',
@@ -237,9 +241,14 @@ const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
                   })}`
                 : 'Report data: unknown'}
             </p>
-            {data.report_date_eastern && (
+            {safeData.report_date_eastern && (
               <p className="text-lg mb-6 opacity-80">
-                Games scheduled for (ET calendar day): <strong>{data.report_date_eastern}</strong>
+                Games scheduled for (ET calendar day): <strong>{safeData.report_date_eastern}</strong>
+              </p>
+            )}
+            {hiddenOffDateGames > 0 && (
+              <p className="text-sm mb-4 rounded-lg border border-amber-200 bg-amber-50/90 px-4 py-2 text-amber-900 inline-block">
+                Hid {hiddenOffDateGames} off-date game(s) from a stale payload.
               </p>
             )}
             {onRefreshData && (
@@ -285,7 +294,7 @@ const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
             icon={Trophy}
             label="Top 25 Matchups"
             value={top25Games}
-            subvalue={`${((top25Games / totalGames) * 100).toFixed(0)}% of games`}
+            subvalue={totalGames > 0 ? `${((top25Games / totalGames) * 100).toFixed(0)}% of games` : '0% of games'}
             color="purple"
             trend={top25Games > 5 ? 15 : -8}
           />
@@ -333,7 +342,7 @@ const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
               totalGames === 0
                 ? '—'
                 : (
-                    data.games.reduce((sum, g) => {
+                    slateGames.reduce((sum, g) => {
                       const odds = Object.values(g.matchup.odds)[0] || {};
                       return sum + Math.abs(parseFloat(odds.homeSpread || 0));
                     }, 0) / totalGames
@@ -400,7 +409,7 @@ const Landing = ({ data, onViewReport, activeFilterCount, onRefreshData }) => {
               <TrendingInsight
                 icon={TrendingUp}
                 title="High-Value Away Teams"
-                description={`${data.games.filter(g => {
+                description={`${slateGames.filter(g => {
                   const awayRank = g.teams[g.matchup.away].net;
                   const odds = Object.values(g.matchup.odds)[0] || {};
                   return awayRank <= 50 && odds.away > 0;

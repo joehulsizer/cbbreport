@@ -8,6 +8,7 @@ import ExportData from './ExportData';
 import {
   hoursSinceGenerated,
   reportLooksMisdated,
+  sanitizeReportForDisplay,
   slateIsEntirelyInThePast,
 } from '../utils/reportDisplay';
 
@@ -60,6 +61,9 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
   const [selectedGame, setSelectedGame] = useState(null);
   const [showBestBets, setShowBestBets] = useState(false);
   const [showUpsetAlerts, setShowUpsetAlerts] = useState(false);
+  const safeData = sanitizeReportForDisplay(data);
+  const slateGames = safeData?.games || [];
+  const hiddenOffDateGames = Math.max(0, (data?.games?.length || 0) - slateGames.length);
   
   // Helper function to get the appropriate ranking
   const getRanking = (teamData) => {
@@ -211,7 +215,7 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
   };
 
   // Filter games before grouping by time
-  const filteredGames = filterGames(data.games);
+  const filteredGames = filterGames(slateGames);
   const gamesByTime = filteredGames.reduce((acc, game) => {
     const timeSlot = new Date(game.matchup.commence_time);
     timeSlot.setMinutes(0);
@@ -262,10 +266,10 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
   const upsetAlerts = calculateUpsetAlerts();
 
   // Calculate stats for both total and filtered games
-  const totalGames = data.games.length;
+  const totalGames = slateGames.length;
   const filteredTotal = filteredGames.length;
   
-  const totalTop50 = data.games.filter(game => 
+  const totalTop50 = slateGames.filter(game => 
     Math.min(
       getRanking(game.teams[game.matchup.home]),
       getRanking(game.teams[game.matchup.away])
@@ -288,8 +292,9 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
     return initialState;
   });
 
-  const dataAgeHours = hoursSinceGenerated(data);
+  const dataAgeHours = hoursSinceGenerated(safeData);
   const showStaleWarning =
+    hiddenOffDateGames > 0 ||
     dataAgeHours > 28 ||
     slateIsEntirelyInThePast(data) ||
     reportLooksMisdated(data);
@@ -306,14 +311,24 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                 <div>
                   <p className="font-semibold">You may be seeing an old game slate (cached file)</p>
                   <p className="mt-1">
-                    This file was built at{' '}
+                    {hiddenOffDateGames > 0 ? (
+                      <>
+                        We hid <strong>{hiddenOffDateGames}</strong> off-date game(s) from a stale payload.
+                        This file was built at{' '}
+                      </>
+                    ) : (
+                      <>This file was built at </>
+                    )}
                     <strong>
-                      {data.generated_at
-                        ? new Date(data.generated_at).toLocaleString()
+                      {safeData.generated_at
+                        ? new Date(safeData.generated_at).toLocaleString()
                         : 'unknown'}
                     </strong>
                     . If tip times don&apos;t match today, use{' '}
-                    <strong>Refresh from server</strong> below or hard-refresh (Cmd+Shift+R / Ctrl+Shift+R).
+                    <strong>
+                      Refresh from server
+                    </strong>
+                    below or switch tabs and come back to force a re-check.
                   </p>
                 </div>
               </div>
@@ -355,7 +370,7 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                 
                 {/* Search and Favorites */}
                 <SearchAndFavorites
-                  games={data.games}
+                  games={slateGames}
                   onSelectGame={(game) => setSelectedGame(game)}
                   useKenPom={useKenPom}
                 />
@@ -367,8 +382,8 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                 <div>
                   <span className="block text-xs uppercase tracking-wide text-gray-400">Data refreshed</span>
                   <span className="font-semibold text-gray-700 dark:text-gray-200">
-                    {data.generated_at
-                      ? new Date(data.generated_at).toLocaleString(undefined, {
+                    {safeData.generated_at
+                      ? new Date(safeData.generated_at).toLocaleString(undefined, {
                           weekday: 'short',
                           month: 'short',
                           day: 'numeric',
@@ -379,11 +394,11 @@ const CBBReport = ({ data, onBackToLanding, useKenPom, onToggleRankingSystem, da
                       : 'Unknown'}
                   </span>
                 </div>
-                {data.report_date_eastern && (
+                {safeData.report_date_eastern && (
                   <div>
                     <span className="block text-xs uppercase tracking-wide text-gray-400">Slate (ET date)</span>
                     <span className="font-mono font-semibold text-gray-700 dark:text-gray-200">
-                      {data.report_date_eastern}
+                      {safeData.report_date_eastern}
                     </span>
                   </div>
                 )}

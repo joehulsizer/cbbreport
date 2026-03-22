@@ -1,9 +1,13 @@
 // src/App.jsx
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import CBBReport from './components/CBBreport';
 import Landing from './components/Landing';
 import { Moon, Sun } from 'lucide-react';
-import { getEasternYmd, validateReportForEasternDate } from './utils/reportDisplay';
+import {
+  getEasternYmd,
+  sanitizeReportForDisplay,
+  validateReportForEasternDate,
+} from './utils/reportDisplay';
 
 const REPORT_SOURCES = [
   {
@@ -33,6 +37,7 @@ const buildEmptyReport = (reportDateEastern) => ({
 const App = () => {
   const [reportData, setReportData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const lastRefreshAtRef = useRef(0);
 
   // This state decides which "page" you're on: 'landing' or 'report'
   const [currentView, setCurrentView] = useState('landing');
@@ -49,7 +54,7 @@ const App = () => {
     return saved === 'true';
   });
 
-  const loadReport = useCallback(async () => {
+  const loadReport = useCallback(async ({ silent = false } = {}) => {
     const expectedEasternDate = getEasternYmd();
     const cacheBust = Date.now();
     let repairedCandidate = null;
@@ -57,7 +62,10 @@ const App = () => {
     let repairedCandidateGeneratedAt = -Infinity;
 
     try {
-      setLoading(true);
+      lastRefreshAtRef.current = Date.now();
+      if (!silent) {
+        setLoading(true);
+      }
 
       for (const source of REPORT_SOURCES) {
         try {
@@ -71,7 +79,7 @@ const App = () => {
 
           if (validation.isExactMatch) {
             console.info(`[report] Loaded ${expectedEasternDate} slate from ${source.label}.`);
-            setReportData(data);
+            setReportData(sanitizeReportForDisplay(data, expectedEasternDate));
             return;
           }
 
@@ -101,24 +109,60 @@ const App = () => {
         console.warn(
           `[report] Repaired stale slate by keeping only ${repairedCandidateMatchCount} game(s) on ${expectedEasternDate}.`
         );
-        setReportData(repairedCandidate);
+        setReportData(sanitizeReportForDisplay(repairedCandidate, expectedEasternDate));
         return;
       }
 
       console.error(`[report] No valid slate found for ${expectedEasternDate}; falling back to an empty board.`);
       setReportData((current) => {
         const currentValidation = validateReportForEasternDate(current, expectedEasternDate);
-        return currentValidation.isValid ? current : buildEmptyReport(expectedEasternDate);
+        return currentValidation.isValid
+          ? sanitizeReportForDisplay(current, expectedEasternDate)
+          : buildEmptyReport(expectedEasternDate);
       });
     } catch (error) {
       console.error('Error loading report:', error);
     } finally {
-      setLoading(false);
+      if (!silent) {
+        setLoading(false);
+      }
     }
   }, []);
 
   useEffect(() => {
     loadReport();
+  }, [loadReport]);
+
+  useEffect(() => {
+    const maybeRefresh = () => {
+      if (Date.now() - lastRefreshAtRef.current < 15000) {
+        return;
+      }
+
+      loadReport({ silent: true });
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        maybeRefresh();
+      }
+    };
+
+    const handlePageShow = (event) => {
+      if (event.persisted) {
+        maybeRefresh();
+      }
+    };
+
+    window.addEventListener('focus', maybeRefresh);
+    window.addEventListener('pageshow', handlePageShow);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      window.removeEventListener('focus', maybeRefresh);
+      window.removeEventListener('pageshow', handlePageShow);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
   }, [loadReport]);
   
   // Save preferences to localStorage
