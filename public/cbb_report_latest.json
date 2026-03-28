@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T15:06:16.493Z",
+  "generated_at": "2026-03-28T21:06:11.215Z",
   "report_date_eastern": "2026-03-28",
   "games": [
     {
@@ -9,28 +9,28 @@
         "commence_time": "2026-03-28T22:09:00Z",
         "odds": {
           "fanduel": {
-            "home": -315,
-            "away": 250,
+            "home": -335,
+            "away": 265,
             "homeSpread": -6.5,
             "awaySpread": 6.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
-            "home": -310,
-            "away": 250,
+            "home": -340,
+            "away": 270,
             "homeSpread": -6.5,
             "awaySpread": 6.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           },
           "betmgm": {
-            "home": -295,
-            "away": 230,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -325,
+            "away": 260,
+            "homeSpread": -7.5,
+            "awaySpread": 7.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -688,24 +688,24 @@
         "commence_time": "2026-03-29T00:49:00Z",
         "odds": {
           "fanduel": {
-            "home": -255,
-            "away": 205,
+            "home": -240,
+            "away": 195,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -104,
+            "awaySpreadOdds": -118
           },
           "draftkings": {
-            "home": -258,
-            "away": 210,
+            "home": -270,
+            "away": 220,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           },
           "betmgm": {
-            "home": -250,
-            "away": 200,
+            "home": -275,
+            "away": 220,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
             "homeSpreadOdds": -110,
