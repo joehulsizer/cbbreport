@@ -1,9 +1,10 @@
 name: Generate Daily CBB Report
 
 on:
-  # Run every day at 10:00 AM EST (15:00 UTC)
+  # Refresh overnight so the new ET slate is available by early morning,
+  # then refresh again later for rankings/line movement.
   schedule:
-    - cron: '0 15 * * *'  # 10:00 AM EST (15:00 UTC) - after NET rankings update
+    - cron: '0 6,15,21 * * *'  # 2am/11am/5pm EDT, 1am/10am/4pm EST
   
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
@@ -51,4 +52,3 @@ jobs:
             git commit -m "🏀 Auto-generate daily report - $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
-
