@@ -1,5 +1,1210 @@
 {
-  "generated_at": "2026-03-31T21:09:51.989Z",
-  "report_date_eastern": "2026-03-31",
-  "games": []
+  "generated_at": "2026-04-01T06:30:22.396Z",
+  "report_date_eastern": "2026-04-01",
+  "games": [
+    {
+      "matchup": {
+        "home": "Colorado Buffaloes",
+        "away": "Oklahoma Sooners",
+        "commence_time": "2026-04-02T00:00:00Z",
+        "odds": {}
+      },
+      "teams": {
+        "Colorado Buffaloes": {
+          "net": 76,
+          "previousNet": 77,
+          "record": "17-15",
+          "confRecord": "7-11",
+          "quadGames": {
+            "1": {
+              "record": "1-10",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "95-89",
+                  "location": "Away",
+                  "opponent": "Arizona St.",
+                  "oppNet": 73,
+                  "oppKenpom": 63
+                },
+                {
+                  "result": "L",
+                  "score": "71-73",
+                  "location": "Home",
+                  "opponent": "14 \n\t\t\t\t\t\t\t\t\t\tTexas Tech",
+                  "oppNet": 19,
+                  "oppKenpom": 17
+                },
+                {
+                  "result": "L",
+                  "score": "68-77",
+                  "location": "Away",
+                  "opponent": "Cincinnati",
+                  "oppNet": 49,
+                  "oppKenpom": 32
+                },
+                {
+                  "result": "L",
+                  "score": "61-72",
+                  "location": "Away",
+                  "opponent": "West Virginia",
+                  "oppNet": 59,
+                  "oppKenpom": 65
+                },
+                {
+                  "result": "L",
+                  "score": "69-75",
+                  "location": "Home",
+                  "opponent": "19 \n\t\t\t\t\t\t\t\t\t\tKansas",
+                  "oppNet": 21,
+                  "oppKenpom": 22
+                },
+                {
+                  "result": "L",
+                  "score": "67-97",
+                  "location": "Away",
+                  "opponent": "8 \n\t\t\t\t\t\t\t\t\t\tIowa St.",
+                  "oppNet": 6,
+                  "oppKenpom": 7
+                },
+                {
+                  "result": "L",
+                  "score": "67-86",
+                  "location": "Away",
+                  "opponent": "Baylor",
+                  "oppNet": 50,
+                  "oppKenpom": 47
+                },
+                {
+                  "result": "L",
+                  "score": "44-78",
+                  "location": "Away",
+                  "opponent": "16 \n\t\t\t\t\t\t\t\t\t\tTexas Tech",
+                  "oppNet": 19,
+                  "oppKenpom": 17
+                },
+                {
+                  "result": "L",
+                  "score": "86-90*",
+                  "location": "Away",
+                  "opponent": "22 \n\t\t\t\t\t\t\t\t\t\tBYU",
+                  "oppNet": 23,
+                  "oppKenpom": 35
+                },
+                {
+                  "result": "L",
+                  "score": "62-102",
+                  "location": "Away",
+                  "opponent": "5 \n\t\t\t\t\t\t\t\t\t\tHouston",
+                  "oppNet": 5,
+                  "oppKenpom": 5
+                },
+                {
+                  "result": "L",
+                  "score": "79-89",
+                  "location": "Home",
+                  "opponent": "2 \n\t\t\t\t\t\t\t\t\t\tArizona",
+                  "oppNet": 3,
+                  "oppKenpom": 2
+                }
+              ]
+            },
+            "2": {
+              "record": "5-4",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "81-68",
+                  "location": "Neutral",
+                  "opponent": "Washington",
+                  "oppNet": 57,
+                  "oppKenpom": 53
+                },
+                {
+                  "result": "L",
+                  "score": "86-91",
+                  "location": "Away",
+                  "opponent": "Colorado St.",
+                  "oppNet": 87,
+                  "oppKenpom": 90
+                },
+                {
+                  "result": "L",
+                  "score": "68-77",
+                  "location": "Neutral",
+                  "opponent": "Stanford",
+                  "oppNet": 61,
+                  "oppKenpom": 62
+                },
+                {
+                  "result": "L",
+                  "score": "86-95",
+                  "location": "Home",
+                  "opponent": "UCF",
+                  "oppNet": 51,
+                  "oppKenpom": 59
+                },
+                {
+                  "result": "W",
+                  "score": "87-61",
+                  "location": "Home",
+                  "opponent": "TCU",
+                  "oppNet": 39,
+                  "oppKenpom": 51
+                },
+                {
+                  "result": "W",
+                  "score": "78-70",
+                  "location": "Home",
+                  "opponent": "Arizona St.",
+                  "oppNet": 73,
+                  "oppKenpom": 63
+                },
+                {
+                  "result": "W",
+                  "score": "83-69",
+                  "location": "Home",
+                  "opponent": "Oklahoma St.",
+                  "oppNet": 74,
+                  "oppKenpom": 86
+                },
+                {
+                  "result": "W",
+                  "score": "92-78",
+                  "location": "Away",
+                  "opponent": "Utah",
+                  "oppNet": 132,
+                  "oppKenpom": 116
+                },
+                {
+                  "result": "L",
+                  "score": "83-92",
+                  "location": "Neutral",
+                  "opponent": "Oklahoma St.",
+                  "oppNet": 74,
+                  "oppKenpom": 86
+                }
+              ]
+            },
+            "3": {
+              "record": "7-1",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "84-78",
+                  "location": "Home",
+                  "opponent": "Montana St.",
+                  "oppNet": 128,
+                  "oppKenpom": 131
+                },
+                {
+                  "result": "W",
+                  "score": "97-88",
+                  "location": "Home",
+                  "opponent": "Providence",
+                  "oppNet": 80,
+                  "oppKenpom": 71
+                },
+                {
+                  "result": "W",
+                  "score": "79-69",
+                  "location": "Neutral",
+                  "opponent": "San Francisco",
+                  "oppNet": 119,
+                  "oppKenpom": 128
+                },
+                {
+                  "result": "W",
+                  "score": "78-70",
+                  "location": "Home",
+                  "opponent": "California Baptist",
+                  "oppNet": 98,
+                  "oppKenpom": 104
+                },
+                {
+                  "result": "W",
+                  "score": "84-73",
+                  "location": "Home",
+                  "opponent": "Portland St.",
+                  "oppNet": 147,
+                  "oppKenpom": 170
+                },
+                {
+                  "result": "L",
+                  "score": "81-86",
+                  "location": "Home",
+                  "opponent": "Northern Colo.",
+                  "oppNet": 149,
+                  "oppKenpom": 140
+                },
+                {
+                  "result": "W",
+                  "score": "85-73",
+                  "location": "Home",
+                  "opponent": "Utah",
+                  "oppNet": 132,
+                  "oppKenpom": 116
+                },
+                {
+                  "result": "W",
+                  "score": "79-70",
+                  "location": "Home",
+                  "opponent": "Kansas St.",
+                  "oppNet": 100,
+                  "oppKenpom": 102
+                }
+              ]
+            },
+            "4": {
+              "record": "4-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "102-97*",
+                  "location": "Home",
+                  "opponent": "Eastern Wash.",
+                  "oppNet": 204,
+                  "oppKenpom": 158
+                },
+                {
+                  "result": "W",
+                  "score": "94-66",
+                  "location": "Home",
+                  "opponent": "Alabama St.",
+                  "oppNet": 324,
+                  "oppKenpom": 307
+                },
+                {
+                  "result": "W",
+                  "score": "95-79",
+                  "location": "Home",
+                  "opponent": "UC Davis",
+                  "oppNet": 178,
+                  "oppKenpom": 172
+                },
+                {
+                  "result": "W",
+                  "score": "88-64",
+                  "location": "Home",
+                  "opponent": "UTSA",
+                  "oppNet": 344,
+                  "oppKenpom": 336
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q1",
+              "location": "Neutral",
+              "opponent": "04/01/2026",
+              "oppNet": 48,
+              "date": ""
+            }
+          ],
+          "kenpom": 81
+        },
+        "Oklahoma Sooners": {
+          "net": 48,
+          "previousNet": 48,
+          "record": "19-15",
+          "confRecord": "7-11",
+          "quadGames": {
+            "1": {
+              "record": "4-10",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "68-83",
+                  "location": "Away",
+                  "opponent": "21 \n\t\t\t\t\t\t\t\t\t\tGonzaga",
+                  "oppNet": 7,
+                  "oppKenpom": 15
+                },
+                {
+                  "result": "L",
+                  "score": "99-105",
+                  "location": "Neutral",
+                  "opponent": "Nebraska",
+                  "oppNet": 14,
+                  "oppKenpom": 16
+                },
+                {
+                  "result": "W",
+                  "score": "86-68",
+                  "location": "Away",
+                  "opponent": "Wake Forest",
+                  "oppNet": 66,
+                  "oppKenpom": 75
+                },
+                {
+                  "result": "L",
+                  "score": "76-83",
+                  "location": "Away",
+                  "opponent": "Texas A&M",
+                  "oppNet": 44,
+                  "oppKenpom": 39
+                },
+                {
+                  "result": "L",
+                  "score": "79-96",
+                  "location": "Home",
+                  "opponent": "19 \n\t\t\t\t\t\t\t\t\t\tFlorida",
+                  "oppNet": 4,
+                  "oppKenpom": 4
+                },
+                {
+                  "result": "L",
+                  "score": "81-83",
+                  "location": "Home",
+                  "opponent": "18 \n\t\t\t\t\t\t\t\t\t\tAlabama",
+                  "oppNet": 18,
+                  "oppKenpom": 13
+                },
+                {
+                  "result": "L",
+                  "score": "87-88*",
+                  "location": "Away",
+                  "opponent": "Missouri",
+                  "oppNet": 58,
+                  "oppKenpom": 45
+                },
+                {
+                  "result": "L",
+                  "score": "79-83",
+                  "location": "Home",
+                  "opponent": "15 \n\t\t\t\t\t\t\t\t\t\tArkansas",
+                  "oppNet": 15,
+                  "oppKenpom": 20
+                },
+                {
+                  "result": "L",
+                  "score": "78-94",
+                  "location": "Away",
+                  "opponent": "Kentucky",
+                  "oppNet": 28,
+                  "oppKenpom": 29
+                },
+                {
+                  "result": "W",
+                  "score": "92-91",
+                  "location": "Away",
+                  "opponent": "15 \n\t\t\t\t\t\t\t\t\t\tVanderbilt",
+                  "oppNet": 13,
+                  "oppKenpom": 14
+                },
+                {
+                  "result": "L",
+                  "score": "66-89",
+                  "location": "Away",
+                  "opponent": "Tennessee",
+                  "oppNet": 20,
+                  "oppKenpom": 12
+                },
+                {
+                  "result": "W",
+                  "score": "88-85*",
+                  "location": "Away",
+                  "opponent": "Texas",
+                  "oppNet": 42,
+                  "oppKenpom": 38
+                },
+                {
+                  "result": "W",
+                  "score": "83-63",
+                  "location": "Neutral",
+                  "opponent": "Texas A&M",
+                  "oppNet": 44,
+                  "oppKenpom": 39
+                },
+                {
+                  "result": "L",
+                  "score": "79-82",
+                  "location": "Neutral",
+                  "opponent": "17 \n\t\t\t\t\t\t\t\t\t\tArkansas",
+                  "oppNet": 15,
+                  "oppKenpom": 20
+                }
+              ]
+            },
+            "2": {
+              "record": "6-5",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "75-74",
+                  "location": "Neutral",
+                  "opponent": "Marquette",
+                  "oppNet": 93,
+                  "oppKenpom": 76
+                },
+                {
+                  "result": "L",
+                  "score": "70-86",
+                  "location": "Neutral",
+                  "opponent": "Arizona St.",
+                  "oppNet": 73,
+                  "oppKenpom": 63
+                },
+                {
+                  "result": "W",
+                  "score": "85-76",
+                  "location": "Neutral",
+                  "opponent": "Oklahoma St.",
+                  "oppNet": 74,
+                  "oppKenpom": 86
+                },
+                {
+                  "result": "L",
+                  "score": "53-72",
+                  "location": "Away",
+                  "opponent": "Mississippi St.",
+                  "oppNet": 112,
+                  "oppKenpom": 100
+                },
+                {
+                  "result": "L",
+                  "score": "76-85",
+                  "location": "Away",
+                  "opponent": "South Carolina",
+                  "oppNet": 108,
+                  "oppKenpom": 99
+                },
+                {
+                  "result": "L",
+                  "score": "69-79",
+                  "location": "Home",
+                  "opponent": "Texas",
+                  "oppNet": 42,
+                  "oppKenpom": 38
+                },
+                {
+                  "result": "W",
+                  "score": "94-78",
+                  "location": "Home",
+                  "opponent": "Georgia",
+                  "oppNet": 33,
+                  "oppKenpom": 42
+                },
+                {
+                  "result": "L",
+                  "score": "71-75",
+                  "location": "Home",
+                  "opponent": "Texas A&M",
+                  "oppNet": 44,
+                  "oppKenpom": 39
+                },
+                {
+                  "result": "W",
+                  "score": "91-79",
+                  "location": "Home",
+                  "opponent": "Auburn",
+                  "oppNet": 38,
+                  "oppKenpom": 43
+                },
+                {
+                  "result": "W",
+                  "score": "83-67",
+                  "location": "Away",
+                  "opponent": "LSU",
+                  "oppNet": 77,
+                  "oppKenpom": 69
+                },
+                {
+                  "result": "W",
+                  "score": "80-64",
+                  "location": "Home",
+                  "opponent": "Missouri",
+                  "oppNet": 58,
+                  "oppKenpom": 45
+                }
+              ]
+            },
+            "3": {
+              "record": "2-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "86-70",
+                  "location": "Home",
+                  "opponent": "Ole Miss",
+                  "oppNet": 82,
+                  "oppKenpom": 64
+                },
+                {
+                  "result": "W",
+                  "score": "86-74",
+                  "location": "Neutral",
+                  "opponent": "South Carolina",
+                  "oppNet": 108,
+                  "oppKenpom": 99
+                }
+              ]
+            },
+            "4": {
+              "record": "7-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "102-66",
+                  "location": "Home",
+                  "opponent": "Saint Francis",
+                  "oppNet": 353,
+                  "oppKenpom": 351
+                },
+                {
+                  "result": "W",
+                  "score": "95-69",
+                  "location": "Home",
+                  "opponent": "Ark.-Pine Bluff",
+                  "oppNet": 316,
+                  "oppKenpom": 292
+                },
+                {
+                  "result": "W",
+                  "score": "95-71",
+                  "location": "Home",
+                  "opponent": "Oral Roberts",
+                  "oppNet": 311,
+                  "oppKenpom": 302
+                },
+                {
+                  "result": "W",
+                  "score": "72-53",
+                  "location": "Home",
+                  "opponent": "Alcorn",
+                  "oppNet": 349,
+                  "oppKenpom": 344
+                },
+                {
+                  "result": "W",
+                  "score": "89-67",
+                  "location": "Home",
+                  "opponent": "Kansas City",
+                  "oppNet": 358,
+                  "oppKenpom": 360
+                },
+                {
+                  "result": "W",
+                  "score": "107-54",
+                  "location": "Home",
+                  "opponent": "Stetson",
+                  "oppNet": 314,
+                  "oppKenpom": 306
+                },
+                {
+                  "result": "W",
+                  "score": "93-69",
+                  "location": "Home",
+                  "opponent": "Mississippi Val.",
+                  "oppNet": 365,
+                  "oppKenpom": 364
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q2",
+              "location": "Neutral",
+              "opponent": "04/01/2026",
+              "oppNet": 76,
+              "date": ""
+            }
+          ],
+          "kenpom": 37
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Minnesota Golden Gophers",
+        "away": "Baylor Bears",
+        "commence_time": "2026-04-02T02:30:00Z",
+        "odds": {}
+      },
+      "teams": {
+        "Minnesota Golden Gophers": {
+          "net": 81,
+          "previousNet": 80,
+          "record": "15-17",
+          "confRecord": "8-12",
+          "quadGames": {
+            "1": {
+              "record": "4-11",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "60-83",
+                  "location": "Away",
+                  "opponent": "Missouri",
+                  "oppNet": 58,
+                  "oppKenpom": 45
+                },
+                {
+                  "result": "L",
+                  "score": "75-86",
+                  "location": "Neutral",
+                  "opponent": "Santa Clara",
+                  "oppNet": 40,
+                  "oppKenpom": 30
+                },
+                {
+                  "result": "L",
+                  "score": "57-85",
+                  "location": "Away",
+                  "opponent": "6 \n\t\t\t\t\t\t\t\t\t\tPurdue",
+                  "oppNet": 9,
+                  "oppKenpom": 8
+                },
+                {
+                  "result": "W",
+                  "score": "84-78",
+                  "location": "Away",
+                  "opponent": "Northwestern",
+                  "oppNet": 65,
+                  "oppKenpom": 60
+                },
+                {
+                  "result": "W",
+                  "score": "70-67",
+                  "location": "Home",
+                  "opponent": "19 \n\t\t\t\t\t\t\t\t\t\tIowa",
+                  "oppNet": 27,
+                  "oppKenpom": 23
+                },
+                {
+                  "result": "L",
+                  "score": "75-78",
+                  "location": "Home",
+                  "opponent": "Wisconsin",
+                  "oppNet": 25,
+                  "oppKenpom": 21
+                },
+                {
+                  "result": "L",
+                  "score": "67-77",
+                  "location": "Away",
+                  "opponent": "13 \n\t\t\t\t\t\t\t\t\t\tIllinois",
+                  "oppNet": 8,
+                  "oppKenpom": 6
+                },
+                {
+                  "result": "L",
+                  "score": "74-82*",
+                  "location": "Away",
+                  "opponent": "Ohio St.",
+                  "oppNet": 29,
+                  "oppKenpom": 24
+                },
+                {
+                  "result": "L",
+                  "score": "57-76",
+                  "location": "Home",
+                  "opponent": "7 \n\t\t\t\t\t\t\t\t\t\tNebraska",
+                  "oppNet": 14,
+                  "oppKenpom": 16
+                },
+                {
+                  "result": "L",
+                  "score": "63-67",
+                  "location": "Away",
+                  "opponent": "Wisconsin",
+                  "oppNet": 25,
+                  "oppKenpom": 21
+                },
+                {
+                  "result": "W",
+                  "score": "76-73",
+                  "location": "Home",
+                  "opponent": "10 \n\t\t\t\t\t\t\t\t\t\tMichigan St.",
+                  "oppNet": 11,
+                  "oppKenpom": 11
+                },
+                {
+                  "result": "L",
+                  "score": "57-69",
+                  "location": "Away",
+                  "opponent": "Washington",
+                  "oppNet": 57,
+                  "oppKenpom": 53
+                },
+                {
+                  "result": "L",
+                  "score": "67-77",
+                  "location": "Away",
+                  "opponent": "3 \n\t\t\t\t\t\t\t\t\t\tMichigan",
+                  "oppNet": 2,
+                  "oppKenpom": 1
+                },
+                {
+                  "result": "W",
+                  "score": "78-73",
+                  "location": "Home",
+                  "opponent": "UCLA",
+                  "oppNet": 30,
+                  "oppKenpom": 25
+                },
+                {
+                  "result": "L",
+                  "score": "47-77",
+                  "location": "Away",
+                  "opponent": "Indiana",
+                  "oppNet": 41,
+                  "oppKenpom": 31
+                }
+              ]
+            },
+            "2": {
+              "record": "3-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "68-72",
+                  "location": "Neutral",
+                  "opponent": "Stanford",
+                  "oppNet": 61,
+                  "oppKenpom": 62
+                },
+                {
+                  "result": "W",
+                  "score": "73-64",
+                  "location": "Home",
+                  "opponent": "22 \n\t\t\t\t\t\t\t\t\t\tIndiana",
+                  "oppNet": 41,
+                  "oppKenpom": 31
+                },
+                {
+                  "result": "W",
+                  "score": "61-44",
+                  "location": "Away",
+                  "opponent": "Oregon",
+                  "oppNet": 109,
+                  "oppKenpom": 91
+                },
+                {
+                  "result": "W",
+                  "score": "67-66",
+                  "location": "Home",
+                  "opponent": "Northwestern",
+                  "oppNet": 65,
+                  "oppKenpom": 60
+                }
+              ]
+            },
+            "3": {
+              "record": "1-5",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "65-77",
+                  "location": "Neutral",
+                  "opponent": "San Francisco",
+                  "oppNet": 119,
+                  "oppKenpom": 128
+                },
+                {
+                  "result": "L",
+                  "score": "69-70*",
+                  "location": "Home",
+                  "opponent": "Southern California",
+                  "oppNet": 79,
+                  "oppKenpom": 66
+                },
+                {
+                  "result": "L",
+                  "score": "75-77",
+                  "location": "Away",
+                  "opponent": "Penn St.",
+                  "oppNet": 142,
+                  "oppKenpom": 139
+                },
+                {
+                  "result": "L",
+                  "score": "62-67",
+                  "location": "Home",
+                  "opponent": "Maryland",
+                  "oppNet": 138,
+                  "oppKenpom": 108
+                },
+                {
+                  "result": "W",
+                  "score": "80-61",
+                  "location": "Home",
+                  "opponent": "Rutgers",
+                  "oppNet": 134,
+                  "oppKenpom": 113
+                },
+                {
+                  "result": "L",
+                  "score": "67-72",
+                  "location": "Neutral",
+                  "opponent": "Rutgers",
+                  "oppNet": 134,
+                  "oppKenpom": 113
+                }
+              ]
+            },
+            "4": {
+              "record": "7-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "87-60",
+                  "location": "Home",
+                  "opponent": "Gardner-Webb",
+                  "oppNet": 361,
+                  "oppKenpom": 361
+                },
+                {
+                  "result": "W",
+                  "score": "95-50",
+                  "location": "Home",
+                  "opponent": "Alcorn",
+                  "oppNet": 349,
+                  "oppKenpom": 344
+                },
+                {
+                  "result": "W",
+                  "score": "72-65*",
+                  "location": "Home",
+                  "opponent": "Green Bay",
+                  "oppNet": 218,
+                  "oppKenpom": 181
+                },
+                {
+                  "result": "W",
+                  "score": "66-54",
+                  "location": "Home",
+                  "opponent": "Chicago St.",
+                  "oppNet": 340,
+                  "oppKenpom": 339
+                },
+                {
+                  "result": "W",
+                  "score": "89-53",
+                  "location": "Home",
+                  "opponent": "Texas Southern",
+                  "oppNet": 322,
+                  "oppKenpom": 311
+                },
+                {
+                  "result": "W",
+                  "score": "78-50",
+                  "location": "Home",
+                  "opponent": "Campbell",
+                  "oppNet": 200,
+                  "oppKenpom": 195
+                },
+                {
+                  "result": "W",
+                  "score": "60-43",
+                  "location": "Home",
+                  "opponent": "FDU",
+                  "oppNet": 334,
+                  "oppKenpom": 340
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q1",
+              "location": "Neutral",
+              "opponent": "04/01/2026",
+              "oppNet": 50,
+              "date": ""
+            }
+          ],
+          "kenpom": 57
+        },
+        "Baylor Bears": {
+          "net": 50,
+          "previousNet": 50,
+          "record": "16-16",
+          "confRecord": "6-12",
+          "quadGames": {
+            "1": {
+              "record": "4-12",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "81-96",
+                  "location": "Neutral",
+                  "opponent": "14 \n\t\t\t\t\t\t\t\t\t\tSt. John's (NY)",
+                  "oppNet": 16,
+                  "oppKenpom": 10
+                },
+                {
+                  "result": "W",
+                  "score": "91-81",
+                  "location": "Neutral",
+                  "opponent": "San Diego St.",
+                  "oppNet": 47,
+                  "oppKenpom": 44
+                },
+                {
+                  "result": "L",
+                  "score": "63-69",
+                  "location": "Away",
+                  "opponent": "TCU",
+                  "oppNet": 39,
+                  "oppKenpom": 51
+                },
+                {
+                  "result": "L",
+                  "score": "60-70",
+                  "location": "Home",
+                  "opponent": "3 \n\t\t\t\t\t\t\t\t\t\tIowa St.",
+                  "oppNet": 6,
+                  "oppKenpom": 7
+                },
+                {
+                  "result": "L",
+                  "score": "55-77",
+                  "location": "Home",
+                  "opponent": "7 \n\t\t\t\t\t\t\t\t\t\tHouston",
+                  "oppNet": 5,
+                  "oppKenpom": 5
+                },
+                {
+                  "result": "W",
+                  "score": "94-79",
+                  "location": "Away",
+                  "opponent": "Oklahoma St.",
+                  "oppNet": 74,
+                  "oppKenpom": 86
+                },
+                {
+                  "result": "L",
+                  "score": "62-80",
+                  "location": "Away",
+                  "opponent": "Kansas",
+                  "oppNet": 21,
+                  "oppKenpom": 22
+                },
+                {
+                  "result": "L",
+                  "score": "73-92",
+                  "location": "Home",
+                  "opponent": "12 \n\t\t\t\t\t\t\t\t\t\tTexas Tech",
+                  "oppNet": 19,
+                  "oppKenpom": 17
+                },
+                {
+                  "result": "L",
+                  "score": "57-67",
+                  "location": "Away",
+                  "opponent": "Cincinnati",
+                  "oppNet": 49,
+                  "oppKenpom": 32
+                },
+                {
+                  "result": "W",
+                  "score": "63-53",
+                  "location": "Away",
+                  "opponent": "West Virginia",
+                  "oppNet": 59,
+                  "oppKenpom": 65
+                },
+                {
+                  "result": "L",
+                  "score": "69-72",
+                  "location": "Away",
+                  "opponent": "7 \n\t\t\t\t\t\t\t\t\t\tIowa St.",
+                  "oppNet": 6,
+                  "oppKenpom": 7
+                },
+                {
+                  "result": "L",
+                  "score": "94-99",
+                  "location": "Home",
+                  "opponent": "22 \n\t\t\t\t\t\t\t\t\t\tBYU",
+                  "oppNet": 23,
+                  "oppKenpom": 35
+                },
+                {
+                  "result": "L",
+                  "score": "71-82",
+                  "location": "Neutral",
+                  "opponent": "24 \n\t\t\t\t\t\t\t\t\t\tLouisville",
+                  "oppNet": 17,
+                  "oppKenpom": 19
+                },
+                {
+                  "result": "L",
+                  "score": "80-87",
+                  "location": "Home",
+                  "opponent": "2 \n\t\t\t\t\t\t\t\t\t\tArizona",
+                  "oppNet": 3,
+                  "oppKenpom": 2
+                },
+                {
+                  "result": "W",
+                  "score": "87-86",
+                  "location": "Away",
+                  "opponent": "UCF",
+                  "oppNet": 51,
+                  "oppKenpom": 59
+                },
+                {
+                  "result": "L",
+                  "score": "64-77",
+                  "location": "Away",
+                  "opponent": "7 \n\t\t\t\t\t\t\t\t\t\tHouston",
+                  "oppNet": 5,
+                  "oppKenpom": 5
+                }
+              ]
+            },
+            "2": {
+              "record": "3-4",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "78-69",
+                  "location": "Home",
+                  "opponent": "Washington",
+                  "oppNet": 57,
+                  "oppKenpom": 53
+                },
+                {
+                  "result": "W",
+                  "score": "81-74",
+                  "location": "Neutral",
+                  "opponent": "Creighton",
+                  "oppNet": 83,
+                  "oppKenpom": 83
+                },
+                {
+                  "result": "L",
+                  "score": "71-78",
+                  "location": "Away",
+                  "opponent": "Memphis",
+                  "oppNet": 135,
+                  "oppKenpom": 130
+                },
+                {
+                  "result": "L",
+                  "score": "90-97",
+                  "location": "Home",
+                  "opponent": "TCU",
+                  "oppNet": 39,
+                  "oppKenpom": 51
+                },
+                {
+                  "result": "L",
+                  "score": "74-90",
+                  "location": "Away",
+                  "opponent": "Kansas St.",
+                  "oppNet": 100,
+                  "oppKenpom": 102
+                },
+                {
+                  "result": "W",
+                  "score": "73-68",
+                  "location": "Home",
+                  "opponent": "Arizona St.",
+                  "oppNet": 73,
+                  "oppKenpom": 63
+                },
+                {
+                  "result": "L",
+                  "score": "79-83",
+                  "location": "Neutral",
+                  "opponent": "Arizona St.",
+                  "oppNet": 73,
+                  "oppKenpom": 63
+                }
+              ]
+            },
+            "3": {
+              "record": "3-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "96-81",
+                  "location": "Home",
+                  "opponent": "UTRGV",
+                  "oppNet": 126,
+                  "oppKenpom": 115
+                },
+                {
+                  "result": "W",
+                  "score": "86-67",
+                  "location": "Home",
+                  "opponent": "Colorado",
+                  "oppNet": 76,
+                  "oppKenpom": 81
+                },
+                {
+                  "result": "W",
+                  "score": "101-75",
+                  "location": "Home",
+                  "opponent": "Utah",
+                  "oppNet": 132,
+                  "oppKenpom": 116
+                }
+              ]
+            },
+            "4": {
+              "record": "5-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "94-81",
+                  "location": "Home",
+                  "opponent": "Tarleton St.",
+                  "oppNet": 230,
+                  "oppKenpom": 226
+                },
+                {
+                  "result": "W",
+                  "score": "110-88",
+                  "location": "Home",
+                  "opponent": "Sacramento St.",
+                  "oppNet": 269,
+                  "oppKenpom": 277
+                },
+                {
+                  "result": "W",
+                  "score": "97-67",
+                  "location": "Home",
+                  "opponent": "Norfolk St.",
+                  "oppNet": 318,
+                  "oppKenpom": 330
+                },
+                {
+                  "result": "W",
+                  "score": "113-56",
+                  "location": "Home",
+                  "opponent": "Alcorn",
+                  "oppNet": 349,
+                  "oppKenpom": 344
+                },
+                {
+                  "result": "W",
+                  "score": "111-67",
+                  "location": "Home",
+                  "opponent": "Southern U.",
+                  "oppNet": 278,
+                  "oppKenpom": 249
+                }
+              ]
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q2",
+              "location": "Neutral",
+              "opponent": "04/01/2026",
+              "oppNet": 81,
+              "date": ""
+            }
+          ],
+          "kenpom": 47
+        }
+      }
+    }
+  ]
 }
