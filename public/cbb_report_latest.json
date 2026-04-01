@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T15:26:26.746Z",
+  "generated_at": "2026-04-01T21:12:51.838Z",
   "report_date_eastern": "2026-04-01",
   "games": [
     {
@@ -7,7 +7,16 @@
         "home": "Colorado Buffaloes",
         "away": "Oklahoma Sooners",
         "commence_time": "2026-04-02T00:00:00Z",
-        "odds": {}
+        "odds": {
+          "fanduel": {
+            "home": 310,
+            "away": -400,
+            "homeSpread": 9.5,
+            "awaySpread": -9.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          }
+        }
       },
       "teams": {
         "Colorado Buffaloes": {
@@ -621,7 +630,16 @@
         "home": "Minnesota Golden Gophers",
         "away": "Baylor Bears",
         "commence_time": "2026-04-02T02:30:00Z",
-        "odds": {}
+        "odds": {
+          "fanduel": {
+            "home": 146,
+            "away": -178,
+            "homeSpread": 3.5,
+            "awaySpread": -3.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          }
+        }
       },
       "teams": {
         "Minnesota Golden Gophers": {
