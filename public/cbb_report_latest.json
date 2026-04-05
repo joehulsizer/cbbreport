@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T06:22:45.149Z",
+  "generated_at": "2026-04-05T15:07:38.915Z",
   "report_date_eastern": "2026-04-05",
   "games": [
     {
@@ -9,8 +9,8 @@
         "commence_time": "2026-04-05T21:30:00Z",
         "odds": {
           "fanduel": {
-            "home": 140,
-            "away": -170,
+            "home": 146,
+            "away": -178,
             "homeSpread": 3.5,
             "awaySpread": -3.5,
             "homeSpreadOdds": -106,
@@ -30,7 +30,7 @@
         "West Virginia Mountaineers": {
           "net": 59,
           "previousNet": 59,
-          "record": "19-14",
+          "record": "20-14",
           "confRecord": "9-9",
           "quadGames": {
             "1": {
@@ -151,7 +151,7 @@
               ]
             },
             "2": {
-              "record": "3-4",
+              "record": "4-4",
               "games": [
                 {
                   "result": "L",
@@ -208,6 +208,14 @@
                   "opponent": "Stanford",
                   "oppNet": 61,
                   "oppKenpom": 65
+                },
+                {
+                  "result": "W",
+                  "score": "87-70",
+                  "location": "Neutral",
+                  "opponent": "Creighton",
+                  "oppNet": 83,
+                  "oppKenpom": 85
                 }
               ]
             },
@@ -320,10 +328,10 @@
           },
           "upcoming": [
             {
-              "quad": "Q2",
+              "quad": "Q1",
               "location": "Neutral",
-              "opponent": "04/04/2026",
-              "oppNet": 83,
+              "opponent": "04/05/2026",
+              "oppNet": 48,
               "date": ""
             }
           ],
@@ -332,11 +340,11 @@
         "Oklahoma Sooners": {
           "net": 48,
           "previousNet": 48,
-          "record": "20-15",
+          "record": "21-15",
           "confRecord": "7-11",
           "quadGames": {
             "1": {
-              "record": "4-10",
+              "record": "5-10",
               "games": [
                 {
                   "result": "L",
@@ -449,6 +457,14 @@
                   "opponent": "17 \n\t\t\t\t\t\t\t\t\t\tArkansas",
                   "oppNet": 15,
                   "oppKenpom": 20
+                },
+                {
+                  "result": "W",
+                  "score": "82-69",
+                  "location": "Neutral",
+                  "opponent": "Baylor",
+                  "oppNet": 50,
+                  "oppKenpom": 45
                 }
               ]
             },
@@ -638,10 +654,10 @@
           },
           "upcoming": [
             {
-              "quad": "Q1",
+              "quad": "Q2",
               "location": "Neutral",
-              "opponent": "04/04/2026",
-              "oppNet": 50,
+              "opponent": "04/05/2026",
+              "oppNet": 59,
               "date": ""
             }
           ],
@@ -656,16 +672,16 @@
         "commence_time": "2026-04-06T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -220,
-            "away": 180,
+            "home": -245,
+            "away": 198,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -230,
-            "away": 190,
+            "home": -218,
+            "away": 180,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
             "homeSpreadOdds": -108,
