@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T06:32:09.646Z",
+  "generated_at": "2026-04-06T15:13:52.441Z",
   "report_date_eastern": "2026-04-06",
   "games": [
     {
@@ -9,28 +9,28 @@
         "commence_time": "2026-04-07T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -320,
-            "away": 255,
+            "home": -310,
+            "away": 245,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -120
+            "homeSpreadOdds": 100,
+            "awaySpreadOdds": -122
           },
           "draftkings": {
             "home": -298,
-            "away": 240,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "betmgm": {
-            "home": -300,
             "away": 240,
             "homeSpread": -6.5,
             "awaySpread": 6.5,
             "homeSpreadOdds": -115,
             "awaySpreadOdds": -105
+          },
+          "betmgm": {
+            "home": -325,
+            "away": 260,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
