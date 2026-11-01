@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:02:53.611Z",
+  "generated_at": "2026-11-01T15:01:26.694Z",
   "report_date_eastern": "2026-11-01",
   "games": [
     {
@@ -9,28 +9,28 @@
         "commence_time": "2026-11-01T14:30:00Z",
         "odds": {
           "fanduel": {
-            "home": 250,
-            "away": -315,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -104
+            "home": 440,
+            "away": -700,
+            "homeSpread": 10.5,
+            "awaySpread": -10.5,
+            "homeSpreadOdds": -125,
+            "awaySpreadOdds": -106
           },
           "draftkings": {
-            "home": 260,
-            "away": -325,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
-            "homeSpreadOdds": -115,
+            "home": 550,
+            "away": -920,
+            "homeSpread": 12.5,
+            "awaySpread": -12.5,
+            "homeSpreadOdds": -125,
             "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": 260,
-            "away": -325,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
+            "home": 450,
+            "away": -700,
+            "homeSpread": 10.5,
+            "awaySpread": -10.5,
             "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -511,6 +511,494 @@
               "location": "Home",
               "opponent": "03/06/2027",
               "oppNet": 87,
+              "date": ""
+            }
+          ],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Liberty Flames",
+        "away": "High Point Panthers",
+        "commence_time": "2026-11-02T04:59:00Z",
+        "odds": {
+          "fanduel": {
+            "home": 235,
+            "away": -295,
+            "homeSpread": 7.5,
+            "awaySpread": -7.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": 250,
+            "away": -310,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "home": 225,
+            "away": -285,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Liberty Flames": {
+          "net": 102,
+          "previousNet": 106,
+          "record": "0-0",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q2",
+              "location": "Neutral",
+              "opponent": "11/02/2026",
+              "oppNet": 68,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "11/13/2026",
+              "oppNet": 341,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Neutral",
+              "opponent": "11/17/2026",
+              "oppNet": 122,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Neutral",
+              "opponent": "11/20/2026",
+              "oppNet": 150,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Neutral",
+              "opponent": "11/22/2026",
+              "oppNet": 161,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Neutral",
+              "opponent": "11/25/2026",
+              "oppNet": 251,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Neutral",
+              "opponent": "11/27/2026",
+              "oppNet": 113,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "11/28/2026",
+              "oppNet": 100,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/17/2026",
+              "oppNet": 363,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "12/19/2026",
+              "oppNet": 66,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/02/2027",
+              "oppNet": 284,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/07/2027",
+              "oppNet": 195,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/09/2027",
+              "oppNet": 205,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/14/2027",
+              "oppNet": 162,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/16/2027",
+              "oppNet": 156,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/21/2027",
+              "oppNet": 214,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "01/23/2027",
+              "oppNet": 147,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/28/2027",
+              "oppNet": 109,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/30/2027",
+              "oppNet": 187,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/04/2027",
+              "oppNet": 205,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/06/2027",
+              "oppNet": 195,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/11/2027",
+              "oppNet": 156,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/13/2027",
+              "oppNet": 162,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/18/2027",
+              "oppNet": 147,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/20/2027",
+              "oppNet": 214,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/25/2027",
+              "oppNet": 187,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/27/2027",
+              "oppNet": 109,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "03/06/2027",
+              "oppNet": 284,
+              "date": ""
+            }
+          ],
+          "kenpom": null
+        },
+        "High Point Panthers": {
+          "net": 68,
+          "previousNet": 75,
+          "record": "0-0",
+          "confRecord": "0-0",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [
+            {
+              "quad": "Q3",
+              "location": "Neutral",
+              "opponent": "11/02/2026",
+              "oppNet": 102,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "11/07/2026",
+              "oppNet": 144,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "11/12/2026",
+              "oppNet": 272,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "11/14/2026",
+              "oppNet": 29,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "11/19/2026",
+              "oppNet": 132,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Neutral",
+              "opponent": "11/24/2026",
+              "oppNet": 130,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "11/28/2026",
+              "oppNet": 346,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "12/02/2026",
+              "oppNet": 94,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/04/2026",
+              "oppNet": 303,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Neutral",
+              "opponent": "12/12/2026",
+              "oppNet": 65,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/15/2026",
+              "oppNet": 341,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "12/18/2026",
+              "oppNet": 75,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "12/21/2026",
+              "oppNet": 329,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/03/2027",
+              "oppNet": 302,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/06/2027",
+              "oppNet": 258,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/09/2027",
+              "oppNet": 252,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/13/2027",
+              "oppNet": 361,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/16/2027",
+              "oppNet": 241,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/20/2027",
+              "oppNet": 129,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/23/2027",
+              "oppNet": 263,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "01/28/2027",
+              "oppNet": 235,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "01/30/2027",
+              "oppNet": 302,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/06/2027",
+              "oppNet": 241,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "02/11/2027",
+              "oppNet": 235,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/13/2027",
+              "oppNet": 361,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "02/18/2027",
+              "oppNet": 129,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/20/2027",
+              "oppNet": 258,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Away",
+              "opponent": "02/25/2027",
+              "oppNet": 263,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "02/27/2027",
+              "oppNet": 252,
               "date": ""
             }
           ],
