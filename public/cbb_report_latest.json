@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:02:24.226Z",
+  "generated_at": "2026-11-13T21:01:57.080Z",
   "report_date_eastern": "2026-11-13",
   "games": [
     {
@@ -9,20 +9,12 @@
         "commence_time": "2026-11-13T20:00:00Z",
         "odds": {
           "draftkings": {
-            "home": -175,
-            "away": 145,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
-          },
-          "betmgm": {
-            "home": -175,
-            "away": 145,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "home": 220,
+            "away": -298,
+            "homeSpread": 5.5,
+            "awaySpread": -5.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -42,7 +34,7 @@
                   "location": "Away",
                   "opponent": "Missouri",
                   "oppNet": 59,
-                  "oppKenpom": null
+                  "oppKenpom": 46
                 }
               ]
             },
@@ -59,7 +51,7 @@
                   "location": "Away",
                   "opponent": "Bowling Green",
                   "oppNet": 159,
-                  "oppKenpom": null
+                  "oppKenpom": 153
                 }
               ]
             },
@@ -245,7 +237,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 316
         },
         "West Florida Argonauts": {
           "net": null,
@@ -292,14 +284,14 @@
           "draftkings": {
             "home": -8000,
             "away": 2200,
-            "homeSpread": -24.5,
-            "awaySpread": 24.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -23.5,
+            "awaySpread": 23.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
             "home": -10000,
-            "away": 2500
+            "away": 2200
           }
         }
       },
@@ -319,7 +311,7 @@
                   "location": "Home",
                   "opponent": "1 \n\t\t\t\t\t\t\t\t\t\tFlorida",
                   "oppNet": 4,
-                  "oppKenpom": null
+                  "oppKenpom": 4
                 }
               ]
             },
@@ -336,7 +328,7 @@
                   "location": "Home",
                   "opponent": "Troy",
                   "oppNet": 137,
-                  "oppKenpom": null
+                  "oppKenpom": 151
                 }
               ]
             },
@@ -349,7 +341,7 @@
                   "location": "Neutral",
                   "opponent": "Florida A&M",
                   "oppNet": 311,
-                  "oppKenpom": null
+                  "oppKenpom": 293
                 }
               ]
             }
@@ -545,7 +537,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 52
         },
         "Texas A&M-CC Islanders": {
           "net": 190,
@@ -570,7 +562,7 @@
                   "location": "Away",
                   "opponent": "Texas St.",
                   "oppNet": 237,
-                  "oppKenpom": null
+                  "oppKenpom": 228
                 }
               ]
             },
@@ -583,7 +575,7 @@
                   "location": "Away",
                   "opponent": "Louisiana",
                   "oppNet": 313,
-                  "oppKenpom": null
+                  "oppKenpom": 287
                 }
               ]
             }
@@ -797,16 +789,16 @@
         "commence_time": "2026-11-13T22:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -34.5,
-            "awaySpread": 34.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -32.5,
+            "awaySpread": 32.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
-            "homeSpread": -34.5,
-            "awaySpread": 34.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -32.5,
+            "awaySpread": 32.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
             "home": -10000,
@@ -830,7 +822,7 @@
                   "location": "Neutral",
                   "opponent": "1 \n\t\t\t\t\t\t\t\t\t\tFlorida",
                   "oppNet": 4,
-                  "oppKenpom": null
+                  "oppKenpom": 4
                 }
               ]
             },
@@ -851,7 +843,7 @@
                   "location": "Home",
                   "opponent": "Wagner",
                   "oppNet": 303,
-                  "oppKenpom": null
+                  "oppKenpom": 314
                 },
                 {
                   "result": "W",
@@ -859,7 +851,7 @@
                   "location": "Home",
                   "opponent": "North Florida",
                   "oppNet": 337,
-                  "oppKenpom": null
+                  "oppKenpom": 326
                 }
               ]
             }
@@ -1055,7 +1047,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 33
         },
         "North Alabama Lions": {
           "net": 338,
@@ -1072,7 +1064,7 @@
                   "location": "Away",
                   "opponent": "Oklahoma",
                   "oppNet": 47,
-                  "oppKenpom": null
+                  "oppKenpom": 37
                 }
               ]
             },
@@ -1089,7 +1081,7 @@
                   "location": "Away",
                   "opponent": "UC Davis",
                   "oppNet": 179,
-                  "oppKenpom": null
+                  "oppKenpom": 171
                 }
               ]
             },
@@ -1275,7 +1267,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 338
         }
       }
     },
@@ -1286,26 +1278,26 @@
         "commence_time": "2026-11-13T23:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -10000,
-            "away": 2400,
-            "homeSpread": -22.5,
-            "awaySpread": 22.5,
+            "home": -7000,
+            "away": 2000,
+            "homeSpread": -21.5,
+            "awaySpread": 21.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -6500,
             "away": 2000,
-            "homeSpread": -22.5,
-            "awaySpread": 22.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -21.5,
+            "awaySpread": 21.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -10000,
-            "away": 1850,
-            "homeSpread": -22.5,
-            "awaySpread": 22.5,
+            "away": 1650,
+            "homeSpread": -21.5,
+            "awaySpread": 21.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -1339,7 +1331,7 @@
                   "location": "Home",
                   "opponent": "New Haven",
                   "oppNet": 325,
-                  "oppKenpom": null
+                  "oppKenpom": 328
                 },
                 {
                   "result": "W",
@@ -1347,7 +1339,7 @@
                   "location": "Home",
                   "opponent": "NJIT",
                   "oppNet": 327,
-                  "oppKenpom": null
+                  "oppKenpom": 324
                 }
               ]
             }
@@ -1550,7 +1542,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 117
         },
         "Bryant Bulldogs": {
           "net": 354,
@@ -1571,7 +1563,7 @@
                   "location": "Away",
                   "opponent": "Providence",
                   "oppNet": 78,
-                  "oppKenpom": null
+                  "oppKenpom": 70
                 }
               ]
             },
@@ -1584,7 +1576,7 @@
                   "location": "Away",
                   "opponent": "Quinnipiac",
                   "oppNet": 210,
-                  "oppKenpom": null
+                  "oppKenpom": 214
                 }
               ]
             },
@@ -1597,7 +1589,7 @@
                   "location": "Home",
                   "opponent": "Siena",
                   "oppNet": 173,
-                  "oppKenpom": null
+                  "oppKenpom": 162
                 },
                 {
                   "result": "L",
@@ -1605,7 +1597,7 @@
                   "location": "Home",
                   "opponent": "Fairfield",
                   "oppNet": 238,
-                  "oppKenpom": null
+                  "oppKenpom": 244
                 }
               ]
             }
@@ -1780,7 +1772,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 355
         }
       }
     },
@@ -1791,8 +1783,8 @@
         "commence_time": "2026-11-13T23:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -196,
-            "away": 162,
+            "home": -192,
+            "away": 158,
             "homeSpread": -4.5,
             "awaySpread": 4.5,
             "homeSpreadOdds": -110,
@@ -1844,7 +1836,7 @@
                   "location": "Home",
                   "opponent": "Stetson",
                   "oppNet": 312,
-                  "oppKenpom": null
+                  "oppKenpom": 305
                 },
                 {
                   "result": "W",
@@ -1852,7 +1844,7 @@
                   "location": "Home",
                   "opponent": "American",
                   "oppNet": 256,
-                  "oppKenpom": null
+                  "oppKenpom": 243
                 },
                 {
                   "result": "W",
@@ -1860,7 +1852,7 @@
                   "location": "Home",
                   "opponent": "North Dakota",
                   "oppNet": 271,
-                  "oppKenpom": null
+                  "oppKenpom": 275
                 }
               ]
             }
@@ -2056,7 +2048,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 36
         },
         "Georgetown Hoyas": {
           "net": 87,
@@ -2081,7 +2073,7 @@
                   "location": "Home",
                   "opponent": "Maryland",
                   "oppNet": 131,
-                  "oppKenpom": null
+                  "oppKenpom": 108
                 }
               ]
             },
@@ -2094,7 +2086,7 @@
                   "location": "Home",
                   "opponent": "Loyola Maryland",
                   "oppNet": 329,
-                  "oppKenpom": null
+                  "oppKenpom": 325
                 },
                 {
                   "result": "W",
@@ -2102,7 +2094,7 @@
                   "location": "Home",
                   "opponent": "Delaware St.",
                   "oppNet": 362,
-                  "oppKenpom": null
+                  "oppKenpom": 362
                 }
               ]
             }
@@ -2305,7 +2297,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 76
         }
       }
     },
@@ -2324,20 +2316,20 @@
             "awaySpreadOdds": -104
           },
           "draftkings": {
-            "home": -162,
-            "away": 136,
+            "home": -155,
+            "away": 130,
             "homeSpread": -3.5,
             "awaySpread": 3.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": -160,
-            "away": 135,
+            "home": -155,
+            "away": 125,
             "homeSpread": -3.5,
             "awaySpread": 3.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -2357,7 +2349,7 @@
                   "location": "Away",
                   "opponent": "Boise St.",
                   "oppNet": 60,
-                  "oppKenpom": null
+                  "oppKenpom": 54
                 }
               ]
             },
@@ -2378,7 +2370,7 @@
                   "location": "Home",
                   "opponent": "Lafayette",
                   "oppNet": 324,
-                  "oppKenpom": null
+                  "oppKenpom": 321
                 },
                 {
                   "result": "W",
@@ -2386,7 +2378,7 @@
                   "location": "Home",
                   "opponent": "FDU",
                   "oppNet": 333,
-                  "oppKenpom": null
+                  "oppKenpom": 340
                 }
               ]
             }
@@ -2596,7 +2588,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 66
         },
         "Pittsburgh Panthers": {
           "net": 106,
@@ -2621,7 +2613,7 @@
                   "location": "Neutral",
                   "opponent": "Penn St.",
                   "oppNet": 138,
-                  "oppKenpom": null
+                  "oppKenpom": 140
                 }
               ]
             },
@@ -2634,7 +2626,7 @@
                   "location": "Home",
                   "opponent": "Rider",
                   "oppNet": 357,
-                  "oppKenpom": null
+                  "oppKenpom": 357
                 },
                 {
                   "result": "W",
@@ -2642,7 +2634,7 @@
                   "location": "Home",
                   "opponent": "Buffalo",
                   "oppNet": 197,
-                  "oppKenpom": null
+                  "oppKenpom": 220
                 }
               ]
             }
@@ -2852,7 +2844,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 104
         }
       }
     },
@@ -2863,28 +2855,28 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -350,
-            "away": 275,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -385,
+            "away": 300,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -355,
             "away": 280,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           },
           "betmgm": {
-            "home": -350,
-            "away": 275,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -375,
+            "away": 290,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -2908,7 +2900,7 @@
                   "location": "Neutral",
                   "opponent": "Seton Hall",
                   "oppNet": 53,
-                  "oppKenpom": null
+                  "oppKenpom": 56
                 }
               ]
             },
@@ -2921,7 +2913,7 @@
                   "location": "Away",
                   "opponent": "Indiana St.",
                   "oppNet": 217,
-                  "oppKenpom": null
+                  "oppKenpom": 210
                 }
               ]
             },
@@ -2934,7 +2926,7 @@
                   "location": "Home",
                   "opponent": "Georgia St.",
                   "oppNet": 306,
-                  "oppKenpom": null
+                  "oppKenpom": 317
                 }
               ]
             }
@@ -3137,7 +3129,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 172
         },
         "Appalachian St Mountaineers": {
           "net": 191,
@@ -3154,7 +3146,7 @@
                   "location": "Away",
                   "opponent": "Auburn",
                   "oppNet": 37,
-                  "oppKenpom": null
+                  "oppKenpom": 40
                 }
               ]
             },
@@ -3171,7 +3163,7 @@
                   "location": "Neutral",
                   "opponent": "Merrimack",
                   "oppNet": 178,
-                  "oppKenpom": null
+                  "oppKenpom": 163
                 }
               ]
             },
@@ -3371,7 +3363,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 190
         }
       }
     },
@@ -3390,16 +3382,16 @@
             "awaySpreadOdds": -105
           },
           "draftkings": {
-            "home": 180,
-            "away": -218,
+            "home": 200,
+            "away": -245,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": 185,
-            "away": -225,
+            "home": 190,
+            "away": -235,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
             "homeSpreadOdds": -110,
@@ -3423,7 +3415,7 @@
                   "location": "Away",
                   "opponent": "6 \n\t\t\t\t\t\t\t\t\t\tVirginia",
                   "oppNet": 16,
-                  "oppKenpom": null
+                  "oppKenpom": 18
                 }
               ]
             },
@@ -3436,7 +3428,7 @@
                   "location": "Away",
                   "opponent": "Maryland",
                   "oppNet": 131,
-                  "oppKenpom": null
+                  "oppKenpom": 108
                 }
               ]
             },
@@ -3453,7 +3445,7 @@
                   "location": "Home",
                   "opponent": "Old Dominion",
                   "oppNet": 255,
-                  "oppKenpom": null
+                  "oppKenpom": 235
                 }
               ]
             }
@@ -3649,7 +3641,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 323
         },
         "Columbia Lions": {
           "net": 188,
@@ -3678,7 +3670,7 @@
                   "location": "Home",
                   "opponent": "Elon",
                   "oppNet": 222,
-                  "oppKenpom": null
+                  "oppKenpom": 258
                 },
                 {
                   "result": "W",
@@ -3686,7 +3678,7 @@
                   "location": "Home",
                   "opponent": "Stonehill",
                   "oppNet": 332,
-                  "oppKenpom": null
+                  "oppKenpom": 337
                 }
               ]
             }
@@ -3868,7 +3860,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 200
         }
       }
     },
@@ -3879,24 +3871,24 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -125,
-            "away": 104,
+            "home": -126,
+            "away": 105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -135,
-            "away": 114,
+            "home": -130,
+            "away": 110,
             "homeSpread": -2.5,
             "awaySpread": 2.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           },
           "betmgm": {
-            "home": -135,
-            "away": 110,
+            "home": -130,
+            "away": 105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -118,
@@ -3924,7 +3916,7 @@
                   "location": "Away",
                   "opponent": "George Washington",
                   "oppNet": 92,
-                  "oppKenpom": null
+                  "oppKenpom": 82
                 }
               ]
             },
@@ -3937,7 +3929,7 @@
                   "location": "Away",
                   "opponent": "Columbia",
                   "oppNet": 188,
-                  "oppKenpom": null
+                  "oppKenpom": 200
                 }
               ]
             },
@@ -3950,7 +3942,7 @@
                   "location": "Home",
                   "opponent": "UNC Greensboro",
                   "oppNet": 293,
-                  "oppKenpom": null
+                  "oppKenpom": 283
                 }
               ]
             }
@@ -4146,7 +4138,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 258
         },
         "Chattanooga Mocs": {
           "net": 288,
@@ -4163,7 +4155,7 @@
                   "location": "Away",
                   "opponent": "11 \n\t\t\t\t\t\t\t\t\t\tLouisville",
                   "oppNet": 19,
-                  "oppKenpom": null
+                  "oppKenpom": 19
                 }
               ]
             },
@@ -4180,7 +4172,7 @@
                   "location": "Away",
                   "opponent": "Penn St.",
                   "oppNet": 138,
-                  "oppKenpom": null
+                  "oppKenpom": 140
                 }
               ]
             },
@@ -4380,7 +4372,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 307
         }
       }
     },
@@ -4391,24 +4383,24 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -37.5,
-            "awaySpread": 37.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -35.5,
+            "awaySpread": 35.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
-            "homeSpread": -37.5,
-            "awaySpread": 37.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpread": -36.5,
+            "awaySpread": 36.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -37.5,
-            "awaySpread": 37.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpread": -36.5,
+            "awaySpread": 36.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -4428,7 +4420,7 @@
                   "location": "Neutral",
                   "opponent": "14 \n\t\t\t\t\t\t\t\t\t\tMiami (FL)",
                   "oppNet": 32,
-                  "oppKenpom": null
+                  "oppKenpom": 33
                 },
                 {
                   "result": "W",
@@ -4436,7 +4428,7 @@
                   "location": "Away",
                   "opponent": "Florida St.",
                   "oppNet": 63,
-                  "oppKenpom": null
+                  "oppKenpom": 52
                 }
               ]
             },
@@ -4457,7 +4449,7 @@
                   "location": "Home",
                   "opponent": "Jacksonville",
                   "oppNet": 296,
-                  "oppKenpom": null
+                  "oppKenpom": 285
                 }
               ]
             }
@@ -4653,7 +4645,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 4
         },
         "Merrimack Warriors": {
           "net": 178,
@@ -4678,7 +4670,7 @@
                   "location": "Neutral",
                   "opponent": "App State",
                   "oppNet": 191,
-                  "oppKenpom": null
+                  "oppKenpom": 190
                 }
               ]
             },
@@ -4691,7 +4683,7 @@
                   "location": "Home",
                   "opponent": "UMass Lowell",
                   "oppNet": 321,
-                  "oppKenpom": null
+                  "oppKenpom": 318
                 },
                 {
                   "result": "W",
@@ -4699,7 +4691,7 @@
                   "location": "Away",
                   "opponent": "UAlbany",
                   "oppNet": 326,
-                  "oppKenpom": null
+                  "oppKenpom": 319
                 }
               ]
             }
@@ -4895,7 +4887,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 163
         }
       }
     },
@@ -4916,18 +4908,18 @@
           "draftkings": {
             "home": -130,
             "away": 110,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
             "home": -135,
             "away": 110,
             "homeSpread": -2.5,
             "awaySpread": 2.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -4947,7 +4939,7 @@
                   "location": "Away",
                   "opponent": "UCF",
                   "oppNet": 52,
-                  "oppKenpom": null
+                  "oppKenpom": 59
                 },
                 {
                   "result": "L",
@@ -4955,7 +4947,7 @@
                   "location": "Away",
                   "opponent": "Georgia",
                   "oppNet": 33,
-                  "oppKenpom": null
+                  "oppKenpom": 42
                 }
               ]
             },
@@ -5149,7 +5141,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 233
         },
         "Florida Int'l Golden Panthers": {
           "net": 195,
@@ -5391,8 +5383,8 @@
             "awaySpreadOdds": -105
           },
           "draftkings": {
-            "home": -950,
-            "away": 625,
+            "home": -1000,
+            "away": 650,
             "homeSpread": -12.5,
             "awaySpread": 12.5,
             "homeSpreadOdds": -115,
@@ -5400,7 +5392,7 @@
           },
           "betmgm": {
             "home": -1000,
-            "away": 625,
+            "away": 650,
             "homeSpread": -12.5,
             "awaySpread": 12.5,
             "homeSpreadOdds": -115,
@@ -5424,7 +5416,7 @@
                   "location": "Away",
                   "opponent": "17 \n\t\t\t\t\t\t\t\t\t\tKansas",
                   "oppNet": 21,
-                  "oppKenpom": null
+                  "oppKenpom": 21
                 }
               ]
             },
@@ -5445,7 +5437,7 @@
                   "location": "Home",
                   "opponent": "Stonehill",
                   "oppNet": 332,
-                  "oppKenpom": null
+                  "oppKenpom": 337
                 },
                 {
                   "result": "W",
@@ -5453,7 +5445,7 @@
                   "location": "Home",
                   "opponent": "Iona",
                   "oppNet": 234,
-                  "oppKenpom": null
+                  "oppKenpom": 236
                 }
               ]
             }
@@ -5649,7 +5641,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 178
         },
         "LIU Sharks": {
           "net": 198,
@@ -5666,7 +5658,7 @@
                   "location": "Away",
                   "opponent": "Seton Hall",
                   "oppNet": 53,
-                  "oppKenpom": null
+                  "oppKenpom": 56
                 }
               ]
             },
@@ -5679,7 +5671,7 @@
                   "location": "Away",
                   "opponent": "Fla. Atlantic",
                   "oppNet": 123,
-                  "oppKenpom": null
+                  "oppKenpom": 123
                 }
               ]
             },
@@ -5692,7 +5684,7 @@
                   "location": "Away",
                   "opponent": "Towson",
                   "oppNet": 160,
-                  "oppKenpom": null
+                  "oppKenpom": 174
                 }
               ]
             },
@@ -5705,7 +5697,7 @@
                   "location": "Away",
                   "opponent": "La Salle",
                   "oppNet": 244,
-                  "oppKenpom": null
+                  "oppKenpom": 213
                 }
               ]
             }
@@ -5901,7 +5893,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 237
         }
       }
     },
@@ -5912,28 +5904,28 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -950,
-            "away": 610,
-            "homeSpread": -12.5,
-            "awaySpread": 12.5,
+            "home": -780,
+            "away": 530,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -950,
-            "away": 625,
-            "homeSpread": -12.5,
-            "awaySpread": 12.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "home": -750,
+            "away": 525,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           },
           "betmgm": {
-            "home": -1000,
-            "away": 625,
-            "homeSpread": -12.5,
-            "awaySpread": 12.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -750,
+            "away": 525,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -5961,7 +5953,7 @@
                   "location": "Home",
                   "opponent": "Navy",
                   "oppNet": 141,
-                  "oppKenpom": null
+                  "oppKenpom": 149
                 }
               ]
             },
@@ -5974,7 +5966,7 @@
                   "location": "Home",
                   "opponent": "Hampton",
                   "oppNet": 269,
-                  "oppKenpom": null
+                  "oppKenpom": 304
                 },
                 {
                   "result": "W",
@@ -5982,7 +5974,7 @@
                   "location": "Home",
                   "opponent": "Elon",
                   "oppNet": 222,
-                  "oppKenpom": null
+                  "oppKenpom": 258
                 }
               ]
             }
@@ -6178,7 +6170,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 82
         },
         "Harvard Crimson": {
           "net": 154,
@@ -6207,7 +6199,7 @@
                   "location": "Away",
                   "opponent": "Northeastern",
                   "oppNet": 287,
-                  "oppKenpom": null
+                  "oppKenpom": 294
                 }
               ]
             }
@@ -6389,7 +6381,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 159
         }
       }
     },
@@ -6400,20 +6392,20 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -184,
-            "away": 152,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -106,
-            "awaySpreadOdds": -114
+            "home": -176,
+            "away": 146,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
           },
           "draftkings": {
             "home": -180,
             "away": 150,
             "homeSpread": -4.5,
             "awaySpread": 4.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -185,
@@ -6449,7 +6441,7 @@
                   "location": "Home",
                   "opponent": "Wyoming",
                   "oppNet": 97,
-                  "oppKenpom": null
+                  "oppKenpom": 96
                 }
               ]
             },
@@ -6462,7 +6454,7 @@
                   "location": "Home",
                   "opponent": "Western Caro.",
                   "oppNet": 225,
-                  "oppKenpom": null
+                  "oppKenpom": 218
                 },
                 {
                   "result": "W",
@@ -6470,7 +6462,7 @@
                   "location": "Home",
                   "opponent": "Wofford",
                   "oppNet": 246,
-                  "oppKenpom": null
+                  "oppKenpom": 265
                 }
               ]
             }
@@ -6680,7 +6672,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 27
         },
         "Georgia Bulldogs": {
           "net": 33,
@@ -6709,7 +6701,7 @@
                   "location": "Home",
                   "opponent": "N.C. Central",
                   "oppNet": 341,
-                  "oppKenpom": null
+                  "oppKenpom": 352
                 },
                 {
                   "result": "W",
@@ -6717,7 +6709,7 @@
                   "location": "Home",
                   "opponent": "Presbyterian",
                   "oppNet": 258,
-                  "oppKenpom": null
+                  "oppKenpom": 281
                 },
                 {
                   "result": "W",
@@ -6725,7 +6717,7 @@
                   "location": "Home",
                   "opponent": "FGCU",
                   "oppNet": 247,
-                  "oppKenpom": null
+                  "oppKenpom": 233
                 }
               ]
             }
@@ -6935,7 +6927,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 42
         }
       }
     },
@@ -6946,28 +6938,28 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -315,
-            "away": 250,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -300,
+            "away": 240,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -305,
-            "away": 245,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": -285,
+            "away": 230,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": -300,
             "away": 240,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -6987,7 +6979,7 @@
                   "location": "Away",
                   "opponent": "Arizona St.",
                   "oppNet": 73,
-                  "oppKenpom": null
+                  "oppKenpom": 64
                 }
               ]
             },
@@ -7008,7 +7000,7 @@
                   "location": "Away",
                   "opponent": "Princeton",
                   "oppNet": 251,
-                  "oppKenpom": null
+                  "oppKenpom": 254
                 }
               ]
             }
@@ -7211,7 +7203,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 89
         },
         "Iona Gaels": {
           "net": 234,
@@ -7228,7 +7220,7 @@
                   "location": "Away",
                   "opponent": "13 \n\t\t\t\t\t\t\t\t\t\tSt. John's (NY)",
                   "oppNet": 13,
-                  "oppKenpom": null
+                  "oppKenpom": 10
                 }
               ]
             },
@@ -7245,7 +7237,7 @@
                   "location": "Away",
                   "opponent": "Fordham",
                   "oppNet": 174,
-                  "oppKenpom": null
+                  "oppKenpom": 178
                 }
               ]
             },
@@ -7258,7 +7250,7 @@
                   "location": "Home",
                   "opponent": "Vermont",
                   "oppNet": 229,
-                  "oppKenpom": null
+                  "oppKenpom": 250
                 },
                 {
                   "result": "W",
@@ -7266,7 +7258,7 @@
                   "location": "Home",
                   "opponent": "NJIT",
                   "oppNet": 327,
-                  "oppKenpom": null
+                  "oppKenpom": 324
                 }
               ]
             }
@@ -7462,7 +7454,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 236
         }
       }
     },
@@ -7473,22 +7465,22 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -36.5,
-            "awaySpread": 36.5,
+            "homeSpread": -35.5,
+            "awaySpread": 35.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "homeSpread": -36.5,
-            "awaySpread": 36.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -35.5,
+            "awaySpread": 35.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -36.5,
-            "awaySpread": 36.5,
+            "homeSpread": -35.5,
+            "awaySpread": 35.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -7496,30 +7488,261 @@
       },
       "teams": {
         "Illinois Fighting Illini": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
+          "net": 5,
+          "previousNet": 8,
+          "record": "2-1",
+          "confRecord": "0-0",
           "quadGames": {
             "1": {
-              "record": "0-0",
-              "games": []
+              "record": "0-1",
+              "games": [
+                {
+                  "result": "L",
+                  "score": "78-84",
+                  "location": "Away",
+                  "opponent": "16 \n\t\t\t\t\t\t\t\t\t\tTexas Tech",
+                  "oppNet": 20,
+                  "oppKenpom": 16
+                }
+              ]
             },
             "2": {
               "record": "0-0",
               "games": []
             },
             "3": {
-              "record": "0-0",
-              "games": []
+              "record": "1-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "112-70",
+                  "location": "Home",
+                  "opponent": "Penn",
+                  "oppNet": 146,
+                  "oppKenpom": 146
+                }
+              ]
             },
             "4": {
-              "record": "0-0",
-              "games": []
+              "record": "1-0",
+              "games": [
+                {
+                  "result": "W",
+                  "score": "120-45",
+                  "location": "Home",
+                  "opponent": "FDU",
+                  "oppNet": 333,
+                  "oppKenpom": 340
+                }
+              ]
             }
           },
-          "upcoming": [],
-          "kenpom": null
+          "upcoming": [
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "11/13/2026",
+              "oppNet": 109,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "11/17/2026",
+              "oppNet": 2,
+              "date": ""
+            },
+            {
+              "quad": "Q4",
+              "location": "Home",
+              "opponent": "11/20/2026",
+              "oppNet": 320,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "11/23/2026",
+              "oppNet": 129,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "11/27/2026",
+              "oppNet": 156,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Neutral",
+              "opponent": "12/04/2026",
+              "oppNet": 9,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "12/08/2026",
+              "oppNet": 82,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "12/12/2026",
+              "oppNet": 138,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Neutral",
+              "opponent": "12/20/2026",
+              "oppNet": 59,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "12/29/2026",
+              "oppNet": 119,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/02/2027",
+              "oppNet": 27,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/05/2027",
+              "oppNet": 8,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/09/2027",
+              "oppNet": 30,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/13/2027",
+              "oppNet": 61,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "01/16/2027",
+              "oppNet": 131,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "01/19/2027",
+              "oppNet": 12,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "01/24/2027",
+              "oppNet": 41,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Home",
+              "opponent": "01/27/2027",
+              "oppNet": 77,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Neutral",
+              "opponent": "01/30/2027",
+              "oppNet": 26,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/02/2027",
+              "oppNet": 31,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "02/05/2027",
+              "oppNet": 11,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/09/2027",
+              "oppNet": 1,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/12/2027",
+              "oppNet": 8,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Home",
+              "opponent": "02/16/2027",
+              "oppNet": 61,
+              "date": ""
+            },
+            {
+              "quad": "Q2",
+              "location": "Away",
+              "opponent": "02/20/2027",
+              "oppNet": 107,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Away",
+              "opponent": "02/23/2027",
+              "oppNet": 55,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "02/28/2027",
+              "oppNet": 27,
+              "date": ""
+            },
+            {
+              "quad": "Q3",
+              "location": "Away",
+              "opponent": "03/03/2027",
+              "oppNet": 136,
+              "date": ""
+            },
+            {
+              "quad": "Q1",
+              "location": "Home",
+              "opponent": "03/06/2027",
+              "oppNet": 22,
+              "date": ""
+            }
+          ],
+          "kenpom": 6
         },
         "Sam Houston St Bearkats": {
           "net": 109,
@@ -7536,7 +7759,7 @@
                   "location": "Away",
                   "opponent": "20 \n\t\t\t\t\t\t\t\t\t\tAlabama",
                   "oppNet": 14,
-                  "oppKenpom": null
+                  "oppKenpom": 13
                 }
               ]
             },
@@ -7557,7 +7780,7 @@
                   "location": "Home",
                   "opponent": "Pepperdine",
                   "oppNet": 275,
-                  "oppKenpom": null
+                  "oppKenpom": 260
                 }
               ]
             }
@@ -7753,7 +7976,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 109
         }
       }
     },
@@ -7764,24 +7987,26 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -33.5,
-            "awaySpread": 33.5,
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "homeSpread": -33.5,
-            "awaySpread": 33.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "home": -100000,
+            "away": 5000,
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -33.5,
-            "awaySpread": 33.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -7801,7 +8026,7 @@
                   "location": "Neutral",
                   "opponent": "15 \n\t\t\t\t\t\t\t\t\t\tKansas",
                   "oppNet": 21,
-                  "oppKenpom": null
+                  "oppKenpom": 21
                 }
               ]
             },
@@ -7822,7 +8047,7 @@
                   "location": "Home",
                   "opponent": "Manhattan",
                   "oppNet": 328,
-                  "oppKenpom": null
+                  "oppKenpom": 332
                 },
                 {
                   "result": "W",
@@ -7830,7 +8055,7 @@
                   "location": "Home",
                   "opponent": "James Madison",
                   "oppNet": 209,
-                  "oppKenpom": null
+                  "oppKenpom": 208
                 }
               ]
             }
@@ -8040,7 +8265,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 29
         },
         "Northern Arizona Lumberjacks": {
           "net": 315,
@@ -8057,7 +8282,7 @@
                   "location": "Away",
                   "opponent": "New Mexico",
                   "oppNet": 46,
-                  "oppKenpom": null
+                  "oppKenpom": 51
                 },
                 {
                   "result": "L",
@@ -8065,7 +8290,7 @@
                   "location": "Away",
                   "opponent": "12 \n\t\t\t\t\t\t\t\t\t\tArizona",
                   "oppNet": 3,
-                  "oppKenpom": null
+                  "oppKenpom": 2
                 }
               ]
             },
@@ -8078,7 +8303,7 @@
                   "location": "Away",
                   "opponent": "UNLV",
                   "oppNet": 105,
-                  "oppKenpom": null
+                  "oppKenpom": 106
                 }
               ]
             },
@@ -8268,7 +8493,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 320
         }
       }
     },
@@ -8281,24 +8506,24 @@
           "fanduel": {
             "home": -134,
             "away": 112,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "draftkings": {
-            "home": -130,
-            "away": 110,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
+            "home": -142,
+            "away": 120,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
             "homeSpreadOdds": -112,
             "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -135,
-            "away": 110,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
+            "home": -145,
+            "away": 118,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -8320,7 +8545,7 @@
                   "location": "Away",
                   "opponent": "Saint Louis",
                   "oppNet": 29,
-                  "oppKenpom": null
+                  "oppKenpom": 41
                 }
               ]
             },
@@ -8337,7 +8562,7 @@
                   "location": "Home",
                   "opponent": "Cornell",
                   "oppNet": 149,
-                  "oppKenpom": null
+                  "oppKenpom": 154
                 }
               ]
             },
@@ -8350,7 +8575,7 @@
                   "location": "Home",
                   "opponent": "Brown",
                   "oppNet": 297,
-                  "oppKenpom": null
+                  "oppKenpom": 286
                 }
               ]
             }
@@ -8539,7 +8764,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 288
         },
         "Marist Red Foxes": {
           "net": 181,
@@ -8568,7 +8793,7 @@
                   "location": "Home",
                   "opponent": "Dartmouth",
                   "oppNet": 267,
-                  "oppKenpom": null
+                  "oppKenpom": 273
                 },
                 {
                   "result": "L",
@@ -8576,7 +8801,7 @@
                   "location": "Away",
                   "opponent": "UMass Lowell",
                   "oppNet": 321,
-                  "oppKenpom": null
+                  "oppKenpom": 318
                 }
               ]
             }
@@ -8765,7 +8990,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 202
         }
       }
     },
@@ -8778,24 +9003,24 @@
           "fanduel": {
             "homeSpread": -27.5,
             "awaySpread": 27.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
             "home": -50000,
             "away": 4000,
             "homeSpread": -27.5,
             "awaySpread": 27.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
             "home": -10000,
-            "away": 3000,
-            "homeSpread": -27.5,
-            "awaySpread": 27.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "away": 3300,
+            "homeSpread": -28.5,
+            "awaySpread": 28.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -8815,7 +9040,7 @@
                   "location": "Neutral",
                   "opponent": "2 \n\t\t\t\t\t\t\t\t\t\tDuke",
                   "oppNet": 2,
-                  "oppKenpom": null
+                  "oppKenpom": 3
                 }
               ]
             },
@@ -8832,7 +9057,7 @@
                   "location": "Home",
                   "opponent": "Toledo",
                   "oppNet": 134,
-                  "oppKenpom": null
+                  "oppKenpom": 126
                 }
               ]
             },
@@ -8845,7 +9070,7 @@
                   "location": "Home",
                   "opponent": "Quinnipiac",
                   "oppNet": 210,
-                  "oppKenpom": null
+                  "oppKenpom": 214
                 }
               ]
             }
@@ -9055,7 +9280,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 11
         },
         "Northern Iowa Panthers": {
           "net": 79,
@@ -9080,7 +9305,7 @@
                   "location": "Away",
                   "opponent": "Furman",
                   "oppNet": 183,
-                  "oppKenpom": null
+                  "oppKenpom": 181
                 }
               ]
             },
@@ -9093,7 +9318,7 @@
                   "location": "Home",
                   "opponent": "Green Bay",
                   "oppNet": 218,
-                  "oppKenpom": null
+                  "oppKenpom": 183
                 }
               ]
             }
@@ -9296,7 +9521,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 77
         }
       }
     },
@@ -9307,26 +9532,26 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -28.5,
-            "awaySpread": 28.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -50000,
-            "away": 4000,
             "homeSpread": -27.5,
             "awaySpread": 27.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": -20000,
+            "away": 3500,
+            "homeSpread": -27.5,
+            "awaySpread": 27.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -28.5,
-            "awaySpread": 28.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -27.5,
+            "awaySpread": 27.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -9346,7 +9571,7 @@
                   "location": "Neutral",
                   "opponent": "Iowa",
                   "oppNet": 22,
-                  "oppKenpom": null
+                  "oppKenpom": 23
                 }
               ]
             },
@@ -9367,7 +9592,7 @@
                   "location": "Home",
                   "opponent": "Coppin St.",
                   "oppNet": 363,
-                  "oppKenpom": null
+                  "oppKenpom": 363
                 },
                 {
                   "result": "W",
@@ -9375,7 +9600,7 @@
                   "location": "Home",
                   "opponent": "Mercer",
                   "oppNet": 184,
-                  "oppKenpom": null
+                  "oppKenpom": 207
                 }
               ]
             }
@@ -9585,7 +9810,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 58
         },
         "Mt. St. Mary's Mountaineers": {
           "net": null,
@@ -9611,7 +9836,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 268
         }
       }
     },
@@ -9671,7 +9896,7 @@
                   "location": "Home",
                   "opponent": "ETSU",
                   "oppNet": 139,
-                  "oppKenpom": null
+                  "oppKenpom": 192
                 }
               ]
             },
@@ -9684,7 +9909,7 @@
                   "location": "Home",
                   "opponent": "Campbell",
                   "oppNet": 200,
-                  "oppKenpom": null
+                  "oppKenpom": 195
                 },
                 {
                   "result": "W",
@@ -9692,7 +9917,7 @@
                   "location": "Home",
                   "opponent": "Presbyterian",
                   "oppNet": 258,
-                  "oppKenpom": null
+                  "oppKenpom": 281
                 }
               ]
             }
@@ -9895,7 +10120,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 43
         },
         "Troy Trojans": {
           "net": 137,
@@ -9912,7 +10137,7 @@
                   "location": "Away",
                   "opponent": "Florida St.",
                   "oppNet": 63,
-                  "oppKenpom": null
+                  "oppKenpom": 52
                 }
               ]
             },
@@ -9933,7 +10158,7 @@
                   "location": "Home",
                   "opponent": "Massachusetts",
                   "oppNet": 202,
-                  "oppKenpom": null
+                  "oppKenpom": 175
                 },
                 {
                   "result": "W",
@@ -9941,7 +10166,7 @@
                   "location": "Home",
                   "opponent": "LMU (CA)",
                   "oppNet": 182,
-                  "oppKenpom": null
+                  "oppKenpom": 155
                 }
               ]
             }
@@ -10123,7 +10348,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 151
         }
       }
     },
@@ -10142,12 +10367,12 @@
             "awaySpreadOdds": -114
           },
           "draftkings": {
-            "home": 110,
-            "away": -130,
+            "home": 102,
+            "away": -122,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": 105,
@@ -10175,7 +10400,7 @@
                   "location": "Away",
                   "opponent": "9 \n\t\t\t\t\t\t\t\t\t\tVirginia",
                   "oppNet": 16,
-                  "oppKenpom": null
+                  "oppKenpom": 18
                 }
               ]
             },
@@ -10192,7 +10417,7 @@
                   "location": "Home",
                   "opponent": "Harvard",
                   "oppNet": 154,
-                  "oppKenpom": null
+                  "oppKenpom": 159
                 }
               ]
             },
@@ -10205,7 +10430,7 @@
                   "location": "Away",
                   "opponent": "Boston U.",
                   "oppNet": 266,
-                  "oppKenpom": null
+                  "oppKenpom": 241
                 }
               ]
             }
@@ -10415,7 +10640,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 294
         },
         "Yale Bulldogs": {
           "net": 74,
@@ -10432,7 +10657,7 @@
                   "location": "Away",
                   "opponent": "UCF",
                   "oppNet": 52,
-                  "oppKenpom": null
+                  "oppKenpom": 59
                 },
                 {
                   "result": "L",
@@ -10440,7 +10665,7 @@
                   "location": "Away",
                   "opponent": "Baylor",
                   "oppNet": 50,
-                  "oppKenpom": null
+                  "oppKenpom": 45
                 }
               ]
             },
@@ -10461,7 +10686,7 @@
                   "location": "Home",
                   "opponent": "Howard",
                   "oppNet": 194,
-                  "oppKenpom": null
+                  "oppKenpom": 179
                 }
               ]
             }
@@ -10629,7 +10854,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 92
         }
       }
     },
@@ -10640,26 +10865,26 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -4500,
-            "away": 1600,
-            "homeSpread": -19.5,
-            "awaySpread": 19.5,
+            "home": -4000,
+            "away": 1400,
+            "homeSpread": -18.5,
+            "awaySpread": 18.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -3600,
             "away": 1500,
-            "homeSpread": -19.5,
-            "awaySpread": 19.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpread": -18.5,
+            "awaySpread": 18.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
             "home": -3000,
-            "away": 1250,
-            "homeSpread": -19.5,
-            "awaySpread": 19.5,
+            "away": 1200,
+            "homeSpread": -18.5,
+            "awaySpread": 18.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -10681,7 +10906,7 @@
                   "location": "Neutral",
                   "opponent": "15 \n\t\t\t\t\t\t\t\t\t\tGonzaga",
                   "oppNet": 10,
-                  "oppKenpom": null
+                  "oppKenpom": 15
                 }
               ]
             },
@@ -10698,7 +10923,7 @@
                   "location": "Home",
                   "opponent": "Valparaiso",
                   "oppNet": 157,
-                  "oppKenpom": null
+                  "oppKenpom": 164
                 },
                 {
                   "result": "W",
@@ -10706,7 +10931,7 @@
                   "location": "Home",
                   "opponent": "Illinois St.",
                   "oppNet": 91,
-                  "oppKenpom": null
+                  "oppKenpom": 99
                 }
               ]
             },
@@ -10920,7 +11145,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 8
         },
         "Ohio Bobcats": {
           "net": 232,
@@ -10945,7 +11170,7 @@
                   "location": "Away",
                   "opponent": "South Alabama",
                   "oppNet": 185,
-                  "oppKenpom": null
+                  "oppKenpom": 187
                 }
               ]
             },
@@ -10958,7 +11183,7 @@
                   "location": "Home",
                   "opponent": "N.C. A&T",
                   "oppNet": 276,
-                  "oppKenpom": null
+                  "oppKenpom": 313
                 }
               ]
             }
@@ -11154,7 +11379,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 225
         }
       }
     },
@@ -11202,7 +11427,7 @@
                   "location": "Home",
                   "opponent": "Wake Forest",
                   "oppNet": 69,
-                  "oppKenpom": null
+                  "oppKenpom": 74
                 }
               ]
             },
@@ -11215,7 +11440,7 @@
                   "location": "Home",
                   "opponent": "Memphis",
                   "oppNet": 128,
-                  "oppKenpom": null
+                  "oppKenpom": 129
                 }
               ]
             },
@@ -11228,7 +11453,7 @@
                   "location": "Home",
                   "opponent": "Bellarmine",
                   "oppNet": 285,
-                  "oppKenpom": null
+                  "oppKenpom": 298
                 }
               ]
             }
@@ -11438,7 +11663,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 14
         },
         "Prairie View Panthers": {
           "net": 301,
@@ -11455,7 +11680,7 @@
                   "location": "Away",
                   "opponent": "SMU",
                   "oppNet": 40,
-                  "oppKenpom": null
+                  "oppKenpom": 49
                 }
               ]
             },
@@ -11468,7 +11693,7 @@
                   "location": "Away",
                   "opponent": "UTRGV",
                   "oppNet": 126,
-                  "oppKenpom": null
+                  "oppKenpom": 115
                 }
               ]
             },
@@ -11665,7 +11890,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 280
         }
       }
     },
@@ -11676,26 +11901,26 @@
         "commence_time": "2026-11-14T00:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -29.5,
-            "awaySpread": 29.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpread": -27.5,
+            "awaySpread": 27.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
           },
           "draftkings": {
-            "home": -50000,
-            "away": 4000,
-            "homeSpread": -29.5,
-            "awaySpread": 29.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -20000,
+            "away": 3500,
+            "homeSpread": -27.5,
+            "awaySpread": 27.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -30.5,
-            "awaySpread": 30.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -27.5,
+            "awaySpread": 27.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -11727,7 +11952,7 @@
                   "location": "Home",
                   "opponent": "Wofford",
                   "oppNet": 246,
-                  "oppKenpom": null
+                  "oppKenpom": 265
                 },
                 {
                   "result": "W",
@@ -11735,7 +11960,7 @@
                   "location": "Home",
                   "opponent": "Radford",
                   "oppNet": 252,
-                  "oppKenpom": null
+                  "oppKenpom": 240
                 }
               ]
             }
@@ -11938,7 +12163,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 12
         },
         "Tennessee St Tigers": {
           "net": 176,
@@ -11963,7 +12188,7 @@
                   "location": "Neutral",
                   "opponent": "Murray St.",
                   "oppNet": 110,
-                  "oppKenpom": null
+                  "oppKenpom": 135
                 }
               ]
             },
@@ -12121,7 +12346,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 216
         }
       }
     },
@@ -12185,7 +12410,7 @@
                   "location": "Home",
                   "opponent": "Southern U.",
                   "oppNet": 279,
-                  "oppKenpom": null
+                  "oppKenpom": 249
                 }
               ]
             }
@@ -12402,7 +12627,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 217
         },
         "South Dakota Coyotes": {
           "net": 286,
@@ -12431,7 +12656,7 @@
                   "location": "Home",
                   "opponent": "Northern Ky.",
                   "oppNet": 186,
-                  "oppKenpom": null
+                  "oppKenpom": 180
                 },
                 {
                   "result": "L",
@@ -12439,7 +12664,7 @@
                   "location": "Home",
                   "opponent": "Cal St. Fullerton",
                   "oppNet": 180,
-                  "oppKenpom": null
+                  "oppKenpom": 206
                 },
                 {
                   "result": "L",
@@ -12447,7 +12672,7 @@
                   "location": "Home",
                   "opponent": "Houston Christian",
                   "oppNet": 294,
-                  "oppKenpom": null
+                  "oppKenpom": 303
                 }
               ]
             }
@@ -12629,7 +12854,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 279
         }
       }
     },
@@ -12640,26 +12865,26 @@
         "commence_time": "2026-11-14T00:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -3000,
-            "away": 1200,
-            "homeSpread": -17.5,
-            "awaySpread": 17.5,
+            "home": -2800,
+            "away": 1160,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -2800,
-            "away": 1300,
-            "homeSpread": -17.5,
-            "awaySpread": 17.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -2100,
+            "away": 1100,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -2500,
-            "away": 1150,
-            "homeSpread": -17.5,
-            "awaySpread": 17.5,
+            "away": 1050,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -12685,7 +12910,7 @@
                   "location": "Neutral",
                   "opponent": "High Point",
                   "oppNet": 68,
-                  "oppKenpom": null
+                  "oppKenpom": 86
                 }
               ]
             },
@@ -12896,7 +13121,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 116
         },
         "North Carolina Central Eagles": {
           "net": 341,
@@ -12913,7 +13138,7 @@
                   "location": "Away",
                   "opponent": "Georgia",
                   "oppNet": 33,
-                  "oppKenpom": null
+                  "oppKenpom": 42
                 }
               ]
             },
@@ -12934,7 +13159,7 @@
                   "location": "Away",
                   "opponent": "Longwood",
                   "oppNet": 263,
-                  "oppKenpom": null
+                  "oppKenpom": 266
                 },
                 {
                   "result": "L",
@@ -12942,7 +13167,7 @@
                   "location": "Away",
                   "opponent": "VMI",
                   "oppNet": 359,
-                  "oppKenpom": null
+                  "oppKenpom": 359
                 }
               ]
             }
@@ -13110,7 +13335,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 352
         }
       }
     },
@@ -13131,18 +13356,18 @@
           "draftkings": {
             "home": -250,
             "away": 205,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": -250,
             "away": 200,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -13162,7 +13387,7 @@
                   "location": "Away",
                   "opponent": "17 \n\t\t\t\t\t\t\t\t\t\tKansas",
                   "oppNet": 21,
-                  "oppKenpom": null
+                  "oppKenpom": 21
                 }
               ]
             },
@@ -13183,7 +13408,7 @@
                   "location": "Home",
                   "opponent": "Evansville",
                   "oppNet": 307,
-                  "oppKenpom": null
+                  "oppKenpom": 309
                 }
               ]
             }
@@ -13365,7 +13590,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 152
         },
         "SE Missouri St Redhawks": {
           "net": 224,
@@ -13386,7 +13611,7 @@
                   "location": "Away",
                   "opponent": "South Carolina",
                   "oppNet": 104,
-                  "oppKenpom": null
+                  "oppKenpom": 98
                 }
               ]
             },
@@ -13403,7 +13628,7 @@
                   "location": "Home",
                   "opponent": "Lipscomb",
                   "oppNet": 193,
-                  "oppKenpom": null
+                  "oppKenpom": 232
                 }
               ]
             }
@@ -13571,7 +13796,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 251
         }
       }
     },
@@ -13582,24 +13807,24 @@
         "commence_time": "2026-11-14T00:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -800,
-            "away": 540,
-            "homeSpread": -11.5,
-            "awaySpread": 11.5,
+            "home": -1050,
+            "away": 660,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -700,
-            "away": 500,
-            "homeSpread": -11.5,
-            "awaySpread": 11.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": -850,
+            "away": 575,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -750,
-            "away": 525
+            "home": -900,
+            "away": 600
           }
         }
       },
@@ -13619,7 +13844,7 @@
                   "location": "Neutral",
                   "opponent": "16 \n\t\t\t\t\t\t\t\t\t\tMichigan",
                   "oppNet": 1,
-                  "oppKenpom": null
+                  "oppKenpom": 1
                 }
               ]
             },
@@ -13640,7 +13865,7 @@
                   "location": "Home",
                   "opponent": "Gardner-Webb",
                   "oppNet": 361,
-                  "oppKenpom": null
+                  "oppKenpom": 361
                 },
                 {
                   "result": "W",
@@ -13648,7 +13873,7 @@
                   "location": "Home",
                   "opponent": "Wagner",
                   "oppNet": 303,
-                  "oppKenpom": null
+                  "oppKenpom": 314
                 }
               ]
             }
@@ -13858,7 +14083,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 9
         },
         "Ohio State Buckeyes": {
           "net": 30,
@@ -13875,7 +14100,7 @@
                   "location": "Neutral",
                   "opponent": "25 \n\t\t\t\t\t\t\t\t\t\tBYU",
                   "oppNet": 23,
-                  "oppKenpom": null
+                  "oppKenpom": 35
                 }
               ]
             },
@@ -13896,7 +14121,7 @@
                   "location": "Home",
                   "opponent": "Youngstown St.",
                   "oppNet": 219,
-                  "oppKenpom": null
+                  "oppKenpom": 189
                 },
                 {
                   "result": "W",
@@ -13904,7 +14129,7 @@
                   "location": "Home",
                   "opponent": "Marshall",
                   "oppNet": 170,
-                  "oppKenpom": null
+                  "oppKenpom": 215
                 }
               ]
             }
@@ -14107,7 +14332,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 24
         }
       }
     },
@@ -14118,28 +14343,28 @@
         "commence_time": "2026-11-14T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -2800,
-            "away": 1160,
+            "home": -2500,
+            "away": 1100,
             "homeSpread": -15.5,
             "awaySpread": 15.5,
             "homeSpreadOdds": -120,
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -2800,
-            "away": 1300,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
-          },
-          "betmgm": {
             "home": -1600,
             "away": 900,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
+          },
+          "betmgm": {
+            "home": -2000,
+            "away": 950,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -14167,7 +14392,7 @@
                   "location": "Away",
                   "opponent": "San Diego",
                   "oppNet": 236,
-                  "oppKenpom": null
+                  "oppKenpom": 222
                 }
               ]
             },
@@ -14360,7 +14585,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 226
         },
         "Alcorn St Braves": {
           "net": 349,
@@ -14381,7 +14606,7 @@
                   "location": "Away",
                   "opponent": "Ole Miss",
                   "oppNet": 80,
-                  "oppKenpom": null
+                  "oppKenpom": 63
                 },
                 {
                   "result": "L",
@@ -14389,7 +14614,7 @@
                   "location": "Away",
                   "opponent": "Murray St.",
                   "oppNet": 110,
-                  "oppKenpom": null
+                  "oppKenpom": 135
                 }
               ]
             },
@@ -14406,7 +14631,7 @@
                   "location": "Home",
                   "opponent": "Howard",
                   "oppNet": 194,
-                  "oppKenpom": null
+                  "oppKenpom": 179
                 }
               ]
             }
@@ -14616,7 +14841,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 344
         }
       }
     },
@@ -14627,26 +14852,26 @@
         "commence_time": "2026-11-14T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -20000,
-            "away": 3500,
-            "homeSpread": -24.5,
-            "awaySpread": 24.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -10000,
+            "away": 2500,
+            "homeSpread": -22.5,
+            "awaySpread": 22.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -9000,
-            "away": 2500,
-            "homeSpread": -25.5,
-            "awaySpread": 25.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -8000,
+            "away": 2200,
+            "homeSpread": -23.5,
+            "awaySpread": 23.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
             "home": -10000,
             "away": 2800,
-            "homeSpread": -25.5,
-            "awaySpread": 25.5,
+            "homeSpread": -23.5,
+            "awaySpread": 23.5,
             "homeSpreadOdds": -105,
             "awaySpreadOdds": -115
           }
@@ -14668,7 +14893,7 @@
                   "location": "Neutral",
                   "opponent": "9 \n\t\t\t\t\t\t\t\t\t\tVirginia",
                   "oppNet": 16,
-                  "oppKenpom": null
+                  "oppKenpom": 18
                 }
               ]
             },
@@ -14685,7 +14910,7 @@
                   "location": "Home",
                   "opponent": "Robert Morris",
                   "oppNet": 143,
-                  "oppKenpom": null
+                  "oppKenpom": 145
                 }
               ]
             },
@@ -14698,7 +14923,7 @@
                   "location": "Home",
                   "opponent": "Ark.-Pine Bluff",
                   "oppNet": 316,
-                  "oppKenpom": null
+                  "oppKenpom": 292
                 }
               ]
             }
@@ -14908,7 +15133,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 20
         },
         "Central Arkansas Bears": {
           "net": 166,
@@ -14929,7 +15154,7 @@
                   "location": "Away",
                   "opponent": "Ole Miss",
                   "oppNet": 80,
-                  "oppKenpom": null
+                  "oppKenpom": 63
                 }
               ]
             },
@@ -14946,7 +15171,7 @@
                   "location": "Home",
                   "opponent": "Oral Roberts",
                   "oppNet": 314,
-                  "oppKenpom": null
+                  "oppKenpom": 302
                 }
               ]
             }
@@ -15135,7 +15360,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 143
         }
       }
     },
@@ -15146,22 +15371,22 @@
         "commence_time": "2026-11-14T01:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -44.5,
-            "awaySpread": 44.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -43.5,
+            "awaySpread": 43.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
-            "homeSpread": -44.5,
-            "awaySpread": 44.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -42.5,
+            "awaySpread": 42.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -44.5,
-            "awaySpread": 44.5,
+            "homeSpread": -43.5,
+            "awaySpread": 43.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -15183,7 +15408,7 @@
                   "location": "Neutral",
                   "opponent": "5 \n\t\t\t\t\t\t\t\t\t\tMichigan St.",
                   "oppNet": 11,
-                  "oppKenpom": null
+                  "oppKenpom": 11
                 }
               ]
             },
@@ -15204,7 +15429,7 @@
                   "location": "Home",
                   "opponent": "Army West Point",
                   "oppNet": 336,
-                  "oppKenpom": null
+                  "oppKenpom": 342
                 },
                 {
                   "result": "W",
@@ -15212,7 +15437,7 @@
                   "location": "Home",
                   "opponent": "Coastal Carolina",
                   "oppNet": 226,
-                  "oppKenpom": null
+                  "oppKenpom": 231
                 }
               ]
             }
@@ -15415,7 +15640,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 3
         },
         "SIU-Edwardsville Cougars": {
           "net": 259,
@@ -15432,7 +15657,7 @@
                   "location": "Away",
                   "opponent": "Missouri",
                   "oppNet": 59,
-                  "oppKenpom": null
+                  "oppKenpom": 46
                 }
               ]
             },
@@ -15449,7 +15674,7 @@
                   "location": "Away",
                   "opponent": "Lipscomb",
                   "oppNet": 193,
-                  "oppKenpom": null
+                  "oppKenpom": 232
                 }
               ]
             },
@@ -15662,8 +15887,8 @@
             "away": 3300,
             "homeSpread": -31.5,
             "awaySpread": 31.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -15695,7 +15920,7 @@
                   "location": "Home",
                   "opponent": "East Texas A&M",
                   "oppNet": 304,
-                  "oppKenpom": null
+                  "oppKenpom": 296
                 },
                 {
                   "result": "W",
@@ -15703,7 +15928,7 @@
                   "location": "Home",
                   "opponent": "Mississippi Val.",
                   "oppNet": 365,
-                  "oppKenpom": null
+                  "oppKenpom": 364
                 },
                 {
                   "result": "W",
@@ -15711,7 +15936,7 @@
                   "location": "Home",
                   "opponent": "North Ala.",
                   "oppNet": 338,
-                  "oppKenpom": null
+                  "oppKenpom": 338
                 }
               ]
             }
@@ -15921,7 +16146,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 37
         },
         "Fairleigh Dickinson Knights": {
           "net": 333,
@@ -15938,7 +16163,7 @@
                   "location": "Away",
                   "opponent": "3 \n\t\t\t\t\t\t\t\t\t\tIllinois",
                   "oppNet": 5,
-                  "oppKenpom": null
+                  "oppKenpom": 6
                 }
               ]
             },
@@ -15951,7 +16176,7 @@
                   "location": "Away",
                   "opponent": "Butler",
                   "oppNet": 84,
-                  "oppKenpom": null
+                  "oppKenpom": 66
                 }
               ]
             },
@@ -15968,7 +16193,7 @@
                   "location": "Away",
                   "opponent": "East Texas A&M",
                   "oppNet": 304,
-                  "oppKenpom": null
+                  "oppKenpom": 296
                 }
               ]
             }
@@ -16157,7 +16382,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 340
         }
       }
     },
@@ -16169,7 +16394,7 @@
         "odds": {
           "fanduel": {
             "home": -10000,
-            "away": 2500,
+            "away": 2400,
             "homeSpread": -22.5,
             "awaySpread": 22.5,
             "homeSpreadOdds": -110,
@@ -16178,18 +16403,18 @@
           "draftkings": {
             "home": -5000,
             "away": 1800,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -22.5,
+            "awaySpread": 22.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": -10000,
-            "away": 1900,
+            "away": 1850,
             "homeSpread": -22.5,
             "awaySpread": 22.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -16213,7 +16438,7 @@
                   "location": "Home",
                   "opponent": "Yale",
                   "oppNet": 74,
-                  "oppKenpom": null
+                  "oppKenpom": 92
                 }
               ]
             },
@@ -16230,7 +16455,7 @@
                   "location": "Home",
                   "opponent": "FGCU",
                   "oppNet": 247,
-                  "oppKenpom": null
+                  "oppKenpom": 233
                 },
                 {
                   "result": "W",
@@ -16238,7 +16463,7 @@
                   "location": "Home",
                   "opponent": "South Alabama",
                   "oppNet": 185,
-                  "oppKenpom": null
+                  "oppKenpom": 187
                 }
               ]
             }
@@ -16448,7 +16673,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 59
         },
         "Georgia Southern Eagles": {
           "net": 221,
@@ -16473,7 +16698,7 @@
                   "location": "Away",
                   "opponent": "Georgia Tech",
                   "oppNet": 169,
-                  "oppKenpom": null
+                  "oppKenpom": 167
                 }
               ]
             },
@@ -16486,7 +16711,7 @@
                   "location": "Home",
                   "opponent": "Ball St.",
                   "oppNet": 299,
-                  "oppKenpom": null
+                  "oppKenpom": 278
                 },
                 {
                   "result": "L",
@@ -16494,7 +16719,7 @@
                   "location": "Home",
                   "opponent": "Mercer",
                   "oppNet": 184,
-                  "oppKenpom": null
+                  "oppKenpom": 207
                 }
               ]
             }
@@ -16690,7 +16915,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 229
         }
       }
     },
@@ -16709,12 +16934,12 @@
             "awaySpreadOdds": -114
           },
           "draftkings": {
-            "home": 130,
-            "away": -155,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "home": 136,
+            "away": -162,
+            "homeSpread": 3.5,
+            "awaySpread": -3.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
             "home": 135,
@@ -16742,7 +16967,7 @@
                   "location": "Away",
                   "opponent": "Saint Mary's (CA)",
                   "oppNet": 24,
-                  "oppKenpom": null
+                  "oppKenpom": 28
                 }
               ]
             },
@@ -16755,7 +16980,7 @@
                   "location": "Away",
                   "opponent": "San Francisco",
                   "oppNet": 121,
-                  "oppKenpom": null
+                  "oppKenpom": 127
                 }
               ]
             },
@@ -16772,7 +16997,7 @@
                   "location": "Away",
                   "opponent": "CSU Bakersfield",
                   "oppNet": 330,
-                  "oppKenpom": null
+                  "oppKenpom": 329
                 }
               ]
             }
@@ -16961,7 +17186,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 119
         },
         "Illinois St Redbirds": {
           "net": 91,
@@ -16978,7 +17203,7 @@
                   "location": "Away",
                   "opponent": "Saint Mary's (CA)",
                   "oppNet": 24,
-                  "oppKenpom": null
+                  "oppKenpom": 28
                 },
                 {
                   "result": "L",
@@ -16986,7 +17211,7 @@
                   "location": "Away",
                   "opponent": "Purdue",
                   "oppNet": 8,
-                  "oppKenpom": null
+                  "oppKenpom": 8
                 }
               ]
             },
@@ -17212,28 +17437,28 @@
         "commence_time": "2026-11-14T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 205,
-            "away": -255,
+            "home": 198,
+            "away": -250,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
             "homeSpreadOdds": -105,
             "awaySpreadOdds": -115
           },
           "draftkings": {
-            "home": 195,
-            "away": -238,
-            "homeSpread": 5.5,
-            "awaySpread": -5.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": 205,
+            "away": -250,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": 195,
-            "away": -235,
-            "homeSpread": 5.5,
-            "awaySpread": -5.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": 200,
+            "away": -250,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -17257,7 +17482,7 @@
                   "location": "Away",
                   "opponent": "Georgetown",
                   "oppNet": 87,
-                  "oppKenpom": null
+                  "oppKenpom": 76
                 }
               ]
             },
@@ -17274,7 +17499,7 @@
                   "location": "Home",
                   "opponent": "Bucknell",
                   "oppNet": 334,
-                  "oppKenpom": null
+                  "oppKenpom": 323
                 }
               ]
             }
@@ -17477,7 +17702,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 108
         },
         "Virginia Cavaliers": {
           "net": 16,
@@ -17494,7 +17719,7 @@
                   "location": "Neutral",
                   "opponent": "12 \n\t\t\t\t\t\t\t\t\t\tArkansas",
                   "oppNet": 18,
-                  "oppKenpom": null
+                  "oppKenpom": 20
                 }
               ]
             },
@@ -17515,7 +17740,7 @@
                   "location": "Home",
                   "opponent": "Drexel",
                   "oppNet": 212,
-                  "oppKenpom": null
+                  "oppKenpom": 203
                 },
                 {
                   "result": "W",
@@ -17523,7 +17748,7 @@
                   "location": "Home",
                   "opponent": "Northeastern",
                   "oppNet": 287,
-                  "oppKenpom": null
+                  "oppKenpom": 294
                 },
                 {
                   "result": "W",
@@ -17531,7 +17756,7 @@
                   "location": "Home",
                   "opponent": "Bucknell",
                   "oppNet": 334,
-                  "oppKenpom": null
+                  "oppKenpom": 323
                 }
               ]
             }
@@ -17727,7 +17952,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 18
         }
       }
     },
@@ -17739,25 +17964,25 @@
         "odds": {
           "fanduel": {
             "home": -10000,
-            "away": 3000,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
+            "away": 2400,
+            "homeSpread": -22.5,
+            "awaySpread": 22.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -6500,
             "away": 2000,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -22.5,
+            "awaySpread": 22.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -10000,
-            "away": 2000,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
+            "away": 1800,
+            "homeSpread": -22.5,
+            "awaySpread": 22.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -17791,7 +18016,7 @@
                   "location": "Home",
                   "opponent": "Lindenwood",
                   "oppNet": 264,
-                  "oppKenpom": null
+                  "oppKenpom": 272
                 },
                 {
                   "result": "W",
@@ -17799,7 +18024,7 @@
                   "location": "Home",
                   "opponent": "Southern U.",
                   "oppNet": 279,
-                  "oppKenpom": null
+                  "oppKenpom": 249
                 },
                 {
                   "result": "W",
@@ -17807,7 +18032,7 @@
                   "location": "Home",
                   "opponent": "ULM",
                   "oppNet": 355,
-                  "oppKenpom": null
+                  "oppKenpom": 348
                 }
               ]
             }
@@ -18003,7 +18228,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 48
         },
         "Milwaukee Panthers": {
           "net": 253,
@@ -18020,7 +18245,7 @@
                   "location": "Away",
                   "opponent": "Santa Clara",
                   "oppNet": 42,
-                  "oppKenpom": null
+                  "oppKenpom": 31
                 }
               ]
             },
@@ -18033,7 +18258,7 @@
                   "location": "Away",
                   "opponent": "21 \n\t\t\t\t\t\t\t\t\t\tSouthern California",
                   "oppNet": 77,
-                  "oppKenpom": null
+                  "oppKenpom": 69
                 }
               ]
             },
@@ -18046,7 +18271,7 @@
                   "location": "Away",
                   "opponent": "Indiana St.",
                   "oppNet": 217,
-                  "oppKenpom": null
+                  "oppKenpom": 210
                 }
               ]
             },
@@ -18253,7 +18478,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 267
         }
       }
     },
@@ -18264,18 +18489,18 @@
         "commence_time": "2026-11-14T01:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -29.5,
-            "awaySpread": 29.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -28.5,
+            "awaySpread": 28.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
             "home": -50000,
             "away": 4000,
             "homeSpread": -29.5,
             "awaySpread": 29.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
             "home": -10000,
@@ -18311,7 +18536,7 @@
                   "location": "Neutral",
                   "opponent": "Tennessee St.",
                   "oppNet": 176,
-                  "oppKenpom": null
+                  "oppKenpom": 216
                 }
               ]
             },
@@ -18324,7 +18549,7 @@
                   "location": "Home",
                   "opponent": "Northwestern St.",
                   "oppNet": 300,
-                  "oppKenpom": null
+                  "oppKenpom": 308
                 },
                 {
                   "result": "W",
@@ -18332,7 +18557,7 @@
                   "location": "Home",
                   "opponent": "Alcorn",
                   "oppNet": 349,
-                  "oppKenpom": null
+                  "oppKenpom": 344
                 }
               ]
             }
@@ -18535,7 +18760,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 135
         },
         "Texas Southern Tigers": {
           "net": 322,
@@ -18552,7 +18777,7 @@
                   "location": "Away",
                   "opponent": "Grand Canyon",
                   "oppNet": 71,
-                  "oppKenpom": null
+                  "oppKenpom": 55
                 },
                 {
                   "result": "L",
@@ -18560,7 +18785,7 @@
                   "location": "Away",
                   "opponent": "LSU",
                   "oppNet": 75,
-                  "oppKenpom": null
+                  "oppKenpom": 68
                 }
               ]
             },
@@ -18775,7 +19000,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 311
         }
       }
     },
@@ -18794,8 +19019,8 @@
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": 102,
-            "away": -122,
+            "home": 105,
+            "away": -125,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
             "homeSpreadOdds": -112,
@@ -18831,7 +19056,7 @@
                   "location": "Away",
                   "opponent": "UNLV",
                   "oppNet": 105,
-                  "oppKenpom": null
+                  "oppKenpom": 106
                 }
               ]
             },
@@ -19035,7 +19260,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 230
         },
         "Wright St Raiders": {
           "net": 125,
@@ -19056,7 +19281,7 @@
                   "location": "Away",
                   "opponent": "Toledo",
                   "oppNet": 134,
-                  "oppKenpom": null
+                  "oppKenpom": 126
                 }
               ]
             },
@@ -19069,7 +19294,7 @@
                   "location": "Home",
                   "opponent": "Fla. Atlantic",
                   "oppNet": 123,
-                  "oppKenpom": null
+                  "oppKenpom": 123
                 }
               ]
             },
@@ -19082,7 +19307,7 @@
                   "location": "Home",
                   "opponent": "Air Force",
                   "oppNet": 350,
-                  "oppKenpom": null
+                  "oppKenpom": 343
                 }
               ]
             }
@@ -19278,7 +19503,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 122
         }
       }
     },
@@ -19289,28 +19514,28 @@
         "commence_time": "2026-11-14T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -550,
-            "away": 400,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "home": -610,
+            "away": 440,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -575,
-            "away": 425,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "home": -625,
+            "away": 455,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
-            "home": -550,
-            "away": 400,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "home": -625,
+            "away": 450,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -19334,7 +19559,7 @@
                   "location": "Away",
                   "opponent": "UTRGV",
                   "oppNet": 126,
-                  "oppKenpom": null
+                  "oppKenpom": 115
                 }
               ]
             },
@@ -19552,7 +19777,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 228
         },
         "Southern Miss Golden Eagles": {
           "net": 216,
@@ -19569,7 +19794,7 @@
                   "location": "Away",
                   "opponent": "18 \n\t\t\t\t\t\t\t\t\t\tIowa St.",
                   "oppNet": 7,
-                  "oppKenpom": null
+                  "oppKenpom": 7
                 }
               ]
             },
@@ -19590,7 +19815,7 @@
                   "location": "Home",
                   "opponent": "Jackson St.",
                   "oppNet": 347,
-                  "oppKenpom": null
+                  "oppKenpom": 334
                 }
               ]
             }
@@ -19793,7 +20018,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 219
         }
       }
     },
@@ -19812,8 +20037,8 @@
             "awaySpreadOdds": -106
           },
           "draftkings": {
-            "home": -192,
-            "away": 160,
+            "home": -198,
+            "away": 164,
             "homeSpread": -4.5,
             "awaySpread": 4.5,
             "homeSpreadOdds": -110,
@@ -19845,7 +20070,7 @@
                   "location": "Away",
                   "opponent": "25 \n\t\t\t\t\t\t\t\t\t\tBYU",
                   "oppNet": 23,
-                  "oppKenpom": null
+                  "oppKenpom": 35
                 },
                 {
                   "result": "L",
@@ -19853,7 +20078,7 @@
                   "location": "Away",
                   "opponent": "Utah St.",
                   "oppNet": 25,
-                  "oppKenpom": null
+                  "oppKenpom": 26
                 }
               ]
             },
@@ -20040,7 +20265,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 246
         },
         "Lindenwood Lions": {
           "net": 264,
@@ -20057,7 +20282,7 @@
                   "location": "Away",
                   "opponent": "TCU",
                   "oppNet": 39,
-                  "oppKenpom": null
+                  "oppKenpom": 48
                 },
                 {
                   "result": "L",
@@ -20065,7 +20290,7 @@
                   "location": "Away",
                   "opponent": "25 \n\t\t\t\t\t\t\t\t\t\tNebraska",
                   "oppNet": 12,
-                  "oppKenpom": null
+                  "oppKenpom": 17
                 }
               ]
             },
@@ -20245,7 +20470,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 272
         }
       }
     },
@@ -20264,20 +20489,20 @@
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -2800,
-            "away": 1300,
+            "home": -2400,
+            "away": 1200,
             "homeSpread": -17.5,
             "awaySpread": 17.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
             "home": -2500,
-            "away": 1050,
+            "away": 1100,
             "homeSpread": -17.5,
             "awaySpread": 17.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -20305,7 +20530,7 @@
                   "location": "Home",
                   "opponent": "Sam Houston",
                   "oppNet": 109,
-                  "oppKenpom": null
+                  "oppKenpom": 109
                 },
                 {
                   "result": "W",
@@ -20313,7 +20538,7 @@
                   "location": "Home",
                   "opponent": "Arkansas St.",
                   "oppNet": 155,
-                  "oppKenpom": null
+                  "oppKenpom": 147
                 }
               ]
             },
@@ -20326,7 +20551,7 @@
                   "location": "Home",
                   "opponent": "Oakland",
                   "oppNet": 175,
-                  "oppKenpom": null
+                  "oppKenpom": 182
                 }
               ]
             }
@@ -20522,7 +20747,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 13
         },
         "Seton Hall Pirates": {
           "net": 53,
@@ -20547,7 +20772,7 @@
                   "location": "Neutral",
                   "opponent": "Charlotte",
                   "oppNet": 171,
-                  "oppKenpom": null
+                  "oppKenpom": 172
                 }
               ]
             },
@@ -20560,7 +20785,7 @@
                   "location": "Home",
                   "opponent": "Saint Peter's",
                   "oppNet": 231,
-                  "oppKenpom": null
+                  "oppKenpom": 234
                 },
                 {
                   "result": "W",
@@ -20568,7 +20793,7 @@
                   "location": "Home",
                   "opponent": "LIU",
                   "oppNet": 198,
-                  "oppKenpom": null
+                  "oppKenpom": 237
                 }
               ]
             }
@@ -20771,7 +20996,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 56
         }
       }
     },
@@ -20782,24 +21007,26 @@
         "commence_time": "2026-11-14T02:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -31.5,
-            "awaySpread": 31.5,
+            "homeSpread": -29.5,
+            "awaySpread": 29.5,
             "homeSpreadOdds": -118,
-            "awaySpreadOdds": -104
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "homeSpread": -31.5,
-            "awaySpread": 31.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -50000,
+            "away": 4000,
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -32.5,
-            "awaySpread": 32.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -20827,7 +21054,7 @@
                   "location": "Home",
                   "opponent": "ETSU",
                   "oppNet": 139,
-                  "oppKenpom": null
+                  "oppKenpom": 192
                 },
                 {
                   "result": "W",
@@ -20835,7 +21062,7 @@
                   "location": "Home",
                   "opponent": "Northern Colo.",
                   "oppNet": 148,
-                  "oppKenpom": null
+                  "oppKenpom": 139
                 },
                 {
                   "result": "W",
@@ -20843,7 +21070,7 @@
                   "location": "Home",
                   "opponent": "Hofstra",
                   "oppNet": 90,
-                  "oppKenpom": null
+                  "oppKenpom": 89
                 }
               ]
             },
@@ -21064,7 +21291,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 64
         },
         "UL Monroe Warhawks": {
           "net": 355,
@@ -21081,7 +21308,7 @@
                   "location": "Away",
                   "opponent": "Texas A&M",
                   "oppNet": 43,
-                  "oppKenpom": null
+                  "oppKenpom": 39
                 },
                 {
                   "result": "L",
@@ -21089,7 +21316,7 @@
                   "location": "Away",
                   "opponent": "TCU",
                   "oppNet": 39,
-                  "oppKenpom": null
+                  "oppKenpom": 48
                 }
               ]
             },
@@ -21110,7 +21337,7 @@
                   "location": "Home",
                   "opponent": "Central Mich.",
                   "oppNet": 281,
-                  "oppKenpom": null
+                  "oppKenpom": 247
                 }
               ]
             }
@@ -21299,7 +21526,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 348
         }
       }
     },
@@ -21363,7 +21590,7 @@
                   "location": "Home",
                   "opponent": "Southeastern La.",
                   "oppNet": 295,
-                  "oppKenpom": null
+                  "oppKenpom": 297
                 },
                 {
                   "result": "W",
@@ -21371,7 +21598,7 @@
                   "location": "Home",
                   "opponent": "App State",
                   "oppNet": 191,
-                  "oppKenpom": null
+                  "oppKenpom": 190
                 }
               ]
             }
@@ -21574,7 +21801,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 40
         },
         "Arizona Wildcats": {
           "net": 3,
@@ -21591,7 +21818,7 @@
                   "location": "Neutral",
                   "opponent": "22 \n\t\t\t\t\t\t\t\t\t\tUCLA",
                   "oppNet": 31,
-                  "oppKenpom": null
+                  "oppKenpom": 25
                 }
               ]
             },
@@ -21612,7 +21839,7 @@
                   "location": "Home",
                   "opponent": "Cal Poly",
                   "oppNet": 227,
-                  "oppKenpom": null
+                  "oppKenpom": 221
                 },
                 {
                   "result": "W",
@@ -21620,7 +21847,7 @@
                   "location": "Home",
                   "opponent": "Northern Ariz.",
                   "oppNet": 315,
-                  "oppKenpom": null
+                  "oppKenpom": 320
                 }
               ]
             }
@@ -21816,7 +22043,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 2
         }
       }
     },
@@ -21837,18 +22064,18 @@
           "draftkings": {
             "home": -6500,
             "away": 2000,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpread": -22.5,
+            "awaySpread": 22.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
             "home": -10000,
-            "away": 2000,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "away": 1850,
+            "homeSpread": -22.5,
+            "awaySpread": 22.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -21880,7 +22107,7 @@
                   "location": "Home",
                   "opponent": "Southern U.",
                   "oppNet": 279,
-                  "oppKenpom": null
+                  "oppKenpom": 249
                 },
                 {
                   "result": "W",
@@ -21888,7 +22115,7 @@
                   "location": "Home",
                   "opponent": "VMI",
                   "oppNet": 359,
-                  "oppKenpom": null
+                  "oppKenpom": 359
                 },
                 {
                   "result": "W",
@@ -21896,7 +22123,7 @@
                   "location": "Home",
                   "opponent": "Prairie View",
                   "oppNet": 301,
-                  "oppKenpom": null
+                  "oppKenpom": 280
                 }
               ]
             }
@@ -22106,7 +22333,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 49
         },
         "Ball State Cardinals": {
           "net": 299,
@@ -22131,7 +22358,7 @@
                   "location": "Away",
                   "opponent": "Ga. Southern",
                   "oppNet": 221,
-                  "oppKenpom": null
+                  "oppKenpom": 229
                 }
               ]
             },
@@ -22144,7 +22371,7 @@
                   "location": "Home",
                   "opponent": "Indiana St.",
                   "oppNet": 217,
-                  "oppKenpom": null
+                  "oppKenpom": 210
                 }
               ]
             }
@@ -22333,7 +22560,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 278
         }
       }
     },
@@ -22344,8 +22571,8 @@
         "commence_time": "2026-11-14T02:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -118,
-            "away": -102,
+            "home": -120,
+            "away": 100,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -106,
@@ -22356,8 +22583,8 @@
             "away": 100,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
             "home": -120,
@@ -22385,7 +22612,7 @@
                   "location": "Away",
                   "opponent": "Colorado St.",
                   "oppNet": 88,
-                  "oppKenpom": null
+                  "oppKenpom": 90
                 }
               ]
             },
@@ -22589,7 +22816,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 144
         },
         "Cal Poly Mustangs": {
           "net": null,
@@ -22615,7 +22842,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 221
         }
       }
     },
@@ -22626,28 +22853,28 @@
         "commence_time": "2026-11-14T02:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -105,
-            "away": -114,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -104
+            "home": -118,
+            "away": -102,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "draftkings": {
-            "home": -108,
-            "away": -112,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -125,
-            "awaySpreadOdds": 105
-          },
-          "betmgm": {
-            "home": -110,
-            "away": -110,
+            "home": -115,
+            "away": -105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": 105,
             "awaySpreadOdds": -125
+          },
+          "betmgm": {
+            "home": -115,
+            "away": -105,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -22679,7 +22906,7 @@
                   "location": "Home",
                   "opponent": "Binghamton",
                   "oppNet": 360,
-                  "oppKenpom": null
+                  "oppKenpom": 358
                 },
                 {
                   "result": "W",
@@ -22687,7 +22914,7 @@
                   "location": "Home",
                   "opponent": "Stony Brook",
                   "oppNet": 233,
-                  "oppKenpom": null
+                  "oppKenpom": 227
                 },
                 {
                   "result": "W",
@@ -22695,7 +22922,7 @@
                   "location": "Home",
                   "opponent": "Boston U.",
                   "oppNet": 266,
-                  "oppKenpom": null
+                  "oppKenpom": 241
                 }
               ]
             }
@@ -22905,7 +23132,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 62
         },
         "DePaul Blue Demons": {
           "net": 101,
@@ -22926,7 +23153,7 @@
                   "location": "Home",
                   "opponent": "South Fla.",
                   "oppNet": 45,
-                  "oppKenpom": null
+                  "oppKenpom": 50
                 }
               ]
             },
@@ -22943,7 +23170,7 @@
                   "location": "Home",
                   "opponent": "West Ga.",
                   "oppNet": 298,
-                  "oppKenpom": null
+                  "oppKenpom": 290
                 },
                 {
                   "result": "W",
@@ -22951,7 +23178,7 @@
                   "location": "Home",
                   "opponent": "Alabama A&M",
                   "oppNet": 310,
-                  "oppKenpom": null
+                  "oppKenpom": 310
                 }
               ]
             }
@@ -23161,7 +23388,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 97
         }
       }
     },
@@ -23172,12 +23399,12 @@
         "commence_time": "2026-11-14T02:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 134,
-            "away": -162,
+            "home": 146,
+            "away": -176,
             "homeSpread": 3.5,
             "awaySpread": -3.5,
-            "homeSpreadOdds": -114,
-            "awaySpreadOdds": -106
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "draftkings": {
             "home": 145,
@@ -23188,12 +23415,12 @@
             "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": 140,
-            "away": -170,
+            "home": 150,
+            "away": -185,
             "homeSpread": 3.5,
             "awaySpread": -3.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -23225,7 +23452,7 @@
                   "location": "Home",
                   "opponent": "Tennessee Tech",
                   "oppNet": 308,
-                  "oppKenpom": null
+                  "oppKenpom": 322
                 },
                 {
                   "result": "W",
@@ -23233,7 +23460,7 @@
                   "location": "Home",
                   "opponent": "Northwestern St.",
                   "oppNet": 300,
-                  "oppKenpom": null
+                  "oppKenpom": 308
                 },
                 {
                   "result": "W",
@@ -23241,7 +23468,7 @@
                   "location": "Home",
                   "opponent": "Jackson St.",
                   "oppNet": 347,
-                  "oppKenpom": null
+                  "oppKenpom": 334
                 }
               ]
             }
@@ -23444,7 +23671,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 100
         },
         "Xavier Musketeers": {
           "net": 96,
@@ -23473,7 +23700,7 @@
                   "location": "Home",
                   "opponent": "Mount St. Mary's",
                   "oppNet": 277,
-                  "oppKenpom": null
+                  "oppKenpom": 268
                 },
                 {
                   "result": "W",
@@ -23481,7 +23708,7 @@
                   "location": "Home",
                   "opponent": "Eastern Mich.",
                   "oppNet": 240,
-                  "oppKenpom": null
+                  "oppKenpom": 239
                 },
                 {
                   "result": "W",
@@ -23489,7 +23716,7 @@
                   "location": "Home",
                   "opponent": "Detroit Mercy",
                   "oppNet": 220,
-                  "oppKenpom": null
+                  "oppKenpom": 185
                 }
               ]
             }
@@ -23699,7 +23926,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 94
         }
       }
     },
@@ -23710,8 +23937,8 @@
         "commence_time": "2026-11-14T02:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -105,
-            "away": -114,
+            "home": -108,
+            "away": -111,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
             "homeSpreadOdds": -120,
@@ -23763,7 +23990,7 @@
                   "location": "Home",
                   "opponent": "Northern Ariz.",
                   "oppNet": 315,
-                  "oppKenpom": null
+                  "oppKenpom": 320
                 },
                 {
                   "result": "W",
@@ -23771,7 +23998,7 @@
                   "location": "Home",
                   "opponent": "Samford",
                   "oppNet": 213,
-                  "oppKenpom": null
+                  "oppKenpom": 230
                 }
               ]
             }
@@ -23974,7 +24201,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 106
         },
         "Stanford Cardinal": {
           "net": 62,
@@ -24003,7 +24230,7 @@
                   "location": "Home",
                   "opponent": "Eastern Wash.",
                   "oppNet": 204,
-                  "oppKenpom": null
+                  "oppKenpom": 158
                 },
                 {
                   "result": "W",
@@ -24011,7 +24238,7 @@
                   "location": "Home",
                   "opponent": "Oakland",
                   "oppNet": 175,
-                  "oppKenpom": null
+                  "oppKenpom": 182
                 },
                 {
                   "result": "W",
@@ -24019,7 +24246,7 @@
                   "location": "Home",
                   "opponent": "Rice",
                   "oppNet": 242,
-                  "oppKenpom": null
+                  "oppKenpom": 211
                 }
               ]
             }
@@ -24222,7 +24449,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 65
         }
       }
     },
@@ -24233,28 +24460,28 @@
         "commence_time": "2026-11-14T02:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -2000,
-            "away": 980,
+            "home": -2500,
+            "away": 1060,
             "homeSpread": -15.5,
             "awaySpread": 15.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -1600,
-            "away": 900,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -1800,
+            "away": 1000,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
             "home": -2000,
             "away": 950,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -24278,7 +24505,7 @@
                   "location": "Away",
                   "opponent": "Colorado",
                   "oppNet": 76,
-                  "oppKenpom": null
+                  "oppKenpom": 78
                 }
               ]
             },
@@ -24295,7 +24522,7 @@
                   "location": "Home",
                   "opponent": "Tarleton St.",
                   "oppNet": 230,
-                  "oppKenpom": null
+                  "oppKenpom": 226
                 }
               ]
             }
@@ -24491,7 +24718,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 222
         },
         "Chicago St Cougars": {
           "net": 343,
@@ -24508,7 +24735,7 @@
                   "location": "Away",
                   "opponent": "7 \n\t\t\t\t\t\t\t\t\t\tTexas",
                   "oppNet": 38,
-                  "oppKenpom": null
+                  "oppKenpom": 38
                 }
               ]
             },
@@ -24521,7 +24748,7 @@
                   "location": "Away",
                   "opponent": "California Baptist",
                   "oppNet": 98,
-                  "oppKenpom": null
+                  "oppKenpom": 105
                 }
               ]
             },
@@ -24538,7 +24765,7 @@
                   "location": "Away",
                   "opponent": "UIW",
                   "oppNet": 280,
-                  "oppKenpom": null
+                  "oppKenpom": 270
                 },
                 {
                   "result": "L",
@@ -24546,7 +24773,7 @@
                   "location": "Home",
                   "opponent": "South Carolina St.",
                   "oppNet": 356,
-                  "oppKenpom": null
+                  "oppKenpom": 353
                 }
               ]
             }
@@ -24749,7 +24976,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 339
         }
       }
     },
@@ -24774,10 +25001,10 @@
           "betmgm": {
             "home": -10000,
             "away": 3300,
-            "homeSpread": -35.5,
-            "awaySpread": 35.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpread": -34.5,
+            "awaySpread": 34.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -24805,7 +25032,7 @@
                   "location": "Home",
                   "opponent": "California Baptist",
                   "oppNet": 98,
-                  "oppKenpom": null
+                  "oppKenpom": 105
                 }
               ]
             },
@@ -24818,7 +25045,7 @@
                   "location": "Home",
                   "opponent": "Weber St.",
                   "oppNet": 203,
-                  "oppKenpom": null
+                  "oppKenpom": 209
                 },
                 {
                   "result": "W",
@@ -24826,7 +25053,7 @@
                   "location": "Home",
                   "opponent": "Eastern Wash.",
                   "oppNet": 204,
-                  "oppKenpom": null
+                  "oppKenpom": 158
                 }
               ]
             }
@@ -25029,7 +25256,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 166
         },
         "Miss Valley St Delta Devils": {
           "net": 365,
@@ -25046,7 +25273,7 @@
                   "location": "Away",
                   "opponent": "Oklahoma",
                   "oppNet": 47,
-                  "oppKenpom": null
+                  "oppKenpom": 37
                 },
                 {
                   "result": "L",
@@ -25054,7 +25281,7 @@
                   "location": "Away",
                   "opponent": "Washington",
                   "oppNet": 55,
-                  "oppKenpom": null
+                  "oppKenpom": 53
                 }
               ]
             },
@@ -25067,7 +25294,7 @@
                   "location": "Away",
                   "opponent": "Oregon",
                   "oppNet": 107,
-                  "oppKenpom": null
+                  "oppKenpom": 91
                 }
               ]
             },
@@ -25285,7 +25512,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 364
         }
       }
     },
@@ -25296,20 +25523,26 @@
         "commence_time": "2026-11-14T03:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -335,
-            "away": 265,
+            "home": -330,
+            "away": 260,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -355,
-            "away": 280,
+            "home": -325,
+            "away": 260,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
             "homeSpreadOdds": -108,
             "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "homeSpread": -7.5,
+            "awaySpread": 7.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -25333,7 +25566,7 @@
                   "location": "Away",
                   "opponent": "Hawaii",
                   "oppNet": 103,
-                  "oppKenpom": null
+                  "oppKenpom": 120
                 }
               ]
             },
@@ -25346,7 +25579,7 @@
                   "location": "Neutral",
                   "opponent": "UT Arlington",
                   "oppNet": 163,
-                  "oppKenpom": null
+                  "oppKenpom": 194
                 }
               ]
             },
@@ -25546,7 +25779,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 205
         },
         "East Texas A&M Lions": {
           "net": null,
@@ -25572,7 +25805,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 296
         }
       }
     },
@@ -25583,20 +25816,20 @@
         "commence_time": "2026-11-14T03:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -250,
-            "away": 202,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "home": -280,
+            "away": 225,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -270,
             "away": 220,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           },
           "betmgm": {
             "home": -275,
@@ -25624,7 +25857,7 @@
                   "location": "Neutral",
                   "opponent": "Nevada",
                   "oppNet": 67,
-                  "oppKenpom": null
+                  "oppKenpom": 80
                 }
               ]
             },
@@ -25637,7 +25870,7 @@
                   "location": "Home",
                   "opponent": "Illinois St.",
                   "oppNet": 91,
-                  "oppKenpom": null
+                  "oppKenpom": 99
                 },
                 {
                   "result": "W",
@@ -25645,7 +25878,7 @@
                   "location": "Home",
                   "opponent": "North Dakota St.",
                   "oppNet": 116,
-                  "oppKenpom": null
+                  "oppKenpom": 119
                 }
               ]
             },
@@ -25845,7 +26078,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 28
         },
         "UIC Flames": {
           "net": 115,
@@ -25870,7 +26103,7 @@
                   "location": "Home",
                   "opponent": "Robert Morris",
                   "oppNet": 143,
-                  "oppKenpom": null
+                  "oppKenpom": 145
                 }
               ]
             },
@@ -25883,7 +26116,7 @@
                   "location": "Home",
                   "opponent": "UNC Greensboro",
                   "oppNet": 293,
-                  "oppKenpom": null
+                  "oppKenpom": 283
                 }
               ]
             }
@@ -26086,7 +26319,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 111
         }
       }
     },
@@ -26097,28 +26330,28 @@
         "commence_time": "2026-11-14T03:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -1100,
-            "away": 680,
-            "homeSpread": -13.5,
-            "awaySpread": 13.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1000,
+            "away": 640,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "draftkings": {
-            "home": -1100,
-            "away": 700,
-            "homeSpread": -13.5,
-            "awaySpread": 13.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": -1000,
+            "away": 650,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -1100,
-            "away": 675,
-            "homeSpread": -13.5,
-            "awaySpread": 13.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1000,
+            "away": 625,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -26150,7 +26383,7 @@
                   "location": "Home",
                   "opponent": "Idaho St.",
                   "oppNet": 239,
-                  "oppKenpom": null
+                  "oppKenpom": 264
                 },
                 {
                   "result": "W",
@@ -26158,7 +26391,7 @@
                   "location": "Home",
                   "opponent": "Omaha",
                   "oppNet": 261,
-                  "oppKenpom": null
+                  "oppKenpom": 246
                 },
                 {
                   "result": "W",
@@ -26166,7 +26399,7 @@
                   "location": "Home",
                   "opponent": "Utah Tech",
                   "oppNet": 177,
-                  "oppKenpom": null
+                  "oppKenpom": 196
                 }
               ]
             }
@@ -26369,7 +26602,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 26
         },
         "UC San Diego Tritons": {
           "net": 124,
@@ -26394,7 +26627,7 @@
                   "location": "Home",
                   "opponent": "Fresno St.",
                   "oppNet": 151,
-                  "oppKenpom": null
+                  "oppKenpom": 130
                 }
               ]
             },
@@ -26601,7 +26834,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 124
         }
       }
     },
@@ -26612,28 +26845,28 @@
         "commence_time": "2026-11-14T03:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -2800,
-            "away": 1160,
-            "homeSpread": -16.5,
-            "awaySpread": 16.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1700,
+            "away": 890,
+            "homeSpread": -14.5,
+            "awaySpread": 14.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
           },
           "draftkings": {
-            "home": -2100,
-            "away": 1100,
-            "homeSpread": -16.5,
-            "awaySpread": 16.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1650,
+            "away": 950,
+            "homeSpread": -14.5,
+            "awaySpread": 14.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -2000,
-            "away": 1000,
-            "homeSpread": -16.5,
-            "awaySpread": 16.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1400,
+            "away": 825,
+            "homeSpread": -14.5,
+            "awaySpread": 14.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -26661,7 +26894,7 @@
                   "location": "Away",
                   "opponent": "Oregon St.",
                   "oppNet": 172,
-                  "oppKenpom": null
+                  "oppKenpom": 166
                 }
               ]
             },
@@ -26674,7 +26907,7 @@
                   "location": "Home",
                   "opponent": "North Florida",
                   "oppNet": 337,
-                  "oppKenpom": null
+                  "oppKenpom": 326
                 },
                 {
                   "result": "L",
@@ -26682,7 +26915,7 @@
                   "location": "Home",
                   "opponent": "Chicago St.",
                   "oppNet": 343,
-                  "oppKenpom": null
+                  "oppKenpom": 339
                 }
               ]
             }
@@ -26892,7 +27125,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 105
         },
         "Arkansas-Pine Bluff Golden Lions": {
           "net": 316,
@@ -26909,7 +27142,7 @@
                   "location": "Away",
                   "opponent": "12 \n\t\t\t\t\t\t\t\t\t\tArkansas",
                   "oppNet": 18,
-                  "oppKenpom": null
+                  "oppKenpom": 20
                 },
                 {
                   "result": "L",
@@ -26917,7 +27150,7 @@
                   "location": "Away",
                   "opponent": "Baylor",
                   "oppNet": 50,
-                  "oppKenpom": null
+                  "oppKenpom": 45
                 },
                 {
                   "result": "L",
@@ -26925,7 +27158,7 @@
                   "location": "Away",
                   "opponent": "9 \n\t\t\t\t\t\t\t\t\t\tUCLA",
                   "oppNet": 31,
-                  "oppKenpom": null
+                  "oppKenpom": 25
                 }
               ]
             },
@@ -27133,7 +27366,7 @@
               "date": ""
             }
           ],
-          "kenpom": null
+          "kenpom": 292
         }
       }
     }
