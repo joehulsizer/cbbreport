@@ -1,94 +1,7 @@
 {
-  "generated_at": "2026-11-23T06:03:52.140Z",
+  "generated_at": "2026-11-23T15:01:46.174Z",
   "report_date_eastern": "2026-11-23",
   "games": [
-    {
-      "matchup": {
-        "home": "Loyola (Chi) Ramblers",
-        "away": "San José St Spartans",
-        "commence_time": "2026-11-23T05:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -330,
-            "away": 250,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -130,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": -315,
-            "away": 230,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -120
-          },
-          "betmgm": {
-            "home": -325,
-            "away": 240,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -125
-          }
-        }
-      },
-      "teams": {
-        "Loyola (Chi) Ramblers": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "San José St Spartans": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
     {
       "matchup": {
         "home": "Appalachian St Mountaineers",
@@ -96,28 +9,28 @@
         "commence_time": "2026-11-23T16:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 168,
-            "away": -205,
-            "homeSpread": 5.5,
-            "awaySpread": -5.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": 185,
-            "away": -225,
-            "homeSpread": 5.5,
-            "awaySpread": -5.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
-          },
-          "betmgm": {
-            "home": 180,
-            "away": -220,
+            "home": 162,
+            "away": -194,
             "homeSpread": 4.5,
             "awaySpread": -4.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -106,
+            "awaySpreadOdds": -114
+          },
+          "draftkings": {
+            "home": 170,
+            "away": -205,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          },
+          "betmgm": {
+            "home": 155,
+            "away": -190,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -146,7 +59,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 190
         },
         "St. Bonaventure Bonnies": {
           "net": null,
@@ -172,7 +85,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 148
         }
       }
     },
@@ -183,28 +96,28 @@
         "commence_time": "2026-11-23T16:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -220,
-            "away": 184,
+            "home": -245,
+            "away": 202,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -225,
-            "away": 185,
+            "home": -245,
+            "away": 200,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -225,
-            "away": 185,
+            "home": -250,
+            "away": 200,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -233,7 +146,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 103
         },
         "Northern Iowa Panthers": {
           "net": null,
@@ -259,7 +172,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 77
         }
       }
     },
@@ -270,12 +183,12 @@
         "commence_time": "2026-11-23T17:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -137,
-            "away": 114,
+            "home": -150,
+            "away": 125,
             "homeSpread": -2.5,
             "awaySpread": 2.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "draftkings": {
             "home": -155,
@@ -286,12 +199,12 @@
             "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -150,
+            "home": -155,
             "away": 125,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -320,7 +233,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 255
         },
         "Indiana St Sycamores": {
           "net": null,
@@ -346,7 +259,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 210
         }
       }
     },
@@ -357,28 +270,28 @@
         "commence_time": "2026-11-23T18:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -520,
-            "away": 390,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "home": -385,
+            "away": 310,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -106,
+            "awaySpreadOdds": -114
           },
           "draftkings": {
-            "home": -485,
-            "away": 370,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -440,
+            "away": 340,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": -500,
-            "away": 375,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -400,
+            "away": 310,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -433,7 +346,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 252
         }
       }
     },
@@ -444,28 +357,28 @@
         "commence_time": "2026-11-23T18:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -125,
-            "away": 104,
+            "home": -130,
+            "away": 108,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -114,
-            "awaySpreadOdds": -106
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "draftkings": {
-            "home": -122,
-            "away": 102,
+            "home": -130,
+            "away": 110,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -112,
             "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -125,
+            "home": -130,
             "away": 105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -494,7 +407,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 122
         },
         "Akron Zips": {
           "net": null,
@@ -520,7 +433,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 72
         }
       }
     },
@@ -530,6 +443,14 @@
         "away": "Charlotte 49ers",
         "commence_time": "2026-11-23T18:30:00Z",
         "odds": {
+          "fanduel": {
+            "home": 240,
+            "away": -295,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -104,
+            "awaySpreadOdds": -118
+          },
           "draftkings": {
             "home": 225,
             "away": -278,
@@ -573,7 +494,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 233
         },
         "Charlotte 49ers": {
           "net": null,
@@ -599,7 +520,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 172
         }
       }
     },
@@ -610,8 +531,8 @@
         "commence_time": "2026-11-23T19:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -265,
-            "away": 215,
+            "home": -275,
+            "away": 220,
             "homeSpread": -6.5,
             "awaySpread": 6.5,
             "homeSpreadOdds": -110,
@@ -622,11 +543,11 @@
             "away": 230,
             "homeSpread": -6.5,
             "awaySpread": 6.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": -275,
+            "home": -285,
             "away": 225,
             "homeSpread": -6.5,
             "awaySpread": 6.5,
@@ -660,7 +581,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 166
         },
         "Tulsa Golden Hurricane": {
           "net": null,
@@ -686,7 +607,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 60
         }
       }
     },
@@ -697,28 +618,28 @@
         "commence_time": "2026-11-23T19:30:00Z",
         "odds": {
           "fanduel": {
-            "home": 205,
-            "away": -250,
-            "homeSpread": 6.5,
-            "awaySpread": -6.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "home": 190,
+            "away": -235,
+            "homeSpread": 5.5,
+            "awaySpread": -5.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": 205,
-            "away": -250,
+            "home": 190,
+            "away": -230,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": 200,
-            "away": -250,
+            "home": 185,
+            "away": -225,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -747,7 +668,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 36
         },
         "Ole Miss Rebels": {
           "net": null,
@@ -773,7 +694,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 63
         }
       }
     },
@@ -783,21 +704,29 @@
         "away": "Middle Tennessee Blue Raiders",
         "commence_time": "2026-11-23T20:00:00Z",
         "odds": {
-          "draftkings": {
-            "home": -135,
-            "away": 114,
+          "fanduel": {
+            "home": -150,
+            "away": 126,
             "homeSpread": -2.5,
             "awaySpread": 2.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": -155,
+            "away": 130,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           },
           "betmgm": {
-            "home": -140,
-            "away": 115,
+            "home": -155,
+            "away": 125,
             "homeSpread": -2.5,
             "awaySpread": 2.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -826,7 +755,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 128
         },
         "Middle Tennessee Blue Raiders": {
           "net": null,
@@ -852,7 +781,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 152
         }
       }
     },
@@ -862,21 +791,29 @@
         "away": "Arkansas St Red Wolves",
         "commence_time": "2026-11-23T20:30:00Z",
         "odds": {
-          "draftkings": {
+          "fanduel": {
             "home": 245,
-            "away": -305,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "away": -300,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -120
+          },
+          "draftkings": {
+            "home": 240,
+            "away": -298,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": 260,
-            "away": -325,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": 230,
+            "away": -295,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -905,7 +842,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 271
         },
         "Arkansas St Red Wolves": {
           "net": null,
@@ -931,7 +868,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 147
         }
       }
     },
@@ -941,6 +878,14 @@
         "away": "William & Mary Tribe",
         "commence_time": "2026-11-23T20:30:00Z",
         "odds": {
+          "fanduel": {
+            "home": 162,
+            "away": -194,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
           "draftkings": {
             "home": 154,
             "away": -185,
@@ -984,7 +929,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 295
         },
         "William & Mary Tribe": {
           "net": null,
@@ -1010,7 +955,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 156
         }
       }
     },
@@ -1020,21 +965,29 @@
         "away": "Yale Bulldogs",
         "commence_time": "2026-11-23T21:00:00Z",
         "odds": {
-          "draftkings": {
-            "home": -155,
-            "away": 130,
+          "fanduel": {
+            "home": -146,
+            "away": 122,
             "homeSpread": -2.5,
             "awaySpread": 2.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          },
+          "draftkings": {
+            "home": -142,
+            "away": 120,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": -160,
-            "away": 135,
+            "home": -145,
+            "away": 118,
             "homeSpread": -2.5,
             "awaySpread": 2.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -1063,7 +1016,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 81
         },
         "Yale Bulldogs": {
           "net": null,
@@ -1089,7 +1042,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 92
         }
       }
     },
@@ -1100,7 +1053,7 @@
         "commence_time": "2026-11-23T21:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -122,
+            "home": -125,
             "away": 104,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
@@ -1150,7 +1103,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 317
         },
         "Tulane Green Wave": {
           "net": null,
@@ -1176,7 +1129,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 201
         }
       }
     },
@@ -1187,28 +1140,28 @@
         "commence_time": "2026-11-23T21:30:00Z",
         "odds": {
           "fanduel": {
-            "home": 245,
-            "away": -300,
+            "home": 250,
+            "away": -310,
             "homeSpread": 7.5,
             "awaySpread": -7.5,
             "homeSpreadOdds": -114,
             "awaySpreadOdds": -106
           },
           "draftkings": {
-            "home": 250,
-            "away": -310,
+            "home": 260,
+            "away": -325,
             "homeSpread": 7.5,
             "awaySpread": -7.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
-            "home": 240,
-            "away": -300,
+            "home": 260,
+            "away": -325,
             "homeSpread": 7.5,
             "awaySpread": -7.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -1237,7 +1190,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 127
         },
         "Nevada Wolf Pack": {
           "net": null,
@@ -1263,7 +1216,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 80
         }
       }
     },
@@ -1274,26 +1227,26 @@
         "commence_time": "2026-11-23T22:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -950,
-            "away": 610,
-            "homeSpread": -12.5,
-            "awaySpread": 12.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -670,
+            "away": 490,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "draftkings": {
-            "home": -900,
-            "away": 600,
-            "homeSpread": -12.5,
-            "awaySpread": 12.5,
+            "home": -750,
+            "away": 525,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "betmgm": {
-            "home": -900,
-            "away": 600,
-            "homeSpread": -12.5,
-            "awaySpread": 12.5,
+            "home": -700,
+            "away": 500,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -1324,7 +1277,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 35
         },
         "Washington Huskies": {
           "net": null,
@@ -1350,7 +1303,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 53
         }
       }
     },
@@ -1360,13 +1313,29 @@
         "away": "Temple Owls",
         "commence_time": "2026-11-23T22:30:00Z",
         "odds": {
+          "fanduel": {
+            "home": 116,
+            "away": -138,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
           "draftkings": {
-            "home": 190,
-            "away": -230,
-            "homeSpread": 4.5,
-            "awaySpread": -4.5,
-            "homeSpreadOdds": 100,
-            "awaySpreadOdds": -120
+            "home": 124,
+            "away": -148,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          },
+          "betmgm": {
+            "home": 120,
+            "away": -145,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -1395,7 +1364,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 263
         },
         "Temple Owls": {
           "net": null,
@@ -1421,7 +1390,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 141
         }
       }
     },
@@ -1431,21 +1400,29 @@
         "away": "Maryland-Eastern Shore Hawks",
         "commence_time": "2026-11-23T23:30:00Z",
         "odds": {
-          "draftkings": {
-            "home": -1100,
-            "away": 700,
-            "homeSpread": -14.5,
-            "awaySpread": 14.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+          "fanduel": {
+            "home": -1050,
+            "away": 720,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
-          "betmgm": {
-            "home": -1100,
-            "away": 700,
+          "draftkings": {
+            "home": -1350,
+            "away": 800,
             "homeSpread": -13.5,
             "awaySpread": 13.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          },
+          "betmgm": {
+            "home": -1200,
+            "away": 725,
+            "homeSpread": -13.5,
+            "awaySpread": 13.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -1474,7 +1451,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 189
         },
         "Maryland-Eastern Shore Hawks": {
           "net": null,
@@ -1500,7 +1477,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 356
         }
       }
     },
@@ -1510,13 +1487,21 @@
         "away": "Central Arkansas Bears",
         "commence_time": "2026-11-24T00:00:00Z",
         "odds": {
+          "fanduel": {
+            "home": 375,
+            "away": -490,
+            "homeSpread": 9.5,
+            "awaySpread": -9.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
           "draftkings": {
             "home": 360,
             "away": -470,
             "homeSpread": 9.5,
             "awaySpread": -9.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
             "home": 340,
@@ -1553,7 +1538,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 326
         },
         "Central Arkansas Bears": {
           "net": null,
@@ -1579,7 +1564,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 143
         }
       }
     },
@@ -1589,21 +1574,29 @@
         "away": "Fairleigh Dickinson Knights",
         "commence_time": "2026-11-24T00:00:00Z",
         "odds": {
+          "fanduel": {
+            "home": -465,
+            "away": 360,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
           "draftkings": {
-            "home": -410,
-            "away": 320,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -470,
+            "away": 360,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": -425,
-            "away": 320,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "home": -475,
+            "away": 360,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -1632,7 +1625,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 236
         },
         "Fairleigh Dickinson Knights": {
           "net": null,
@@ -1658,7 +1651,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 340
         }
       }
     },
@@ -1669,28 +1662,28 @@
         "commence_time": "2026-11-24T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -166,
-            "away": 138,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
+            "home": -142,
+            "away": 120,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
             "homeSpreadOdds": -112,
             "awaySpreadOdds": -108
           },
           "draftkings": {
-            "home": -162,
-            "away": 136,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": -155,
+            "away": 130,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           },
           "betmgm": {
-            "home": -160,
-            "away": 135,
+            "home": -155,
+            "away": 125,
             "homeSpread": -3.5,
             "awaySpread": 3.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -1719,7 +1712,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 180
         },
         "Georgia Southern Eagles": {
           "net": null,
@@ -1745,7 +1738,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 229
         }
       }
     },
@@ -1756,28 +1749,28 @@
         "commence_time": "2026-11-24T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -210,
-            "away": 172,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "home": -172,
+            "away": 142,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "draftkings": {
-            "home": -225,
-            "away": 185,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -185,
+            "away": 154,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -220,
-            "away": 180,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -175,
+            "away": 145,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -1806,7 +1799,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 31
         },
         "Illinois St Redbirds": {
           "net": null,
@@ -1842,6 +1835,14 @@
         "away": "North Carolina A&T Aggies",
         "commence_time": "2026-11-24T00:00:00Z",
         "odds": {
+          "fanduel": {
+            "home": 120,
+            "away": -142,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
           "draftkings": {
             "home": 120,
             "away": -142,
@@ -1885,7 +1886,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 353
         },
         "North Carolina A&T Aggies": {
           "net": null,
@@ -1911,7 +1912,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 313
         }
       }
     },
@@ -1921,17 +1922,25 @@
         "away": "Texas A&M-CC Islanders",
         "commence_time": "2026-11-24T00:30:00Z",
         "odds": {
+          "fanduel": {
+            "home": -4000,
+            "away": 1400,
+            "homeSpread": -19.5,
+            "awaySpread": 19.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
           "draftkings": {
-            "home": -6500,
-            "away": 2000,
-            "homeSpread": -21.5,
-            "awaySpread": 21.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": -8000,
+            "away": 2200,
+            "homeSpread": -20.5,
+            "awaySpread": 20.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": -5000,
-            "away": 1500
+            "away": 1400
           }
         }
       },
@@ -1960,7 +1969,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 79
         },
         "Texas A&M-CC Islanders": {
           "net": null,
@@ -1997,22 +2006,22 @@
         "commence_time": "2026-11-24T01:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -35.5,
-            "awaySpread": 35.5,
+            "homeSpread": -33.5,
+            "awaySpread": 33.5,
             "homeSpreadOdds": -118,
             "awaySpreadOdds": -104
           },
           "draftkings": {
-            "homeSpread": -35.5,
-            "awaySpread": 35.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpread": -34.5,
+            "awaySpread": 34.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "homeSpread": -36.5,
-            "awaySpread": 36.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpread": -34.5,
+            "awaySpread": 34.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -2041,7 +2050,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 21
         },
         "Denver Pioneers": {
           "net": null,
@@ -2067,7 +2076,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 238
         }
       }
     },
@@ -2077,11 +2086,17 @@
         "away": "Winthrop Eagles",
         "commence_time": "2026-11-24T01:00:00Z",
         "odds": {
+          "fanduel": {
+            "homeSpread": -43.5,
+            "awaySpread": 43.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
           "draftkings": {
             "homeSpread": -43.5,
             "awaySpread": 43.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "homeSpread": -43.5,
@@ -2116,7 +2131,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 6
         },
         "Winthrop Eagles": {
           "net": null,
@@ -2142,7 +2157,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 169
         }
       }
     },
@@ -2153,7 +2168,7 @@
         "commence_time": "2026-11-24T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -4000,
+            "home": -3500,
             "away": 1400,
             "homeSpread": -19.5,
             "awaySpread": 19.5,
@@ -2161,20 +2176,20 @@
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -4500,
-            "away": 1700,
-            "homeSpread": -19.5,
-            "awaySpread": 19.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "home": -3600,
+            "away": 1500,
+            "homeSpread": -18.5,
+            "awaySpread": 18.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
             "home": -3000,
             "away": 1250,
             "homeSpread": -19.5,
             "awaySpread": 19.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -2203,7 +2218,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 27
         },
         "Monmouth Hawks": {
           "net": null,
@@ -2229,7 +2244,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 165
         }
       }
     },
@@ -2239,13 +2254,21 @@
         "away": "Utah Valley Wolverines",
         "commence_time": "2026-11-24T01:00:00Z",
         "odds": {
-          "draftkings": {
-            "home": 145,
-            "away": -175,
-            "homeSpread": 3.5,
-            "awaySpread": -3.5,
+          "fanduel": {
+            "home": 162,
+            "away": -194,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": 154,
+            "away": -185,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -2274,7 +2297,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 88
         },
         "Utah Valley Wolverines": {
           "net": null,
@@ -2300,7 +2323,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 93
         }
       }
     },
@@ -2312,23 +2335,23 @@
         "odds": {
           "fanduel": {
             "home": -120,
-            "away": 100,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -122,
             "away": 102,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
+          "draftkings": {
+            "home": -125,
+            "away": 105,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          },
           "betmgm": {
-            "home": -120,
-            "away": 100,
+            "home": -125,
+            "away": 105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -110,
@@ -2361,7 +2384,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 70
         },
         "VCU Rams": {
           "net": null,
@@ -2387,7 +2410,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 47
         }
       }
     },
@@ -2398,28 +2421,28 @@
         "commence_time": "2026-11-24T02:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -580,
-            "away": 430,
+            "home": -630,
+            "away": 460,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
+          },
+          "draftkings": {
+            "home": -600,
+            "away": 440,
             "homeSpread": -10.5,
             "awaySpread": 10.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
-          "draftkings": {
-            "home": -650,
-            "away": 470,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
-          },
           "betmgm": {
-            "home": -650,
-            "away": 475,
+            "home": -600,
+            "away": 425,
             "homeSpread": -10.5,
             "awaySpread": 10.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -2448,7 +2471,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 260
         },
         "UNC Greensboro Spartans": {
           "net": null,
@@ -2474,7 +2497,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 283
         }
       }
     },
@@ -2484,21 +2507,29 @@
         "away": "Alabama St Hornets",
         "commence_time": "2026-11-24T03:00:00Z",
         "odds": {
+          "fanduel": {
+            "home": -3500,
+            "away": 1400,
+            "homeSpread": -18.5,
+            "awaySpread": 18.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
           "draftkings": {
-            "home": -5000,
-            "away": 1800,
+            "home": -4500,
+            "away": 1700,
             "homeSpread": -19.5,
             "awaySpread": 19.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           },
           "betmgm": {
-            "home": -5000,
-            "away": 1350,
-            "homeSpread": -19.5,
-            "awaySpread": 19.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -3000,
+            "away": 1250,
+            "homeSpread": -18.5,
+            "awaySpread": 18.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -2527,7 +2558,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 73
         },
         "Alabama St Hornets": {
           "net": null,
@@ -2553,7 +2584,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 306
         }
       }
     },
@@ -2564,28 +2595,28 @@
         "commence_time": "2026-11-24T03:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -315,
-            "away": 255,
+            "home": -345,
+            "away": 275,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -355,
-            "away": 280,
+            "home": -340,
+            "away": 270,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
             "homeSpreadOdds": -115,
             "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -325,
-            "away": 260,
+            "home": -350,
+            "away": 275,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -2614,7 +2645,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 106
         },
         "Eastern Washington Eagles": {
           "net": null,
@@ -2640,7 +2671,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 158
         }
       }
     },
@@ -2655,24 +2686,24 @@
             "away": 1100,
             "homeSpread": -16.5,
             "awaySpread": 16.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -2400,
-            "away": 1200,
+            "home": -2100,
+            "away": 1100,
             "homeSpread": -16.5,
             "awaySpread": 16.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "home": -2000,
-            "away": 1000,
+            "away": 950,
             "homeSpread": -16.5,
             "awaySpread": 16.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -2701,7 +2732,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 2
         },
         "Colorado St Rams": {
           "net": null,
@@ -2727,7 +2758,7 @@
             }
           },
           "upcoming": [],
-          "kenpom": null
+          "kenpom": 90
         }
       }
     }
