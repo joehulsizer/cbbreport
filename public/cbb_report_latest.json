@@ -1,35 +1,41 @@
 {
-  "generated_at": "2026-11-22T21:01:28.030Z",
-  "report_date_eastern": "2026-11-22",
+  "generated_at": "2026-11-23T06:03:52.140Z",
+  "report_date_eastern": "2026-11-23",
   "games": [
     {
       "matchup": {
-        "home": "Cincinnati Bearcats",
-        "away": "UMass Lowell River Hawks",
-        "commence_time": "2026-11-22T19:00:00Z",
+        "home": "Loyola (Chi) Ramblers",
+        "away": "San José St Spartans",
+        "commence_time": "2026-11-23T05:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -14.5,
-            "awaySpread": 14.5,
-            "homeSpreadOdds": -128,
+            "home": -330,
+            "away": 250,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -130,
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": 124,
-            "awaySpreadOdds": -160
+            "home": -315,
+            "away": 230,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -120
           },
           "betmgm": {
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": 118,
-            "awaySpreadOdds": -155
+            "home": -325,
+            "away": 240,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -125
           }
         }
       },
       "teams": {
-        "Cincinnati Bearcats": {
+        "Loyola (Chi) Ramblers": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -55,7 +61,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "UMass Lowell River Hawks": {
+        "San José St Spartans": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -85,32 +91,125 @@
     },
     {
       "matchup": {
-        "home": "Fordham Rams",
-        "away": "San Diego Toreros",
-        "commence_time": "2026-11-22T19:01:41Z",
+        "home": "Appalachian St Mountaineers",
+        "away": "St. Bonaventure Bonnies",
+        "commence_time": "2026-11-23T16:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": 19.5,
-            "awaySpread": -19.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -118
+            "home": 168,
+            "away": -205,
+            "homeSpread": 5.5,
+            "awaySpread": -5.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "homeSpread": 20.5,
-            "awaySpread": -20.5,
-            "homeSpreadOdds": -115,
+            "home": 185,
+            "away": -225,
+            "homeSpread": 5.5,
+            "awaySpread": -5.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
+          },
+          "betmgm": {
+            "home": 180,
+            "away": -220,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          }
+        }
+      },
+      "teams": {
+        "Appalachian St Mountaineers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "St. Bonaventure Bonnies": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Davidson Wildcats",
+        "away": "Northern Iowa Panthers",
+        "commence_time": "2026-11-23T16:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -220,
+            "away": 184,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": -225,
+            "away": 185,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -105,
             "awaySpreadOdds": -115
           },
           "betmgm": {
-            "homeSpread": 22.5,
-            "awaySpread": -22.5,
-            "homeSpreadOdds": -325,
-            "awaySpreadOdds": 240
+            "home": -225,
+            "away": 185,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
       "teams": {
-        "Fordham Rams": {
+        "Davidson Wildcats": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -136,7 +235,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "San Diego Toreros": {
+        "Northern Iowa Panthers": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -166,32 +265,38 @@
     },
     {
       "matchup": {
-        "home": "Memphis Tigers",
-        "away": "Evansville Purple Aces",
-        "commence_time": "2026-11-22T19:02:05Z",
+        "home": "East Carolina Pirates",
+        "away": "Indiana St Sycamores",
+        "commence_time": "2026-11-23T17:30:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -138,
-            "awaySpreadOdds": 104
+            "home": -137,
+            "away": 114,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -125,
+            "home": -155,
+            "away": 130,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -115,
             "awaySpreadOdds": -105
           },
           "betmgm": {
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -118
+            "home": -150,
+            "away": 125,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
       "teams": {
-        "Memphis Tigers": {
+        "East Carolina Pirates": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -217,7 +322,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "Evansville Purple Aces": {
+        "Indiana St Sycamores": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -247,32 +352,615 @@
     },
     {
       "matchup": {
-        "home": "Youngstown St Penguins",
-        "away": "William & Mary Tribe",
-        "commence_time": "2026-11-22T19:02:23Z",
+        "home": "Florida Int'l Golden Panthers",
+        "away": "Long Beach St 49ers",
+        "commence_time": "2026-11-23T18:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": 10.5,
-            "awaySpread": -10.5,
-            "homeSpreadOdds": -136,
-            "awaySpreadOdds": 102
+            "home": -520,
+            "away": 390,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "homeSpread": 10.5,
-            "awaySpread": -10.5,
-            "homeSpreadOdds": 110,
-            "awaySpreadOdds": -140
+            "home": -485,
+            "away": 370,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "homeSpread": 12.5,
-            "awaySpread": -12.5,
-            "homeSpreadOdds": -160,
-            "awaySpreadOdds": 125
+            "home": -500,
+            "away": 375,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
       "teams": {
-        "Youngstown St Penguins": {
+        "Florida Int'l Golden Panthers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Long Beach St 49ers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Wright St Raiders",
+        "away": "Akron Zips",
+        "commence_time": "2026-11-23T18:30:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -125,
+            "away": 104,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
+          },
+          "draftkings": {
+            "home": -122,
+            "away": 102,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -125,
+            "away": 105,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Wright St Raiders": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Akron Zips": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Florida Gulf Coast Eagles",
+        "away": "Charlotte 49ers",
+        "commence_time": "2026-11-23T18:30:00Z",
+        "odds": {
+          "draftkings": {
+            "home": 225,
+            "away": -278,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "betmgm": {
+            "home": 220,
+            "away": -275,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Florida Gulf Coast Eagles": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Charlotte 49ers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Oregon St Beavers",
+        "away": "Tulsa Golden Hurricane",
+        "commence_time": "2026-11-23T19:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -265,
+            "away": 215,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": -285,
+            "away": 230,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "betmgm": {
+            "home": -275,
+            "away": 225,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Oregon St Beavers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Tulsa Golden Hurricane": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Clemson Tigers",
+        "away": "Ole Miss Rebels",
+        "commence_time": "2026-11-23T19:30:00Z",
+        "odds": {
+          "fanduel": {
+            "home": 205,
+            "away": -250,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": 205,
+            "away": -250,
+            "homeSpread": 5.5,
+            "awaySpread": -5.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          },
+          "betmgm": {
+            "home": 200,
+            "away": -250,
+            "homeSpread": 5.5,
+            "awaySpread": -5.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          }
+        }
+      },
+      "teams": {
+        "Clemson Tigers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Ole Miss Rebels": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Southern Illinois Salukis",
+        "away": "Middle Tennessee Blue Raiders",
+        "commence_time": "2026-11-23T20:00:00Z",
+        "odds": {
+          "draftkings": {
+            "home": -135,
+            "away": 114,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "home": -140,
+            "away": 115,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Southern Illinois Salukis": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Middle Tennessee Blue Raiders": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Southern Utah Thunderbirds",
+        "away": "Arkansas St Red Wolves",
+        "commence_time": "2026-11-23T20:30:00Z",
+        "odds": {
+          "draftkings": {
+            "home": 245,
+            "away": -305,
+            "homeSpread": 7.5,
+            "awaySpread": -7.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": 260,
+            "away": -325,
+            "homeSpread": 7.5,
+            "awaySpread": -7.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Southern Utah Thunderbirds": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Arkansas St Red Wolves": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "IUPUI Jaguars",
+        "away": "William & Mary Tribe",
+        "commence_time": "2026-11-23T20:30:00Z",
+        "odds": {
+          "draftkings": {
+            "home": 154,
+            "away": -185,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "betmgm": {
+            "home": 155,
+            "away": -190,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "IUPUI Jaguars": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -328,206 +1016,30 @@
     },
     {
       "matchup": {
-        "home": "Western Kentucky Hilltoppers",
-        "away": "GW Revolutionaries",
-        "commence_time": "2026-11-22T19:05:37Z",
+        "home": "Belmont Bruins",
+        "away": "Yale Bulldogs",
+        "commence_time": "2026-11-23T21:00:00Z",
         "odds": {
-          "fanduel": {
-            "home": -10000,
-            "away": 1800,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": -104,
-            "awaySpreadOdds": -128
-          },
           "draftkings": {
-            "home": -20000,
-            "away": 3000,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -110
-          },
-          "betmgm": {
-            "home": -10000,
-            "away": 1650,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": 100,
-            "awaySpreadOdds": -130
-          }
-        }
-      },
-      "teams": {
-        "Western Kentucky Hilltoppers": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "GW Revolutionaries": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Robert Morris Colonials",
-        "away": "New Mexico St Aggies",
-        "commence_time": "2026-11-22T19:30:47Z",
-        "odds": {
-          "fanduel": {
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": 100,
-            "awaySpreadOdds": -132
-          },
-          "draftkings": {
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -120
-          },
-          "betmgm": {
-            "home": -10000,
-            "away": 3300,
-            "homeSpread": -17.5,
-            "awaySpread": 17.5,
+            "home": -155,
+            "away": 130,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
             "homeSpreadOdds": -118,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "Robert Morris Colonials": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "New Mexico St Aggies": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Texas Longhorns",
-        "away": "Southern Indiana Screaming Eagles",
-        "commence_time": "2026-11-22T20:01:38Z",
-        "odds": {
-          "fanduel": {
-            "homeSpread": -29.5,
-            "awaySpread": 29.5,
-            "homeSpreadOdds": -104,
-            "awaySpreadOdds": -128
-          },
-          "draftkings": {
-            "home": -100000,
-            "away": 8000,
-            "homeSpread": -29.5,
-            "awaySpread": 29.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -115
+            "awaySpreadOdds": -102
           },
           "betmgm": {
-            "home": -10000,
-            "away": 3300,
-            "homeSpread": -30.5,
-            "awaySpread": 30.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -125
+            "home": -160,
+            "away": 135,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
       "teams": {
-        "Texas Longhorns": {
+        "Belmont Bruins": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -553,7 +1065,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "Southern Indiana Screaming Eagles": {
+        "Yale Bulldogs": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -583,196 +1095,38 @@
     },
     {
       "matchup": {
-        "home": "South Alabama Jaguars",
-        "away": "West Florida Argonauts",
-        "commence_time": "2026-11-22T20:02:35Z",
+        "home": "Georgia St Panthers",
+        "away": "Tulane Green Wave",
+        "commence_time": "2026-11-23T21:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -4000,
-            "away": 1200,
-            "homeSpread": -14.5,
-            "awaySpread": 14.5,
+            "home": -122,
+            "away": 104,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
             "homeSpreadOdds": -114,
-            "awaySpreadOdds": -114
+            "awaySpreadOdds": -106
           },
           "draftkings": {
-            "home": -2800,
-            "away": 1200,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -120
-          },
-          "betmgm": {
-            "home": -3000,
-            "away": 1000,
-            "homeSpread": -14.5,
-            "awaySpread": 14.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "South Alabama Jaguars": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "West Florida Argonauts": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Nicholls St Colonels",
-        "away": "Troy Trojans",
-        "commence_time": "2026-11-22T20:03:25Z",
-        "odds": {
-          "draftkings": {
-            "home": -154,
-            "away": 120,
+            "home": -125,
+            "away": 105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -150,
-            "away": 115,
+            "home": -125,
+            "away": 105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -125,
-            "awaySpreadOdds": -105
-          }
-        }
-      },
-      "teams": {
-        "Nicholls St Colonels": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Troy Trojans": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Mercyhurst Lakers",
-        "away": "Albany Great Danes",
-        "commence_time": "2026-11-22T20:30:00Z",
-        "odds": {
-          "draftkings": {
-            "home": -210,
-            "away": 160,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -125
-          },
-          "betmgm": {
-            "home": -185,
-            "away": 140,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
-            "homeSpreadOdds": -115,
+            "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
         }
       },
       "teams": {
-        "Mercyhurst Lakers": {
+        "Georgia St Panthers": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -798,7 +1152,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "Albany Great Danes": {
+        "Tulane Green Wave": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -828,560 +1182,38 @@
     },
     {
       "matchup": {
-        "home": "Texas State Bobcats",
-        "away": "McNeese Cowboys",
-        "commence_time": "2026-11-22T20:30:00Z",
+        "home": "San Francisco Dons",
+        "away": "Nevada Wolf Pack",
+        "commence_time": "2026-11-23T21:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -295,
-            "away": 230,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -120
+            "home": 245,
+            "away": -300,
+            "homeSpread": 7.5,
+            "awaySpread": -7.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
           },
           "draftkings": {
-            "home": -280,
-            "away": 210,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -125,
-            "awaySpreadOdds": -105
-          },
-          "betmgm": {
-            "home": -285,
-            "away": 210,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -118
-          }
-        }
-      },
-      "teams": {
-        "Texas State Bobcats": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "McNeese Cowboys": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Virginia Tech Hokies",
-        "away": "Oklahoma St Cowboys",
-        "commence_time": "2026-11-22T20:30:08Z",
-        "odds": {
-          "fanduel": {
-            "home": -104,
-            "away": -122,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -115,
-            "away": -115,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": 100,
-            "awaySpreadOdds": -130
-          },
-          "betmgm": {
-            "home": 100,
-            "away": -130,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "Virginia Tech Hokies": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Oklahoma St Cowboys": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "IUPUI Jaguars",
-        "away": "Maryland-Eastern Shore Hawks",
-        "commence_time": "2026-11-22T21:30:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -580,
-            "away": 430,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -600,
-            "away": 440,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "betmgm": {
-            "home": -625,
-            "away": 450,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "IUPUI Jaguars": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Maryland-Eastern Shore Hawks": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Richmond Spiders",
-        "away": "Liberty Flames",
-        "commence_time": "2026-11-22T21:30:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -108,
-            "away": -111,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": -112,
-            "away": -108,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": 110,
-            "awaySpreadOdds": -130
-          },
-          "betmgm": {
-            "home": -115,
-            "away": -105,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": 105,
-            "awaySpreadOdds": -125
-          }
-        }
-      },
-      "teams": {
-        "Richmond Spiders": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Liberty Flames": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Loyola Marymount Lions",
-        "away": "UC Irvine Anteaters",
-        "commence_time": "2026-11-22T21:30:00Z",
-        "odds": {
-          "fanduel": {
-            "home": 106,
-            "away": -128,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -104,
-            "awaySpreadOdds": -118
-          },
-          "draftkings": {
-            "home": 105,
-            "away": -125,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "betmgm": {
-            "home": 105,
-            "away": -130,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          }
-        }
-      },
-      "teams": {
-        "Loyola Marymount Lions": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "UC Irvine Anteaters": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Boston College Eagles",
-        "away": "NJIT Highlanders",
-        "commence_time": "2026-11-22T22:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -8000,
-            "away": 2000,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -8000,
-            "away": 2200,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "betmgm": {
-            "home": -10000,
-            "away": 2200,
-            "homeSpread": -23.5,
-            "awaySpread": 23.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "Boston College Eagles": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "NJIT Highlanders": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Portland St Vikings",
-        "away": "CSU Fullerton Titans",
-        "commence_time": "2026-11-22T22:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -192,
-            "away": 160,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -205,
-            "away": 170,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
+            "home": 250,
+            "away": -310,
+            "homeSpread": 7.5,
+            "awaySpread": -7.5,
             "homeSpreadOdds": -115,
             "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -200,
-            "away": 165,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
+            "home": 240,
+            "away": -300,
+            "homeSpread": 7.5,
+            "awaySpread": -7.5,
             "homeSpreadOdds": -115,
             "awaySpreadOdds": -105
           }
         }
       },
       "teams": {
-        "Portland St Vikings": {
+        "San Francisco Dons": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1407,7 +1239,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "CSU Fullerton Titans": {
+        "Nevada Wolf Pack": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1437,125 +1269,38 @@
     },
     {
       "matchup": {
-        "home": "Rice Owls",
-        "away": "Lamar Cardinals",
-        "commence_time": "2026-11-22T22:00:00Z",
+        "home": "BYU Cougars",
+        "away": "Washington Huskies",
+        "commence_time": "2026-11-23T22:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 118,
-            "away": -140,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
+            "home": -950,
+            "away": 610,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": 110,
-            "away": -130,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
-          },
-          "betmgm": {
-            "home": 110,
-            "away": -135,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
-          }
-        }
-      },
-      "teams": {
-        "Rice Owls": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Lamar Cardinals": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Samford Bulldogs",
-        "away": "UNC Asheville Bulldogs",
-        "commence_time": "2026-11-22T22:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -580,
-            "away": 440,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
+            "home": -900,
+            "away": 600,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
-          "draftkings": {
-            "home": -535,
-            "away": 400,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
-          },
           "betmgm": {
-            "home": -550,
-            "away": 400,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
+            "home": -900,
+            "away": 600,
+            "homeSpread": -12.5,
+            "awaySpread": 12.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
         }
       },
       "teams": {
-        "Samford Bulldogs": {
+        "BYU Cougars": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1581,7 +1326,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "UNC Asheville Bulldogs": {
+        "Washington Huskies": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1611,38 +1356,22 @@
     },
     {
       "matchup": {
-        "home": "Stephen F. Austin Lumberjacks",
+        "home": "Tenn-Martin Skyhawks",
         "away": "Temple Owls",
-        "commence_time": "2026-11-22T22:30:00Z",
+        "commence_time": "2026-11-23T22:30:00Z",
         "odds": {
-          "fanduel": {
-            "home": 112,
-            "away": -132,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
           "draftkings": {
-            "home": 110,
-            "away": -130,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
-          },
-          "betmgm": {
-            "home": 115,
-            "away": -140,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": 190,
+            "away": -230,
+            "homeSpread": 4.5,
+            "awaySpread": -4.5,
+            "homeSpreadOdds": 100,
+            "awaySpreadOdds": -120
           }
         }
       },
       "teams": {
-        "Stephen F. Austin Lumberjacks": {
+        "Tenn-Martin Skyhawks": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1698,38 +1427,30 @@
     },
     {
       "matchup": {
-        "home": "Minnesota Golden Gophers",
-        "away": "Utah Utes",
-        "commence_time": "2026-11-22T23:00:00Z",
+        "home": "Youngstown St Penguins",
+        "away": "Maryland-Eastern Shore Hawks",
+        "commence_time": "2026-11-23T23:30:00Z",
         "odds": {
-          "fanduel": {
-            "home": -490,
-            "away": 375,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
           "draftkings": {
-            "home": -550,
-            "away": 410,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1100,
+            "away": 700,
+            "homeSpread": -14.5,
+            "awaySpread": 14.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           },
           "betmgm": {
-            "home": -500,
-            "away": 375,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -1100,
+            "away": 700,
+            "homeSpread": -13.5,
+            "awaySpread": 13.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
       "teams": {
-        "Minnesota Golden Gophers": {
+        "Youngstown St Penguins": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1755,7 +1476,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "Utah Utes": {
+        "Maryland-Eastern Shore Hawks": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1785,38 +1506,30 @@
     },
     {
       "matchup": {
-        "home": "Southern Miss Golden Eagles",
-        "away": "Valparaiso Beacons",
-        "commence_time": "2026-11-22T23:00:00Z",
+        "home": "North Florida Ospreys",
+        "away": "Central Arkansas Bears",
+        "commence_time": "2026-11-24T00:00:00Z",
         "odds": {
-          "fanduel": {
+          "draftkings": {
+            "home": 360,
+            "away": -470,
+            "homeSpread": 9.5,
+            "awaySpread": -9.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          },
+          "betmgm": {
             "home": 340,
             "away": -450,
             "homeSpread": 9.5,
             "awaySpread": -9.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": 310,
-            "away": -395,
-            "homeSpread": 8.5,
-            "awaySpread": -8.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
-          },
-          "betmgm": {
-            "home": 325,
-            "away": -425,
-            "homeSpread": 8.5,
-            "awaySpread": -8.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
       "teams": {
-        "Southern Miss Golden Eagles": {
+        "North Florida Ospreys": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1842,7 +1555,7 @@
           "upcoming": [],
           "kenpom": null
         },
-        "Valparaiso Beacons": {
+        "Central Arkansas Bears": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -1872,381 +1585,697 @@
     },
     {
       "matchup": {
-        "home": "Portland Pilots",
-        "away": "Cal Baptist Lancers",
-        "commence_time": "2026-11-23T00:00:00Z",
+        "home": "Iona Gaels",
+        "away": "Fairleigh Dickinson Knights",
+        "commence_time": "2026-11-24T00:00:00Z",
         "odds": {
-          "fanduel": {
-            "home": -310,
-            "away": 250,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
           "draftkings": {
-            "home": -355,
-            "away": 280,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
-          },
-          "betmgm": {
-            "home": -325,
-            "away": 260,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          }
-        }
-      },
-      "teams": {
-        "Portland Pilots": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Cal Baptist Lancers": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "UCLA Bruins",
-        "away": "Delaware Blue Hens",
-        "commence_time": "2026-11-23T00:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -50000,
-            "away": 3500,
-            "homeSpread": -28.5,
-            "awaySpread": 28.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "homeSpread": -28.5,
-            "awaySpread": 28.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "betmgm": {
-            "home": -10000,
-            "away": 3300,
-            "homeSpread": -28.5,
-            "awaySpread": 28.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "UCLA Bruins": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Delaware Blue Hens": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Rhode Island Rams",
-        "away": "UAB Blazers",
-        "commence_time": "2026-11-23T00:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -132,
-            "away": 110,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": -135,
-            "away": 114,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "betmgm": {
-            "home": -135,
-            "away": 110,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "Rhode Island Rams": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "UAB Blazers": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "USC Trojans",
-        "away": "Louisiana Ragin' Cajuns",
-        "commence_time": "2026-11-23T01:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -100000,
-            "away": 3500,
-            "homeSpread": -32.5,
-            "awaySpread": 32.5,
-            "homeSpreadOdds": -106,
-            "awaySpreadOdds": -114
-          },
-          "draftkings": {
-            "homeSpread": -32.5,
-            "awaySpread": 32.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
-          },
-          "betmgm": {
-            "home": -10000,
-            "away": 3300,
-            "homeSpread": -32.5,
-            "awaySpread": 32.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          }
-        }
-      },
-      "teams": {
-        "USC Trojans": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Louisiana Ragin' Cajuns": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Utah Valley Wolverines",
-        "away": "Tenn-Martin Skyhawks",
-        "commence_time": "2026-11-23T01:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -295,
-            "away": 235,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": -305,
-            "away": 245,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
+            "home": -410,
+            "away": 320,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
             "homeSpreadOdds": -115,
             "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -300,
-            "away": 240,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
+            "home": -425,
+            "away": 320,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
+          }
+        }
+      },
+      "teams": {
+        "Iona Gaels": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Fairleigh Dickinson Knights": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Northern Kentucky Norse",
+        "away": "Georgia Southern Eagles",
+        "commence_time": "2026-11-24T00:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -166,
+            "away": 138,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "draftkings": {
+            "home": -162,
+            "away": 136,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "home": -160,
+            "away": 135,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Northern Kentucky Norse": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Georgia Southern Eagles": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Santa Clara Broncos",
+        "away": "Illinois St Redbirds",
+        "commence_time": "2026-11-24T00:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -210,
+            "away": 172,
+            "homeSpread": -4.5,
+            "awaySpread": 4.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": -225,
+            "away": 185,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          },
+          "betmgm": {
+            "home": -220,
+            "away": 180,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          }
+        }
+      },
+      "teams": {
+        "Santa Clara Broncos": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Illinois St Redbirds": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "South Carolina St Bulldogs",
+        "away": "North Carolina A&T Aggies",
+        "commence_time": "2026-11-24T00:00:00Z",
+        "odds": {
+          "draftkings": {
+            "home": 120,
+            "away": -142,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "betmgm": {
+            "home": 120,
+            "away": -145,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "South Carolina St Bulldogs": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "North Carolina A&T Aggies": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Wichita St Shockers",
+        "away": "Texas A&M-CC Islanders",
+        "commence_time": "2026-11-24T00:30:00Z",
+        "odds": {
+          "draftkings": {
+            "home": -6500,
+            "away": 2000,
+            "homeSpread": -21.5,
+            "awaySpread": 21.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "home": -5000,
+            "away": 1500
+          }
+        }
+      },
+      "teams": {
+        "Wichita St Shockers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Texas A&M-CC Islanders": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Kansas Jayhawks",
+        "away": "Denver Pioneers",
+        "commence_time": "2026-11-24T01:00:00Z",
+        "odds": {
+          "fanduel": {
+            "homeSpread": -35.5,
+            "awaySpread": 35.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
+          },
+          "draftkings": {
+            "homeSpread": -35.5,
+            "awaySpread": 35.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          },
+          "betmgm": {
+            "homeSpread": -36.5,
+            "awaySpread": 36.5,
             "homeSpreadOdds": -102,
             "awaySpreadOdds": -118
           }
         }
       },
       "teams": {
+        "Kansas Jayhawks": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Denver Pioneers": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Illinois Fighting Illini",
+        "away": "Winthrop Eagles",
+        "commence_time": "2026-11-24T01:00:00Z",
+        "odds": {
+          "draftkings": {
+            "homeSpread": -43.5,
+            "awaySpread": 43.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          },
+          "betmgm": {
+            "homeSpread": -43.5,
+            "awaySpread": 43.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Illinois Fighting Illini": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Winthrop Eagles": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "North Carolina Tar Heels",
+        "away": "Monmouth Hawks",
+        "commence_time": "2026-11-24T01:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -4000,
+            "away": 1400,
+            "homeSpread": -19.5,
+            "awaySpread": 19.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": -4500,
+            "away": 1700,
+            "homeSpread": -19.5,
+            "awaySpread": 19.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -3000,
+            "away": 1250,
+            "homeSpread": -19.5,
+            "awaySpread": 19.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "North Carolina Tar Heels": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Monmouth Hawks": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Stephen F. Austin Lumberjacks",
+        "away": "Utah Valley Wolverines",
+        "commence_time": "2026-11-24T01:00:00Z",
+        "odds": {
+          "draftkings": {
+            "home": 145,
+            "away": -175,
+            "homeSpread": 3.5,
+            "awaySpread": -3.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "Stephen F. Austin Lumberjacks": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
         "Utah Valley Wolverines": {
           "net": null,
           "previousNet": null,
@@ -2272,156 +2301,43 @@
           },
           "upcoming": [],
           "kenpom": null
-        },
-        "Tenn-Martin Skyhawks": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
         }
       }
     },
     {
       "matchup": {
-        "home": "UC San Diego Tritons",
-        "away": "Seattle Redhawks",
-        "commence_time": "2026-11-23T02:30:00Z",
+        "home": "Providence Friars",
+        "away": "VCU Rams",
+        "commence_time": "2026-11-24T02:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -108,
-            "away": -111,
+            "home": -120,
+            "away": 100,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": 104,
-            "awaySpreadOdds": -128
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -110,
-            "away": -110,
+            "home": -122,
+            "away": 102,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": 110,
-            "awaySpreadOdds": -130
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
-            "home": -105,
-            "away": -115,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
-          }
-        }
-      },
-      "teams": {
-        "UC San Diego Tritons": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Seattle Redhawks": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Loyola (Chi) Ramblers",
-        "away": "San José St Spartans",
-        "commence_time": "2026-11-23T04:59:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -182,
-            "away": 150,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "draftkings": {
-            "home": -185,
-            "away": 154,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
-          },
-          "betmgm": {
-            "home": -190,
-            "away": 155,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
+            "home": -120,
+            "away": 100,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
         }
       },
       "teams": {
-        "Loyola (Chi) Ramblers": {
+        "Providence Friars": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
@@ -2447,7 +2363,347 @@
           "upcoming": [],
           "kenpom": null
         },
-        "San José St Spartans": {
+        "VCU Rams": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Pepperdine Waves",
+        "away": "UNC Greensboro Spartans",
+        "commence_time": "2026-11-24T02:30:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -580,
+            "away": 430,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": -650,
+            "away": 470,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          },
+          "betmgm": {
+            "home": -650,
+            "away": 475,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          }
+        }
+      },
+      "teams": {
+        "Pepperdine Waves": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "UNC Greensboro Spartans": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "California Golden Bears",
+        "away": "Alabama St Hornets",
+        "commence_time": "2026-11-24T03:00:00Z",
+        "odds": {
+          "draftkings": {
+            "home": -5000,
+            "away": 1800,
+            "homeSpread": -19.5,
+            "awaySpread": 19.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -5000,
+            "away": 1350,
+            "homeSpread": -19.5,
+            "awaySpread": 19.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          }
+        }
+      },
+      "teams": {
+        "California Golden Bears": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Alabama St Hornets": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "UNLV Rebels",
+        "away": "Eastern Washington Eagles",
+        "commence_time": "2026-11-24T03:00:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -315,
+            "away": 255,
+            "homeSpread": -7.5,
+            "awaySpread": 7.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": -355,
+            "away": 280,
+            "homeSpread": -7.5,
+            "awaySpread": 7.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
+          },
+          "betmgm": {
+            "home": -325,
+            "away": 260,
+            "homeSpread": -7.5,
+            "awaySpread": 7.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          }
+        }
+      },
+      "teams": {
+        "UNLV Rebels": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Eastern Washington Eagles": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        }
+      }
+    },
+    {
+      "matchup": {
+        "home": "Arizona Wildcats",
+        "away": "Colorado St Rams",
+        "commence_time": "2026-11-24T04:30:00Z",
+        "odds": {
+          "fanduel": {
+            "home": -2500,
+            "away": 1100,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
+          },
+          "draftkings": {
+            "home": -2400,
+            "away": 1200,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
+          },
+          "betmgm": {
+            "home": -2000,
+            "away": 1000,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
+          }
+        }
+      },
+      "teams": {
+        "Arizona Wildcats": {
+          "net": null,
+          "previousNet": null,
+          "record": "N/A",
+          "confRecord": "N/A",
+          "quadGames": {
+            "1": {
+              "record": "0-0",
+              "games": []
+            },
+            "2": {
+              "record": "0-0",
+              "games": []
+            },
+            "3": {
+              "record": "0-0",
+              "games": []
+            },
+            "4": {
+              "record": "0-0",
+              "games": []
+            }
+          },
+          "upcoming": [],
+          "kenpom": null
+        },
+        "Colorado St Rams": {
           "net": null,
           "previousNet": null,
           "record": "N/A",
