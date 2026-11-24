@@ -1,442 +1,7 @@
 {
-  "generated_at": "2026-11-24T15:01:35.056Z",
+  "generated_at": "2026-11-24T21:01:39.124Z",
   "report_date_eastern": "2026-11-24",
   "games": [
-    {
-      "matchup": {
-        "home": "St. Bonaventure Bonnies",
-        "away": "Wright St Raiders",
-        "commence_time": "2026-11-24T15:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -104,
-            "away": -115,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
-          },
-          "draftkings": {
-            "home": -105,
-            "away": -115,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -122,
-            "awaySpreadOdds": 102
-          },
-          "betmgm": {
-            "home": -110,
-            "away": -110,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": 100
-          }
-        }
-      },
-      "teams": {
-        "St. Bonaventure Bonnies": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Wright St Raiders": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Ohio Bobcats",
-        "away": "New Mexico St Aggies",
-        "commence_time": "2026-11-24T16:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -205,
-            "away": 168,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -104
-          },
-          "draftkings": {
-            "home": -218,
-            "away": 180,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
-          },
-          "betmgm": {
-            "home": -210,
-            "away": 170,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
-          }
-        }
-      },
-      "teams": {
-        "Ohio Bobcats": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "New Mexico St Aggies": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Akron Zips",
-        "away": "Belmont Bruins",
-        "commence_time": "2026-11-24T17:30:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -150,
-            "away": 126,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": -142,
-            "away": 120,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "betmgm": {
-            "home": -145,
-            "away": 118,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "Akron Zips": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Belmont Bruins": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "N Colorado Bears",
-        "away": "SE Louisiana Lions",
-        "commence_time": "2026-11-24T17:30:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -150,
-            "away": 126,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": -170,
-            "away": 142,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "betmgm": {
-            "home": -160,
-            "away": 135,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          }
-        }
-      },
-      "teams": {
-        "N Colorado Bears": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "SE Louisiana Lions": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
-        "home": "Florida Int'l Golden Panthers",
-        "away": "Southern Utah Thunderbirds",
-        "commence_time": "2026-11-24T18:00:00Z",
-        "odds": {
-          "fanduel": {
-            "home": -385,
-            "away": 310,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -395,
-            "away": 310,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
-          },
-          "betmgm": {
-            "home": -400,
-            "away": 300,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          }
-        }
-      },
-      "teams": {
-        "Florida Int'l Golden Panthers": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "Southern Utah Thunderbirds": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
     {
       "matchup": {
         "home": "Oklahoma Sooners",
@@ -444,28 +9,22 @@
         "commence_time": "2026-11-24T18:30:00Z",
         "odds": {
           "fanduel": {
-            "home": 108,
-            "away": -130,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpread": 12.5,
+            "awaySpread": -12.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -122
           },
           "draftkings": {
-            "home": 120,
-            "away": -142,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpread": 11.5,
+            "awaySpread": -11.5,
+            "homeSpreadOdds": 114,
+            "awaySpreadOdds": -145
           },
           "betmgm": {
-            "home": 110,
-            "away": -135,
-            "homeSpread": 2.5,
-            "awaySpread": -2.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpread": 12.5,
+            "awaySpread": -12.5,
+            "homeSpreadOdds": 300,
+            "awaySpreadOdds": -450
           }
         }
       },
@@ -526,120 +85,27 @@
     },
     {
       "matchup": {
-        "home": "Rice Owls",
-        "away": "UIC Flames",
-        "commence_time": "2026-11-24T18:30:00Z",
-        "odds": {
-          "fanduel": {
-            "home": 235,
-            "away": -285,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": 250,
-            "away": -310,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
-          },
-          "betmgm": {
-            "home": 240,
-            "away": -300,
-            "homeSpread": 7.5,
-            "awaySpread": -7.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
-          }
-        }
-      },
-      "teams": {
-        "Rice Owls": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        },
-        "UIC Flames": {
-          "net": null,
-          "previousNet": null,
-          "record": "N/A",
-          "confRecord": "N/A",
-          "quadGames": {
-            "1": {
-              "record": "0-0",
-              "games": []
-            },
-            "2": {
-              "record": "0-0",
-              "games": []
-            },
-            "3": {
-              "record": "0-0",
-              "games": []
-            },
-            "4": {
-              "record": "0-0",
-              "games": []
-            }
-          },
-          "upcoming": [],
-          "kenpom": null
-        }
-      }
-    },
-    {
-      "matchup": {
         "home": "San Francisco Dons",
         "away": "Oregon St Beavers",
         "commence_time": "2026-11-24T19:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 330,
-            "away": -430,
-            "homeSpread": 9.5,
-            "awaySpread": -9.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpread": 14.5,
+            "awaySpread": -14.5,
+            "homeSpreadOdds": -210,
+            "awaySpreadOdds": 154
           },
           "draftkings": {
-            "home": 360,
-            "away": -470,
-            "homeSpread": 8.5,
-            "awaySpread": -8.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpread": 13.5,
+            "awaySpread": -13.5,
+            "homeSpreadOdds": -135,
+            "awaySpreadOdds": 105
           },
           "betmgm": {
-            "home": 320,
-            "away": -425,
-            "homeSpread": 8.5,
-            "awaySpread": -8.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": 14.5,
+            "awaySpread": -14.5,
+            "homeSpreadOdds": -300,
+            "awaySpreadOdds": 220
           }
         }
       },
@@ -702,31 +168,31 @@
       "matchup": {
         "home": "BYU Cougars",
         "away": "Ole Miss Rebels",
-        "commence_time": "2026-11-24T19:30:00Z",
+        "commence_time": "2026-11-24T19:36:07Z",
         "odds": {
           "fanduel": {
-            "home": -113,
-            "away": -108,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": 100,
-            "awaySpreadOdds": -122
+            "home": 130,
+            "away": -164,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -120
           },
           "draftkings": {
-            "home": -110,
-            "away": -110,
+            "home": -105,
+            "away": -125,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
-            "homeSpreadOdds": -125,
-            "awaySpreadOdds": 105
+            "homeSpreadOdds": -130,
+            "awaySpreadOdds": 100
           },
           "betmgm": {
-            "home": -105,
-            "away": -115,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": 100
+            "home": -120,
+            "away": -105,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -130
           }
         }
       },
@@ -792,27 +258,27 @@
         "commence_time": "2026-11-24T20:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -108,
-            "away": -111,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -122,
-            "awaySpreadOdds": 100
+            "home": 122,
+            "away": -154,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -114
           },
           "draftkings": {
-            "home": -110,
-            "away": -110,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -130,
-            "awaySpreadOdds": 110
+            "home": 145,
+            "away": -188,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -125
           },
           "betmgm": {
-            "home": -118,
-            "away": -102,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -105,
+            "home": 120,
+            "away": -155,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -115,
             "awaySpreadOdds": -115
           }
         }
@@ -879,28 +345,28 @@
         "commence_time": "2026-11-24T20:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 158,
-            "away": -188,
-            "homeSpread": 4.5,
-            "awaySpread": -4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": 460,
+            "away": -720,
+            "homeSpread": 8.5,
+            "awaySpread": -8.5,
+            "homeSpreadOdds": -106,
+            "awaySpreadOdds": -125
           },
           "draftkings": {
-            "home": 154,
-            "away": -185,
-            "homeSpread": 4.5,
-            "awaySpread": -4.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": 550,
+            "away": -920,
+            "homeSpread": 9.5,
+            "awaySpread": -9.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -120
           },
           "betmgm": {
-            "home": 155,
-            "away": -190,
-            "homeSpread": 4.5,
-            "awaySpread": -4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": 450,
+            "away": -700,
+            "homeSpread": 9.5,
+            "awaySpread": -9.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -963,31 +429,31 @@
       "matchup": {
         "home": "Maryland Terrapins",
         "away": "Tennessee Volunteers",
-        "commence_time": "2026-11-24T20:00:00Z",
+        "commence_time": "2026-11-24T20:03:02Z",
         "odds": {
           "fanduel": {
-            "home": 142,
-            "away": -172,
+            "home": 144,
+            "away": -186,
             "homeSpread": 3.5,
             "awaySpread": -3.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -114
           },
           "draftkings": {
-            "home": 145,
-            "away": -175,
+            "home": 160,
+            "away": -210,
             "homeSpread": 3.5,
             "awaySpread": -3.5,
-            "homeSpreadOdds": -105,
+            "homeSpreadOdds": -115,
             "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": 145,
-            "away": -175,
+            "home": 154,
+            "away": -200,
             "homeSpread": 3.5,
             "awaySpread": -3.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -1050,27 +516,27 @@
       "matchup": {
         "home": "TCU Horned Frogs",
         "away": "Miami Hurricanes",
-        "commence_time": "2026-11-24T20:00:00Z",
+        "commence_time": "2026-11-24T20:03:19Z",
         "odds": {
           "fanduel": {
-            "home": 188,
-            "away": -225,
-            "homeSpread": 5.5,
-            "awaySpread": -5.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": 146,
+            "away": -186,
+            "homeSpread": 3.5,
+            "awaySpread": -3.5,
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -114
           },
           "draftkings": {
-            "home": 195,
-            "away": -238,
-            "homeSpread": 5.5,
-            "awaySpread": -5.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "home": 165,
+            "away": -215,
+            "homeSpread": 3.5,
+            "awaySpread": -3.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": 185,
-            "away": -225
+            "home": 160,
+            "away": -210
           }
         }
       },
@@ -1136,27 +602,27 @@
         "commence_time": "2026-11-24T20:30:24Z",
         "odds": {
           "fanduel": {
-            "home": 160,
-            "away": -192,
-            "homeSpread": 4.5,
-            "awaySpread": -4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": 180,
-            "away": -218,
+            "home": 176,
+            "away": -225,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
             "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "awaySpreadOdds": -112
+          },
+          "draftkings": {
+            "home": 240,
+            "away": -330,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": 170,
-            "away": -210,
-            "homeSpread": 4.5,
-            "awaySpread": -4.5,
-            "homeSpreadOdds": -102,
+            "home": 210,
+            "away": -285,
+            "homeSpread": 6.5,
+            "awaySpread": -6.5,
+            "homeSpreadOdds": -110,
             "awaySpreadOdds": -118
           }
         }
@@ -1223,28 +689,26 @@
         "commence_time": "2026-11-24T21:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -126,
-            "away": 104,
+            "home": -128,
+            "away": 106,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -120,
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -130,
-            "away": 110,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
-          },
-          "betmgm": {
-            "home": -135,
-            "away": 110,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -115,
+            "homeSpreadOdds": -125,
             "awaySpreadOdds": -105
+          },
+          "betmgm": {
+            "home": -165,
+            "away": 130,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -1318,12 +782,12 @@
             "awaySpreadOdds": -122
           },
           "draftkings": {
-            "home": -120,
-            "away": 100,
+            "home": -112,
+            "away": -108,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": 102,
-            "awaySpreadOdds": -122
+            "homeSpreadOdds": 110,
+            "awaySpreadOdds": -130
           },
           "betmgm": {
             "home": -115,
@@ -1397,12 +861,12 @@
         "commence_time": "2026-11-24T22:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -300,
-            "away": 245,
+            "home": -330,
+            "away": 265,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
-            "homeSpreadOdds": -106,
-            "awaySpreadOdds": -114
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
           },
           "draftkings": {
             "home": -340,
@@ -1484,28 +948,28 @@
         "commence_time": "2026-11-24T22:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -265,
-            "away": 215,
-            "homeSpread": -6.5,
-            "awaySpread": 6.5,
-            "homeSpreadOdds": -106,
-            "awaySpreadOdds": -114
+            "home": -225,
+            "away": 188,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -265,
-            "away": 215,
+            "home": -250,
+            "away": 205,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
             "homeSpreadOdds": -115,
             "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -235,
-            "away": 195,
+            "home": -220,
+            "away": 180,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -1571,28 +1035,28 @@
         "commence_time": "2026-11-24T22:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -410,
-            "away": 320,
+            "home": -465,
+            "away": 360,
             "homeSpread": -9.5,
             "awaySpread": 9.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -120
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -410,
-            "away": 320,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "home": -455,
+            "away": 350,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -400,
-            "away": 310,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "home": -475,
+            "away": 360,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -1658,20 +1122,28 @@
         "commence_time": "2026-11-24T22:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -375,
-            "away": 290,
+            "home": -400,
+            "away": 310,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "draftkings": {
+            "home": -440,
+            "away": 340,
+            "homeSpread": -9.5,
+            "awaySpread": 9.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
+          },
+          "betmgm": {
+            "home": -400,
+            "away": 310,
             "homeSpread": -8.5,
             "awaySpread": 8.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
-          },
-          "draftkings": {
-            "home": -395,
-            "away": 310,
-            "homeSpread": -8.5,
-            "awaySpread": 8.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
           }
         }
       },
@@ -1737,8 +1209,8 @@
         "commence_time": "2026-11-24T23:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -150,
-            "away": 126,
+            "home": -152,
+            "away": 128,
             "homeSpread": -3.5,
             "awaySpread": 3.5,
             "homeSpreadOdds": -105,
@@ -1753,8 +1225,8 @@
             "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": -155,
-            "away": 125,
+            "home": -160,
+            "away": 135,
             "homeSpread": -3.5,
             "awaySpread": 3.5,
             "homeSpreadOdds": -105,
@@ -1912,7 +1384,7 @@
         "odds": {
           "fanduel": {
             "home": -295,
-            "away": 235,
+            "away": 240,
             "homeSpread": -6.5,
             "awaySpread": 6.5,
             "homeSpreadOdds": -120,
@@ -1998,28 +1470,28 @@
         "commence_time": "2026-11-24T23:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -122,
-            "away": 102,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -106,
+            "away": -113,
+            "homeSpread": 1.5,
+            "awaySpread": -1.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -115,
-            "away": -105,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -105,
+            "away": -115,
+            "homeSpread": 1.5,
+            "awaySpread": -1.5,
+            "homeSpreadOdds": -125,
+            "awaySpreadOdds": 105
           },
           "betmgm": {
-            "home": -120,
-            "away": 100,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -105,
+            "away": -115,
+            "homeSpread": 1.5,
+            "awaySpread": -1.5,
+            "homeSpreadOdds": -125,
+            "awaySpreadOdds": 105
           }
         }
       },
@@ -2172,8 +1644,8 @@
         "commence_time": "2026-11-24T23:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -205,
-            "away": 168,
+            "home": -215,
+            "away": 180,
             "homeSpread": -4.5,
             "awaySpread": 4.5,
             "homeSpreadOdds": -120,
@@ -2182,18 +1654,18 @@
           "draftkings": {
             "home": -218,
             "away": 180,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpread": -4.5,
+            "awaySpread": 4.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -220,
-            "away": 180,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -210,
+            "away": 170,
+            "homeSpread": -4.5,
+            "awaySpread": 4.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -2267,20 +1739,20 @@
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -340,
-            "away": 270,
-            "homeSpread": -7.5,
-            "awaySpread": 7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -325,
+            "away": 260,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           },
           "betmgm": {
             "home": -325,
             "away": 260,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -2346,20 +1818,28 @@
         "commence_time": "2026-11-24T23:30:00Z",
         "odds": {
           "fanduel": {
-            "home": 126,
-            "away": -150,
+            "home": 130,
+            "away": -156,
             "homeSpread": 3.5,
             "awaySpread": -3.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
-            "home": 130,
-            "away": -155,
+            "home": 124,
+            "away": -148,
             "homeSpread": 2.5,
             "awaySpread": -2.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "home": 125,
+            "away": -150,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -2425,20 +1905,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 104,
-            "away": -122,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
+            "home": 120,
+            "away": -142,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": 105,
-            "away": -125,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": 120,
+            "away": -142,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
+          },
+          "betmgm": {
+            "home": 118,
+            "away": -145,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -2512,8 +2000,8 @@
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -395,
-            "away": 310,
+            "home": -410,
+            "away": 320,
             "homeSpread": -8.5,
             "awaySpread": 8.5,
             "homeSpreadOdds": -115,
@@ -2521,11 +2009,11 @@
           },
           "betmgm": {
             "home": -425,
-            "away": 325,
-            "homeSpread": -9.5,
-            "awaySpread": 9.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "away": 320,
+            "homeSpread": -8.5,
+            "awaySpread": 8.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -2607,8 +2095,8 @@
             "awaySpreadOdds": -110
           },
           "betmgm": {
-            "home": -225,
-            "away": 185,
+            "home": -235,
+            "away": 190,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
             "homeSpreadOdds": -110,
@@ -2678,28 +2166,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -780,
-            "away": 550,
+            "home": -750,
+            "away": 530,
             "homeSpread": -11.5,
             "awaySpread": 11.5,
             "homeSpreadOdds": -120,
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -800,
-            "away": 550,
+            "home": -900,
+            "away": 600,
             "homeSpread": -12.5,
             "awaySpread": 12.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
-            "home": -800,
-            "away": 550,
+            "home": -900,
+            "away": 575,
             "homeSpread": -12.5,
             "awaySpread": 12.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -2765,28 +2253,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -122,
-            "away": 102,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -150,
+            "away": 125,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -120,
-            "away": 100,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": -148,
+            "away": 124,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": -125,
-            "away": 105,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -155,
+            "away": 125,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -2852,28 +2340,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -111,
-            "away": -108,
+            "home": -122,
+            "away": 102,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -120
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "draftkings": {
-            "home": -115,
-            "away": -105,
-            "homeSpread": -1.5,
-            "awaySpread": 1.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
-          },
-          "betmgm": {
             "home": -118,
             "away": -102,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -120,
+            "away": 100,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -2939,28 +2427,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -1000,
-            "away": 660,
+            "home": -900,
+            "away": 610,
             "homeSpread": -12.5,
             "awaySpread": 12.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -1050,
             "away": 675,
             "homeSpread": -13.5,
             "awaySpread": 13.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -1000,
             "away": 650,
             "homeSpread": -12.5,
             "awaySpread": 12.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -3026,28 +2514,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -2800,
-            "away": 1100,
+            "home": -2000,
+            "away": 1060,
             "homeSpread": -16.5,
             "awaySpread": 16.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -2100,
             "away": 1100,
             "homeSpread": -16.5,
             "awaySpread": 16.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -2000,
-            "away": 1000,
+            "away": 950,
             "homeSpread": -16.5,
             "awaySpread": 16.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -3113,22 +2601,22 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -32.5,
-            "awaySpread": 32.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -33.5,
+            "awaySpread": 33.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
-            "homeSpread": -32.5,
-            "awaySpread": 32.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpread": -34.5,
+            "awaySpread": 34.5,
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "homeSpread": -32.5,
-            "awaySpread": 32.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -34.5,
+            "awaySpread": 34.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -3194,10 +2682,10 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "homeSpread": -34.5,
-            "awaySpread": 34.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -33.5,
+            "awaySpread": 33.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -104
           },
           "draftkings": {
             "homeSpread": -34.5,
@@ -3208,8 +2696,8 @@
           "betmgm": {
             "homeSpread": -34.5,
             "awaySpread": 34.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -3362,12 +2850,12 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -335,
-            "away": 270,
+            "home": -320,
+            "away": 260,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -114,
+            "awaySpreadOdds": -106
           },
           "draftkings": {
             "home": -355,
@@ -3379,11 +2867,11 @@
           },
           "betmgm": {
             "home": -350,
-            "away": 280,
+            "away": 275,
             "homeSpread": -7.5,
             "awaySpread": 7.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -3465,6 +2953,8 @@
             "awaySpreadOdds": -112
           },
           "betmgm": {
+            "home": -10000,
+            "away": 3300,
             "homeSpread": -27.5,
             "awaySpread": 27.5,
             "homeSpreadOdds": -110,
@@ -3534,20 +3024,20 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -20000,
-            "away": 2500,
-            "homeSpread": -26.5,
-            "awaySpread": 26.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "home": -30000,
+            "away": 3500,
+            "homeSpread": -28.5,
+            "awaySpread": 28.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -100000,
             "away": 5000,
-            "homeSpread": -27.5,
-            "awaySpread": 27.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpread": -28.5,
+            "awaySpread": 28.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -3613,12 +3103,12 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -160,
-            "away": 134,
-            "homeSpread": -3.5,
-            "awaySpread": 3.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -150,
+            "away": 125,
+            "homeSpread": -2.5,
+            "awaySpread": 2.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
             "home": -166,
@@ -3712,8 +3202,8 @@
             "away": -105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
             "home": -118,
@@ -3788,27 +3278,27 @@
         "odds": {
           "fanduel": {
             "home": -108,
-            "away": -111,
+            "away": -113,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
             "homeSpreadOdds": -120,
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -105,
-            "away": -115,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -125,
-            "awaySpreadOdds": 105
+            "home": -118,
+            "away": -102,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": 102,
+            "awaySpreadOdds": -122
           },
           "betmgm": {
-            "home": -105,
-            "away": -115,
-            "homeSpread": 1.5,
-            "awaySpread": -1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": 100
+            "home": -118,
+            "away": -102,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -3886,8 +3376,8 @@
             "away": 2000,
             "homeSpread": -20.5,
             "awaySpread": 20.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
             "home": -10000,
@@ -3961,8 +3451,8 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": 106,
-            "away": -128,
+            "home": 110,
+            "away": -132,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
             "homeSpreadOdds": -105,
@@ -4044,28 +3534,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -192,
-            "away": 160,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -176,
+            "away": 146,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -192,
-            "away": 160,
+            "home": -185,
+            "away": 154,
             "homeSpread": -4.5,
             "awaySpread": 4.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           },
           "betmgm": {
             "home": -190,
-            "away": 155,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "away": 154,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -4133,24 +3623,24 @@
           "fanduel": {
             "home": -2800,
             "away": 1160,
-            "homeSpread": -17.5,
-            "awaySpread": 17.5,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
             "homeSpreadOdds": -120,
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -2500,
-            "away": 1150,
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -2000,
+            "away": 1000,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -4216,28 +3706,28 @@
         "commence_time": "2026-11-25T00:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -111,
-            "away": -108,
+            "home": -113,
+            "away": -106,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": 102,
-            "awaySpreadOdds": -124
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -120
           },
           "draftkings": {
             "home": -112,
             "away": -108,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": -115,
-            "away": -105,
+            "home": -118,
+            "away": -102,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           }
         }
       },
@@ -4304,27 +3794,19 @@
         "odds": {
           "fanduel": {
             "home": -2000,
-            "away": 1000,
+            "away": 1060,
             "homeSpread": -15.5,
             "awaySpread": 15.5,
             "homeSpreadOdds": -120,
             "awaySpreadOdds": -102
           },
-          "draftkings": {
-            "home": -1800,
-            "away": 1000,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
-          },
           "betmgm": {
             "home": -2000,
-            "away": 950,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -118,
-            "awaySpreadOdds": -102
+            "away": 1000,
+            "homeSpread": -16.5,
+            "awaySpread": 16.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -4406,8 +3888,8 @@
             "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": -170,
-            "away": 140,
+            "home": -175,
+            "away": 145,
             "homeSpread": -3.5,
             "awaySpread": 3.5,
             "homeSpreadOdds": -115,
@@ -4489,16 +3971,16 @@
             "away": -122,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": 100
           },
           "betmgm": {
-            "home": 105,
-            "away": -125,
+            "home": -102,
+            "away": -118,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -4564,28 +4046,28 @@
         "commence_time": "2026-11-25T00:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -1800,
+            "home": -1450,
             "away": 920,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -14.5,
+            "awaySpread": 14.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -1800,
-            "away": 1000,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
-          },
-          "betmgm": {
-            "home": -1600,
-            "away": 850,
-            "homeSpread": -15.5,
-            "awaySpread": 15.5,
+            "home": -1650,
+            "away": 950,
+            "homeSpread": -14.5,
+            "awaySpread": 14.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
+          },
+          "betmgm": {
+            "home": -1400,
+            "away": 775,
+            "homeSpread": -14.5,
+            "awaySpread": 14.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -4659,20 +4141,20 @@
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": 380,
-            "away": -500,
-            "homeSpread": 9.5,
-            "awaySpread": -9.5,
+            "home": 410,
+            "away": -550,
+            "homeSpread": 10.5,
+            "awaySpread": -10.5,
             "homeSpreadOdds": -112,
             "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": 375,
-            "away": -500,
-            "homeSpread": 9.5,
-            "awaySpread": -9.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": 400,
+            "away": -550,
+            "homeSpread": 10.5,
+            "awaySpread": -10.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -4752,6 +4234,14 @@
             "awaySpread": 3.5,
             "homeSpreadOdds": -112,
             "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -170,
+            "away": 140,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -4817,24 +4307,24 @@
         "commence_time": "2026-11-25T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -150,
-            "away": 126,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "home": -160,
+            "away": 134,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -155,
-            "away": 130,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "home": -170,
+            "away": 142,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -150,
-            "away": 125
+            "home": -170,
+            "away": 140
           }
         }
       },
@@ -4900,28 +4390,28 @@
         "commence_time": "2026-11-25T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -20000,
-            "away": 2400,
+            "home": -10000,
+            "away": 2200,
             "homeSpread": -24.5,
             "awaySpread": 24.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -10000,
-            "away": 3000,
-            "homeSpread": -25.5,
-            "awaySpread": 25.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -9000,
+            "away": 2500,
+            "homeSpread": -24.5,
+            "awaySpread": 24.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "betmgm": {
             "home": -10000,
-            "away": 2800,
-            "homeSpread": -25.5,
-            "awaySpread": 25.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "away": 2500,
+            "homeSpread": -24.5,
+            "awaySpread": 24.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -4987,26 +4477,26 @@
         "commence_time": "2026-11-25T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -600,
-            "away": 450,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
+            "home": -750,
+            "away": 530,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": -600,
-            "away": 440,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -700,
+            "away": 500,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -625,
-            "away": 450,
-            "homeSpread": -10.5,
-            "awaySpread": 10.5,
+            "home": -750,
+            "away": 525,
+            "homeSpread": -11.5,
+            "awaySpread": 11.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -5074,7 +4564,7 @@
         "commence_time": "2026-11-25T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -4500,
+            "home": -7000,
             "away": 1600,
             "homeSpread": -20.5,
             "awaySpread": 20.5,
@@ -5169,20 +4659,20 @@
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -250,
-            "away": 205,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "home": -265,
+            "away": 215,
+            "homeSpread": -6.5,
+            "awaySpread": 6.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
             "home": -250,
             "away": 200,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           }
         }
       },
@@ -5248,24 +4738,24 @@
         "commence_time": "2026-11-25T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -3500,
+            "home": -3000,
             "away": 1280,
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpread": -17.5,
+            "awaySpread": 17.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -3200,
-            "away": 1400,
-            "homeSpread": -18.5,
-            "awaySpread": 18.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -2400,
+            "away": 1200,
+            "homeSpread": -17.5,
+            "awaySpread": 17.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
-            "home": -3000,
-            "away": 1200
+            "home": -2500,
+            "away": 1150
           }
         }
       },
@@ -5426,8 +4916,16 @@
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": 130,
-            "away": -155,
+            "home": 124,
+            "away": -148,
+            "homeSpread": 2.5,
+            "awaySpread": -2.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
+          },
+          "betmgm": {
+            "home": 120,
+            "away": -145,
             "homeSpread": 2.5,
             "awaySpread": -2.5,
             "homeSpreadOdds": -110,
@@ -5497,8 +4995,8 @@
         "commence_time": "2026-11-25T01:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -205,
-            "away": 168,
+            "home": -210,
+            "away": 172,
             "homeSpread": -4.5,
             "awaySpread": 4.5,
             "homeSpreadOdds": -120,
@@ -5507,10 +5005,10 @@
           "draftkings": {
             "home": -205,
             "away": 170,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
+            "homeSpread": -4.5,
+            "awaySpread": 4.5,
+            "homeSpreadOdds": -118,
+            "awaySpreadOdds": -102
           },
           "betmgm": {
             "home": -210,
@@ -5584,8 +5082,8 @@
         "commence_time": "2026-11-25T01:00:18Z",
         "odds": {
           "fanduel": {
-            "home": 102,
-            "away": -122,
+            "home": 100,
+            "away": -120,
             "homeSpread": 1.5,
             "awaySpread": -1.5,
             "homeSpreadOdds": -110,
@@ -5673,26 +5171,26 @@
           "fanduel": {
             "home": -130,
             "away": 108,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": 100,
-            "awaySpreadOdds": -122
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -142,
-            "away": 120,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "home": -135,
+            "away": 114,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -120,
+            "awaySpreadOdds": 100
           },
           "betmgm": {
-            "home": -145,
-            "away": 118,
-            "homeSpread": -2.5,
-            "awaySpread": 2.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -135,
+            "away": 110,
+            "homeSpread": -1.5,
+            "awaySpread": 1.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -5766,8 +5264,8 @@
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -2400,
-            "away": 1200,
+            "home": -2800,
+            "away": 1300,
             "homeSpread": -18.5,
             "awaySpread": 18.5,
             "homeSpreadOdds": -115,
@@ -5847,20 +5345,20 @@
           "fanduel": {
             "home": -50000,
             "away": 3500,
-            "homeSpread": -31.5,
-            "awaySpread": 31.5,
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           },
           "draftkings": {
-            "homeSpread": -31.5,
-            "awaySpread": 31.5,
-            "homeSpreadOdds": -112,
-            "awaySpreadOdds": -108
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "homeSpread": -31.5,
-            "awaySpread": 31.5,
+            "homeSpread": -30.5,
+            "awaySpread": 30.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
           }
@@ -5930,18 +5428,18 @@
           "fanduel": {
             "home": -50000,
             "away": 3500,
-            "homeSpread": -28.5,
-            "awaySpread": 28.5,
+            "homeSpread": -29.5,
+            "awaySpread": 29.5,
             "homeSpreadOdds": -118,
-            "awaySpreadOdds": -104
+            "awaySpreadOdds": -102
           },
           "draftkings": {
             "home": -100000,
             "away": 5000,
             "homeSpread": -29.5,
             "awaySpread": 29.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
           },
           "betmgm": {
             "homeSpread": -29.5,
@@ -6013,28 +5511,28 @@
         "commence_time": "2026-11-25T02:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -215,
-            "away": 176,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
-          },
-          "draftkings": {
-            "home": -218,
-            "away": 180,
-            "homeSpread": -5.5,
-            "awaySpread": 5.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
-          },
-          "betmgm": {
             "home": -220,
-            "away": 180,
+            "away": 184,
             "homeSpread": -5.5,
             "awaySpread": 5.5,
             "homeSpreadOdds": -110,
             "awaySpreadOdds": -110
+          },
+          "draftkings": {
+            "home": -230,
+            "away": 190,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -112,
+            "awaySpreadOdds": -108
+          },
+          "betmgm": {
+            "home": -235,
+            "away": 190,
+            "homeSpread": -5.5,
+            "awaySpread": 5.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
@@ -6108,20 +5606,20 @@
             "awaySpreadOdds": -102
           },
           "draftkings": {
-            "home": -2400,
-            "away": 1200,
+            "home": -2800,
+            "away": 1300,
             "homeSpread": -18.5,
             "awaySpread": 18.5,
-            "homeSpreadOdds": -108,
-            "awaySpreadOdds": -112
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
           },
           "betmgm": {
-            "home": -3000,
-            "away": 1200,
+            "home": -2500,
+            "away": 1150,
             "homeSpread": -18.5,
             "awaySpread": 18.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           }
         }
       },
@@ -6199,12 +5697,12 @@
             "away": 110,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": 100
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "betmgm": {
-            "home": -135,
-            "away": 110,
+            "home": -130,
+            "away": 105,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -115,
@@ -6274,8 +5772,8 @@
         "commence_time": "2026-11-25T03:00:00Z",
         "odds": {
           "fanduel": {
-            "home": -122,
-            "away": 104,
+            "home": -120,
+            "away": 100,
             "homeSpread": -1.5,
             "awaySpread": 1.5,
             "homeSpreadOdds": -110,
@@ -6361,28 +5859,28 @@
         "commence_time": "2026-11-25T03:30:00Z",
         "odds": {
           "fanduel": {
-            "home": 172,
-            "away": -210,
+            "home": 188,
+            "away": -225,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
-            "homeSpreadOdds": -120,
-            "awaySpreadOdds": -102
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
-            "home": 180,
-            "away": -218,
-            "homeSpread": 4.5,
-            "awaySpread": -4.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -118
-          },
-          "betmgm": {
-            "home": 180,
-            "away": -220,
+            "home": 190,
+            "away": -230,
             "homeSpread": 5.5,
             "awaySpread": -5.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -105,
+            "awaySpreadOdds": -115
+          },
+          "betmgm": {
+            "home": 195,
+            "away": -235,
+            "homeSpread": 5.5,
+            "awaySpread": -5.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           }
         }
       },
@@ -6448,24 +5946,24 @@
         "commence_time": "2026-11-25T03:30:00Z",
         "odds": {
           "fanduel": {
-            "home": -650,
-            "away": 470,
-            "homeSpread": -11.5,
-            "awaySpread": 11.5,
-            "homeSpreadOdds": -102,
-            "awaySpreadOdds": -120
+            "home": -580,
+            "away": 430,
+            "homeSpread": -10.5,
+            "awaySpread": 10.5,
+            "homeSpreadOdds": -110,
+            "awaySpreadOdds": -110
           },
           "draftkings": {
             "home": -600,
             "away": 440,
             "homeSpread": -10.5,
             "awaySpread": 10.5,
-            "homeSpreadOdds": -115,
-            "awaySpreadOdds": -105
+            "homeSpreadOdds": -108,
+            "awaySpreadOdds": -112
           },
           "betmgm": {
-            "home": -625,
-            "away": 450
+            "home": -600,
+            "away": 425
           }
         }
       },
@@ -6531,28 +6029,28 @@
         "commence_time": "2026-11-25T04:59:00Z",
         "odds": {
           "fanduel": {
-            "home": -182,
-            "away": 152,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -105,
-            "awaySpreadOdds": -115
+            "home": -170,
+            "away": 140,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           },
           "draftkings": {
             "home": -185,
             "away": 154,
             "homeSpread": -4.5,
             "awaySpread": 4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "homeSpreadOdds": -102,
+            "awaySpreadOdds": -118
           },
           "betmgm": {
-            "home": -190,
-            "away": 155,
-            "homeSpread": -4.5,
-            "awaySpread": 4.5,
-            "homeSpreadOdds": -110,
-            "awaySpreadOdds": -110
+            "home": -180,
+            "away": 145,
+            "homeSpread": -3.5,
+            "awaySpread": 3.5,
+            "homeSpreadOdds": -115,
+            "awaySpreadOdds": -105
           }
         }
       },
